@@ -10,7 +10,7 @@ The Ticket Viewer displays the polygon for the ticket area (solid line), surroun
 ..  *FuzionView Ticket Info*
 
 
-Identify Infrastructure
+Identify Facility Infrastructure
 ------------------------
 
 Select a feature dot or line to identify the information available, including the date and time it was last updated.
