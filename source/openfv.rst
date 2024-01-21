@@ -13,7 +13,7 @@ https://uumpt.sharedgeo.net/dist/?ticketNumber=240041209.
 
 In the address bar, replace the example ticket number with your ticket number and hit enter to open the desired ticket. 
 
-.. figure:: /_static/TicketViewer1.png
+.. figure:: /_static/TicketViewer2.png
    :alt: The FuzionView Ticket Viewer landing page
    :class: with-border
    

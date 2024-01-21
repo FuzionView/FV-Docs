@@ -1,6 +1,5 @@
 Using the Ticket Viewer
 ========================
-
 The Ticket Viewer displays the polygon for the ticket area (solid line), surrounded by the 100 foot buffer (dotted line). 
 
 .. figure:: /_static/TicketViewer1.png
@@ -19,10 +18,13 @@ Select a feature dot or line to identify the information available, including th
    :alt: The FuzionView Ticket displaying information about a selected object
    :class: with-border
    
-..  *Identifying Infrastructure *
+   *Identifying Infrastructure*
 
+.. hint::
+   Zoom in to see more features.
+   
 Ticket Info
----------------------------------
+------------
 
 Click the Information icon at the top right to open **Ticket Info**.
 
@@ -32,36 +34,68 @@ Click the Information icon at the top right to open **Ticket Info**.
    
    *FuzionView Ticket Viewer*
 
-The Ticket Info view displays basic ticket details and the facility owners that have been notified. 
+The Ticket Info view displays basic ticket details and the facility owners that have been notified. Scroll down to see all available information.
 
 .. figure:: /_static/TicketInfo2.png
    :alt: The FuzionView Ticket Info
    :class: with-border
    
-..  *FuzionView Ticket Info*
+   *FuzionView Ticket Info*
 
 
 The GSOC Ticket
 ----------------
 
-You can open the original GSOC ticket from Ticket Info by clicking **View GSOC Ticket**. This is the original ticket in the Gopher State One Call system. For more information about GSOC, check out the documentation `here <https://www.gopherstateonecall.org/resources/downloads#iticVideos>`_ 
+You can open the original GSOC ticket from Ticket Info by clicking **View GSOC Ticket**. 
 
 .. figure:: /_static/GSOC1.png
    :alt: Gopher State One Call
    :class: with-border
    
-..  *Gopher State One Call (GSOC)*
+   *Gopher State One Call (GSOC)*
+
+This is the original ticket in the Gopher State One Call system. For more information about GSOC, check out the documentation `here <https://www.gopherstateonecall.org/resources/downloads#iticVideos>`_ 
+
+.. figure:: /_static/GSOC2.png
+   :alt: Gopher State One Call
+   :class: with-border
+   
+   *Gopher State One Call (GSOC)*
 
 Ticket Layers
 --------------
 
 From the Ticket Viewer, select the **Layers** icon at the top right to see available features in each layer. 
- * Click any available feature layer to toggle it on or off. 
- * Layers with no features are grayed out.
- * Select Aerial to change the Basemap from the default OpenStreetMap. 
 
 .. figure:: /_static/Layers1.png
    :alt: Ticket Layers
    :class: with-border
    
-..  *Ticket Layers Options*
+   *Ticket Layers Options*
+
+From the Layers page, customize your view:
+ * Click any available feature layer to toggle it on or off. 
+ * Layers with no features are grayed out.
+ * Select Aerial to change the Basemap from the default OpenStreetMap. 
+
+.. figure:: /_static/Layers2.png
+   :alt: Ticket Layers
+   :class: with-border
+   
+   *Ticket Layers Options*
+
+Navigation
+-----------
+
+Use the **navigation options** at the bottom left to:
+ * Fit the ticket boundaries to the current window. 
+ * Zoom to current location to map your current location. 
+ * Zoom in (+) and out (-). 
+
+The **scale** in the bottom right helps to estimate the size of the ticket boundary in meters and feet.
+
+.. figure:: /_static/Navigation1.png
+   :alt: Ticket Viewer Navigation Options
+   :class: with-border
+   
+   *Ticket Viewer Navigation Options*

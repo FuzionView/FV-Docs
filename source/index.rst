@@ -20,6 +20,18 @@ FuzionView is currently in Beta testing. Use the guides to explore the functiona
 
    ticketviewer
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Facility Owners Dashboard
+   
+   FODashboard
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Administrative Dashboard
+   
+   Admin
+
 
 .. Indices and tables
 .. ==================
