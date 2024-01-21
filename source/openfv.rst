@@ -26,22 +26,25 @@ If you don't have a ticket number to test, use the GeoMoose application to selec
 
 Begin on the UUMPT site: https://uumpt.sharedgeo.net
 
+ * Turn on the **Tickets** overlay in the Catalog tab. 
+
 .. figure:: /_static/GeoMoose1.png
    :alt: The GeoMoose landing page
    :class: with-border
 
-..  *GeoMoose Landing Page*
+   *Turn on the Tickets layer on the GeoMoose Landing Page*
 
 Follow these steps to open the Ticket Viewer:
+ * Zoom in to see available tickets. Then:
 
- * Turn on the **Tickets** overlay in the Catalog tab. 
- * Zoom in to see available tickets.
- * Select **Identify** in the toolbar.
- * Click on any ticket boundary.
- * Click on **View Ticket Map** to open the Ticket Viewer.
+   1. Select **Identify** in the toolbar.
 
-.. figure:: /_static/GeoMooseTicketViewer1.png
+   2. Select any ticket **boundary**.
+
+   3. Select **View Ticket Map** to open the Ticket Viewer.
+
+.. figure:: /_static/GeoMoose123.png
    :alt: Accessing the FuzionView Ticket Viewer
    :class: with-border
 
-   *GeoMoose Ticket Options*
+   *Select a ticket to open in Ticket Viewer*

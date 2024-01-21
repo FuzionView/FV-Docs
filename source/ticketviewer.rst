@@ -1,32 +1,40 @@
 Using the Ticket Viewer
 ========================
 
-The Ticket Viewer displays the polygon for the ticket area (solid line), surrounded by the 100 foot buffer (dotted line). Click the Information icon at the top right to open Ticket Info.
+The Ticket Viewer displays the polygon for the ticket area (solid line), surrounded by the 100 foot buffer (dotted line). 
 
 .. figure:: /_static/TicketViewer1.png
-   :alt: The FuzionView Ticket Info
+   :alt: The FuzionView Ticket Viewer
    :class: with-border
    
-..  *FuzionView Ticket Info*
+   *FuzionView Ticket Viewer*
 
 
 Identify Facility Infrastructure
-------------------------
+---------------------------------
 
 Select a feature dot or line to identify the information available, including the date and time it was last updated.
 
 .. figure:: /_static/Identify1.png
-   :alt: The FuzionView Ticket
+   :alt: The FuzionView Ticket displaying information about a selected object
    :class: with-border
    
 ..  *Identifying Infrastructure *
 
 Ticket Info
------------------------
+---------------------------------
+
+Click the Information icon at the top right to open **Ticket Info**.
+
+.. figure:: /_static/TicketInfo1.png
+   :alt: The FuzionView Ticket Viewer
+   :class: with-border
+   
+   *FuzionView Ticket Viewer*
 
 The Ticket Info view displays basic ticket details and the facility owners that have been notified. 
 
-.. figure:: /_static/TicketInfo1.png
+.. figure:: /_static/TicketInfo2.png
    :alt: The FuzionView Ticket Info
    :class: with-border
    
