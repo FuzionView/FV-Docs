@@ -17,7 +17,7 @@ In the address bar, replace the example ticket number with your ticket number an
    :alt: The FuzionView Ticket Viewer landing page
    :class: with-border
    
-..  *FuzionView Ticket Viewer*
+   *FuzionView Ticket Viewer*
 
 I need to find a ticket number
 -------------------------------
