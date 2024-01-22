@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-FuzionView Documentation - GITHUB ACTIONS
-==========================================
+FuzionView Documentation
+=========================
 Welcome to the beginner's guide to FuzionView, the underground utilities mapping tool. The FuzionView software can aggregate all utility location data (GIS) “on the fly”, for the specified dig area. Engineering design teams, locators and excavators have what they need to do their work efficiently and safely, while utility data is protected from unauthorized use.
 
 FuzionView is currently in Beta testing. Use the guides to explore the functionality currently available.
