@@ -1,4 +1,4 @@
-Using the Ticket Viewer
+Using Ticket Viewer
 ========================
 The Ticket Viewer displays the polygon for the ticket area (solid line), surrounded by the 100 foot buffer (dotted line). 
 

@@ -1,5 +1,5 @@
-Starting FuzionView
-====================
+Getting Started
+================
 
 FuzionView is currently in Beta testing. There are two ways to access the tool:
  * With a known GSOC ticket number
