@@ -12,8 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          docs-folder: "."
       - uses: actions/setup-python@v3
       - name: Install dependencies
         run: |
