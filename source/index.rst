@@ -32,7 +32,12 @@ FuzionView is currently in Beta testing. Use the guides to explore the functiona
    
    Admin
 
-
+.. toctree::
+   :maxdepth: 2
+   :caption: Learn More
+   
+   About
+   
 .. Indices and tables
 .. ==================
 
