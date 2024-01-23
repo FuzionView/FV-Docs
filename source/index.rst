@@ -5,7 +5,7 @@
 
 FuzionView Documentation
 =========================
-Welcome to the beginner's guide to FuzionView, the underground utilities mapping tool. The FuzionView software can aggregate all utility location data (GIS) “on the fly”, for the specified dig area. Engineering design teams, locators and excavators have what they need to do their work efficiently and safely, while utility data is protected from unauthorized use.
+FuzionView software aggregates all utility location data (GIS) into a single map “on the fly”. This provides engineering design teams, facility operators, locators, excavators and homeowners with an unprecedented view of the site’s underground utilities, providing the opportunity for a safer, more efficient approach to each project. Each map is provided as part of a one call ticket and is limited to the excavation area. The software is simple for facility operators to implement, and the utility is secure from unauthorized use.
 
 FuzionView is currently in Beta testing. Use the guides to explore the functionality currently available.
 
