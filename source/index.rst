@@ -22,14 +22,9 @@ FuzionView is currently in Beta testing. Use the guides to explore the functiona
 
 .. toctree::
    :maxdepth: 2
-   :caption: Facility Owners Dashboard
+   :caption: Dashboards
    
    FODashboard
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Administrative Dashboard
-   
    Admin
 
 .. toctree::
