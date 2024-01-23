@@ -21,7 +21,7 @@ exclude_patterns = []
 
 
 html_favicon = "_static/fuzionviewicon.ico"
-# -- Options for HTML output -------------------------------------------------
+# -- Options for the HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 import sphinx_rtd_theme
