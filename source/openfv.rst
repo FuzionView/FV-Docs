@@ -5,14 +5,15 @@ FuzionView is currently in Beta testing. To access the most recent version, go t
 
 https://uumpt.sharedgeo.net
 
-Click the link to login or register. If you have not been assigned an ID, select the Register option.
+Click the link to login or register. 
 
 .. figure:: /_static/login1.png
    :alt: The FuzionView landing page
    :class: with-border
    
-   *FuzionView Landing Page*
+   *FuzionView Login Page*
 
+If you have not been assigned an ID, select the Register option.
 
 .. figure:: /_static/Register1.png
    :alt: The FuzionView registration link
@@ -20,7 +21,7 @@ Click the link to login or register. If you have not been assigned an ID, select
    
    *FuzionView Registration Option*
 
-
+Fill in the required information and then click Submit.
 .. figure:: /_static/Register2.png
    :alt: The FuzionView registration page
    :class: with-border
@@ -28,8 +29,16 @@ Click the link to login or register. If you have not been assigned an ID, select
    *FuzionView New User Registration*
 
 You will be notified once your access is granted. This may take 1-3 days.
-Once you have access, go back to the link and 
+Once you have access, go back to the link to login.
 
+https://uumpt.sharedgeo.net
+
+
+.. figure:: /_static/Login2.png
+   :alt: Logging into FuzionView
+   :class: with-border
+   
+   *Logging into FuzionView*
 
 Once you are logged in, you will see the available features:
    * GeoMoose - the map view of all authorized tickets
@@ -43,17 +52,6 @@ Once you are logged in, you will see the available features:
    :class: with-border
    
    *FuzionView Landing Page*
-
-
-
-
-You can replace the example ticket number in the URL with your ticket number and hit enter to open the desired ticket. 
-
-.. figure:: /_static/TicketViewer2.png
-   :alt: The FuzionView Ticket Viewer landing page
-   :class: with-border
-   
-   *FuzionView Ticket Viewer*
 
 GeoMoose
 --------
@@ -110,3 +108,5 @@ Use the Ticket List option to view all tickets in a list.
    :class: with-border
 
    *Map view of the identified features*
+
+   Check out the documentation on the FuzionView Ticket Viewer `here <https://fuzionview.github.io/FV-Docs/ticketviewer.html#>`_
