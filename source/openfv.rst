@@ -87,7 +87,7 @@ Ticket List
 
 Use the Ticket List option to view all tickets in a list. 
 
-.. figure:: /_static/TicketList1.png
+.. figure:: /_static/ticketlist1.png
    :alt: The FuzionView Ticket List
    :class: with-border
 
