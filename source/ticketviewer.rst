@@ -1,6 +1,6 @@
 Using Ticket Viewer
 ========================
-The Ticket Viewer displays the polygon for the 1: ticket area (solid line), surrounded by 2: the 100 foot buffer (dotted line). 
+The Ticket Viewer displays the polygon for the ticket area as solid line (1), surrounded by the 100 foot buffer as a dotted line (2). 
 
 .. figure:: /_static/TicketViewer1.png
    :alt: The FuzionView Ticket Viewer
