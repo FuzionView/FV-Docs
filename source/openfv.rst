@@ -1,17 +1,53 @@
 Getting Started
 ================
 
-FuzionView is currently in Beta testing. There are two ways to access the tool:
- * With a known GSOC ticket number
- * From the GeoMoose application, without a ticket number
+FuzionView is currently in Beta testing. To access the most recent version, go to:
 
-I have a ticket number
------------------------
-To access the Ticket Viewer with a ticket number, start at:
+https://uumpt.sharedgeo.net
 
-https://uumpt.sharedgeo.net/dist/?ticketNumber=240041209.
+Click the link to login or register. If you have not been assigned an ID, select the Register option.
 
-In the address bar, replace the example ticket number with your ticket number and hit enter to open the desired ticket. 
+.. figure:: /_static/login1.png
+   :alt: The FuzionView landing page
+   :class: with-border
+   
+   *FuzionView Landing Page*
+
+
+.. figure:: /_static/Register1.png
+   :alt: The FuzionView registration link
+   :class: with-border
+   
+   *FuzionView Registration Option*
+
+
+.. figure:: /_static/Register2.png
+   :alt: The FuzionView registration page
+   :class: with-border
+   
+   *FuzionView New User Registration*
+
+You will be notified once your access is granted. This may take 1-3 days.
+Once you have access, go back to the link and 
+
+
+Once you are logged in, you will see the available features:
+   * GeoMoose - the map view of all authorized tickets
+   * Ticket List - a list view of all authorized tickets
+   * Who Am I - information about your login and access
+   * Keep Out - this will be removed
+   * FuzionView Documentation - access to our user documentation
+
+.. figure:: /_static/landing1.png
+   :alt: The FuzionView registration page
+   :class: with-border
+   
+   *FuzionView Landing Page*
+
+
+
+
+You can replace the example ticket number in the URL with your ticket number and hit enter to open the desired ticket. 
 
 .. figure:: /_static/TicketViewer2.png
    :alt: The FuzionView Ticket Viewer landing page
@@ -19,14 +55,12 @@ In the address bar, replace the example ticket number with your ticket number an
    
    *FuzionView Ticket Viewer*
 
-I need to find a ticket number
--------------------------------
+GeoMoose
+--------
 
-If you don't have a ticket number to test, use the GeoMoose application to select a ticket. 
+Use the GeoMoose option to view all tickets. 
 
-Begin on the UUMPT site: https://uumpt.sharedgeo.net
-
- * Turn on the **Tickets** overlay in the Catalog tab. 
+ * First, turn on the **Tickets** overlay in the Catalog tab. 
 
 .. figure:: /_static/GeoMoose1.png
    :alt: The GeoMoose landing page
@@ -48,3 +82,31 @@ Follow these steps to open the Ticket Viewer:
    :class: with-border
 
    *Select a ticket to open in Ticket Viewer*
+
+
+Ticket List
+--------
+
+Use the Ticket List option to view all tickets in a list. 
+
+.. figure:: /_static/TicketList1.png
+   :alt: The FuzionView Ticket List
+   :class: with-border
+
+   *See a list of all tickets for your organization*
+
+* Select the Ticket Number to open a report view of the ticket.
+
+.. figure:: /_static/TicketReport1.png
+   :alt: The FuzionView Ticket Report
+   :class: with-border
+
+   *Map report on the identified features*
+
+* Select the Map option next to the ticket number ot open the selected ticket in the FuzionView Ticket Viewer application. 
+
+.. figure:: /_static/TicketViewer1.png
+   :alt: The FuzionView Ticket Report
+   :class: with-border
+
+   *Map view of the identified features*
