@@ -25,6 +25,7 @@ If a feature exists nearby or on top of another feature, those features IDs will
 
 Ticket Info
 ------------
+
 Click the Information icon at the top right to see additional ticket info.
 
 .. figure:: /_static/TicketInfo1.png
