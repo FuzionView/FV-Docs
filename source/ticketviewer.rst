@@ -93,7 +93,7 @@ From the Layers page, customize your view:
    *Ticket Layers Options*
 
 Basemaps
----------
+----------
 
 From the Ticket Viewer, select the **Basemaps** icon at the top right to see available map options. 
 
@@ -107,19 +107,19 @@ From the Basemaps page, customize your view:
  * Select Aerial to change the Basemap from the default OpenStreetMap. 
 
 .. figure:: /_static/basemaps1.png
-   :alt: Ticket Layers
+   :alt: Map Options
    :class: with-border
    
    *Select Alternate Map Options*
 
 .. figure:: /_static/basemaps3.png
-   :alt: Ticket Layers
+   :alt: Aerial View
    :class: with-border
    
    *Aerial Map View*
 
 Navigation
------------
+------------
 
 Use the **navigation options** at the bottom left to:
  1. Fit the ticket boundaries to the current window. 
