@@ -5,6 +5,9 @@ FuzionView is currently in Beta testing. To access the most recent version, go t
 
 https://uumpt.sharedgeo.net
 
+Registration and Login
+-----------------------
+
 Click the link to login or register. 
 
 .. figure:: /_static/login1.png
