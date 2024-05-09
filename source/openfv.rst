@@ -83,7 +83,7 @@ Follow these steps to open the Ticket Viewer:
 
 
 Ticket List
---------
+-----------
 
 Use the Ticket List option to view all tickets in a list. 
 
