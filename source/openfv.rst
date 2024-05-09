@@ -15,7 +15,7 @@ Click the link to login or register.
 
 If you have not been assigned an ID, select the Register option.
 
-.. figure:: /_static/Register1.png
+.. figure:: /_static/register1.png
    :alt: The FuzionView registration link
    :class: with-border
    
@@ -30,10 +30,9 @@ Fill in the required information and then click Submit.
    *FuzionView New User Registration*
 
 You will be notified once your access is granted. This may take 3-5 days.
-Once you have access, go back to the link to login.
+Once you have access, go back to this link to login.
 
 https://uumpt.sharedgeo.net
-
 
 .. figure:: /_static/Login2.png
    :alt: Logging into FuzionView
