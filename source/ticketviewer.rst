@@ -84,7 +84,6 @@ From the Ticket Viewer, select the **Layers** icon at the top right to see avail
 From the Layers page, customize your view:
  * Click any available feature layer to toggle it on or off. 
  * Layers with no features are grayed out.
- * Select Aerial to change the Basemap from the default OpenStreetMap. 
 
 .. figure:: /_static/Layers2.png
    :alt: Ticket Layers
@@ -117,11 +116,10 @@ Navigation
 -----------
 
 Use the **navigation options** at the bottom left to:
- * Fit the ticket boundaries to the current window. 
- * Zoom to current location to map your current location. 
- * Zoom in (+) and out (-). 
-
-The **scale** in the bottom right helps to estimate the size of the ticket boundary in meters and feet.
+ 1. Fit the ticket boundaries to the current window. 
+ 2. Zoom to your current location. 
+ 3. Zoom in (+) and out (-). 
+ 4. The **scale** in the bottom right helps to estimate the size of the ticket boundary in meters and feet.
 
 .. figure:: /_static/Navigation1.png
    :alt: Ticket Viewer Navigation Options
