@@ -49,7 +49,7 @@ Downloads
 ------------
 
 The Ticket Info window offers several Download Options:
- * The default **File Type** is geoJSON. Click the arrow to select one of the other file types: Shapefile or GeoPackage.
+ * The default **File Type** is GeoJSON. Click the arrow to select one of the other file types: Shapefile or GeoPackage.
  * Select one of the other options to open Points, Polygons, or Lines data in a new window.
 
 .. figure:: /_static/downloads.png
@@ -62,13 +62,6 @@ The GSOC Ticket
 ----------------
 
 You can open the original GSOC ticket from Ticket Info by clicking **View GSOC Ticket**. 
-
-.. figure:: /_static/GSOC1.png
-   :alt: Gopher State One Call
-   :class: with-border
-   
-   *Gopher State One Call (GSOC)*
-
 This is the original ticket in the Gopher State One Call system. For more information about GSOC, check out the documentation `here <https://www.gopherstateonecall.org/resources/downloads#iticVideos>`_ 
 
 .. figure:: /_static/GSOC2.png
@@ -98,6 +91,27 @@ From the Layers page, customize your view:
    :class: with-border
    
    *Ticket Layers Options*
+
+Basemaps
+--------------
+
+From the Ticket Viewer, select the **Basemaps** icon at the top right to see available features in each layer. 
+
+.. figure:: /_static/Basemaps2.png
+   :alt: Ticket Layers
+   :class: with-border
+   
+   *Display Alternate Map Options*
+
+From the Basemaps page, customize your view:
+ * Select Aerial to change the Basemap from the default OpenStreetMap. 
+
+.. figure:: /_static/Basemaps1.png
+   :alt: Ticket Layers
+   :class: with-border
+   
+   *Select Alternate Map Options*
+
 
 Navigation
 -----------
