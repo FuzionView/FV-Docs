@@ -22,6 +22,7 @@ If you have not been assigned an ID, select the Register option.
    *FuzionView Registration Option*
 
 Fill in the required information and then click Submit.
+
 .. figure:: /_static/Register2.png
    :alt: The FuzionView registration page
    :class: with-border
