@@ -93,12 +93,12 @@ From the Layers page, customize your view:
    *Ticket Layers Options*
 
 Basemaps
---------------
+---------
 
 From the Ticket Viewer, select the **Basemaps** icon at the top right to see available map options. 
 
-.. figure:: /_static/Basemaps2.png
-   :alt: Ticket Layers
+.. figure:: /_static/basemaps2.png
+   :alt: Map Options
    :class: with-border
    
    *Display Alternate Map Options*
@@ -106,13 +106,13 @@ From the Ticket Viewer, select the **Basemaps** icon at the top right to see ava
 From the Basemaps page, customize your view:
  * Select Aerial to change the Basemap from the default OpenStreetMap. 
 
-.. figure:: /_static/Basemaps1.png
+.. figure:: /_static/basemaps1.png
    :alt: Ticket Layers
    :class: with-border
    
    *Select Alternate Map Options*
 
-.. figure:: /_static/Basemaps3.png
+.. figure:: /_static/basemaps3.png
    :alt: Ticket Layers
    :class: with-border
    
