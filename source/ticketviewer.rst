@@ -26,7 +26,7 @@ Select a feature dot or line to display 1: the feature information available, in
 Ticket Info
 ------------
 
-Click the Information icon at the top right to open **Ticket Info**.
+Click the Information icon at the top right to see ticket info.
 
 .. figure:: /_static/TicketInfo1.png
    :alt: The FuzionView Ticket Viewer
