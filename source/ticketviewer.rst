@@ -13,7 +13,7 @@ The Ticket Viewer displays the polygon for the 1: ticket area (solid line), surr
 
 Identify Facility Infrastructure
 ---------------------------------
-1: Select a feature dot or line to identify the information available, including the date and time last updated.
+Select a feature dot or line to display 1: the feature information available, including the date and time last updated.
 
 .. figure:: /_static/Identify1.png
    :alt: The FuzionView Ticket displaying information about a selected object
@@ -21,8 +21,7 @@ Identify Facility Infrastructure
    
    *Identifying Infrastructure*
 
-2: Nearby Features
-If a feature exists on top of another feature, those features will be displayed at the bottom. Click the Feature ID
+2: If a feature exists nearby or on top of another feature, those features IDs will be listed at the bottom. Click the Feature IDs to toggle from one feature to another.
 
 Ticket Info
 ------------
