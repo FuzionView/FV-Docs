@@ -115,4 +115,4 @@ Ticket Viewer
 
    *Map view of the identified features*
 
-   Check out the documentation on the FuzionView Ticket Viewer `here <https://fuzionview.github.io/FV-Docs/ticketviewer.html#>`
+   Check out the documentation on the FuzionView Ticket Viewer `here <https://fuzionview.github.io/FV-Docs/ticketviewer.html#>`_
