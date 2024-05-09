@@ -94,7 +94,7 @@ From the Layers page, customize your view:
 Basemaps
 --------------
 
-From the Ticket Viewer, select the **Basemaps** icon at the top right to see available features in each layer. 
+From the Ticket Viewer, select the **Basemaps** icon at the top right to see available map options. 
 
 .. figure:: /_static/Basemaps2.png
    :alt: Ticket Layers
