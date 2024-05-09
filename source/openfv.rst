@@ -23,7 +23,7 @@ If you have not been assigned an ID, select the Register option.
 
 Fill in the required information and then click Submit.
 
-.. figure:: /_static/Register2.png
+.. figure:: /_static/register2.png
    :alt: The FuzionView registration page
    :class: with-border
    
@@ -34,7 +34,7 @@ Once you have access, go back to this link to login.
 
 https://uumpt.sharedgeo.net
 
-.. figure:: /_static/Login2.png
+.. figure:: /_static/login2.png
    :alt: Logging into FuzionView
    :class: with-border
    
