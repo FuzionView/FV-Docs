@@ -53,7 +53,7 @@ The Ticket Info window offers several Download Options:
  * The default **File Type** is GeoJSON. Click the arrow to select one of the other file types: Shapefile or GeoPackage.
  * Select one of the other options to open Points, Polygons, or Lines data in a new window.
 
-.. figure:: /_static/downloads.png
+.. figure:: /_static/Downloads.png
    :alt: Download Options
    :class: with-border
    
