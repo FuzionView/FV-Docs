@@ -25,7 +25,7 @@ If a feature exists nearby or on top of another feature, those features IDs will
 
 Ticket Info
 ------------
-Click the Information icon at the top right to see ticket info.
+Click the Information icon at the top right to see additional ticket info.
 
 .. figure:: /_static/TicketInfo1.png
    :alt: The FuzionView Ticket Viewer
@@ -33,8 +33,12 @@ Click the Information icon at the top right to see ticket info.
    
    *FuzionView Ticket Viewer*
 
-The Ticket Info view displays basic ticket details and the facility owners that have been notified. Scroll down to see all available information.
-
+The Ticket Info view has the following tools and information:
+   1. Ticket Information - Ticket Number and Type.
+   2. Data Set Providers - the owners who provided the information and the count of features they manage.
+   3. Options for Downloading the ticket map information. *See the section below on Downloads*
+   4. Links to the GSOC Ticket and Help. *See the section below on GSOC Ticket*
+   
 .. figure:: /_static/TicketInfo2.png
    :alt: The FuzionView Ticket Info
    :class: with-border
