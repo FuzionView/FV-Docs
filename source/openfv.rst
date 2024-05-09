@@ -93,6 +93,9 @@ Use the Ticket List option to view all tickets in a list.
 
    *See a list of all tickets for your organization*
 
+Ticket Report
+---------------
+
 * Select the Ticket Number to open a report view of the ticket.
 
 .. figure:: /_static/TicketReport1.png
@@ -101,7 +104,10 @@ Use the Ticket List option to view all tickets in a list.
 
    *Map report on the identified features*
 
-* Select the Map option next to the ticket number ot open the selected ticket in the FuzionView Ticket Viewer application. 
+Ticket Viewer
+---------------
+
+* Select the Map option next to the ticket number to open the selected ticket in the FuzionView Ticket Viewer application. 
 
 .. figure:: /_static/TicketViewer1.png
    :alt: The FuzionView Ticket Report
