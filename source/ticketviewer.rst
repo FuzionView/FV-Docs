@@ -38,7 +38,7 @@ The Ticket Info view has the following tools and information:
    2. Data Set Providers - the owners who provided the information and the count of features they manage.
    3. Options for Downloading the ticket map information. *See the section below on Downloads*
    4. Links to the GSOC Ticket and Help. *See the section below on GSOC Ticket*
-   
+
 .. figure:: /_static/TicketInfo2.png
    :alt: The FuzionView Ticket Info
    :class: with-border
@@ -48,8 +48,9 @@ The Ticket Info view has the following tools and information:
 Downloads
 ------------
 
-Scroll down the Ticket Info window to see **Download Options**.
- * Select **File Type** of geoJSON or Shapefile, then use the options to download Points, Polygons, and Lines.
+The Ticket Info window offers several Download Options:
+ * The default **File Type** is geoJSON. Click the arrow to select one of the other file types: Shapefile or GeoPackage.
+ * Select one of the other options to open Points, Polygons, or Lines data in a new window.
 
 .. figure:: /_static/downloads.png
    :alt: Download Options
