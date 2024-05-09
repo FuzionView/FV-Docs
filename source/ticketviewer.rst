@@ -47,7 +47,7 @@ The Ticket Info view has the following tools and information:
    *FuzionView Ticket Info*
 
 Downloads
-------------
+----------
 
 The Ticket Info window offers several Download Options:
  * The default **File Type** is GeoJSON. Click the arrow to select one of the other file types: Shapefile or GeoPackage.
