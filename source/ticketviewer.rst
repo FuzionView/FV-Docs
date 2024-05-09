@@ -1,6 +1,6 @@
 Using Ticket Viewer
 ========================
-The Ticket Viewer displays the polygon for the ticket area (solid line), surrounded by the 100 foot buffer (dotted line). 
+The Ticket Viewer displays the polygon for the 1: ticket area (solid line), surrounded by 2: the 100 foot buffer (dotted line). 
 
 .. figure:: /_static/TicketViewer1.png
    :alt: The FuzionView Ticket Viewer
@@ -42,6 +42,17 @@ The Ticket Info view displays basic ticket details and the facility owners that 
    
    *FuzionView Ticket Info*
 
+Downloads
+------------
+
+Scroll down the Ticket Info window to see **Download Options**.
+ * Select **File Type** of geoJSON or Shapefile, then use the options to download Points, Polygons, and Lines.
+
+.. figure:: /_static/downloads.png
+   :alt: Download Options
+   :class: with-border
+   
+   *FuzionView Download Options*
 
 The GSOC Ticket
 ----------------
