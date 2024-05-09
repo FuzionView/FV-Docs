@@ -111,6 +111,11 @@ From the Basemaps page, customize your view:
    
    *Select Alternate Map Options*
 
+.. figure:: /_static/Basemaps3.png
+   :alt: Ticket Layers
+   :class: with-border
+   
+   *Aerial Map View*
 
 Navigation
 -----------
