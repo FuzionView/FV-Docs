@@ -29,7 +29,7 @@ Fill in the required information and then click Submit.
    
    *FuzionView New User Registration*
 
-You will be notified once your access is granted. This may take 1-3 days.
+You will be notified once your access is granted. This may take 3-5 days.
 Once you have access, go back to the link to login.
 
 https://uumpt.sharedgeo.net
