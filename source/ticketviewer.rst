@@ -21,7 +21,7 @@ Select a feature dot or line to display 1: the feature information available, in
    
    *Identifying Infrastructure*
 
-2: If a feature exists nearby or on top of another feature, those features IDs will be listed at the bottom. Click the Feature IDs to toggle from one feature to another.
+If a feature exists nearby or on top of another feature, those features IDs will be listed at the bottom (2). Click the Feature IDs to toggle from one feature to another.
 
 Ticket Info
 ------------
