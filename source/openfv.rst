@@ -49,7 +49,7 @@ Ticket Report
 Ticket Viewer
 ---------------
 
-* From either the List or Map view, select the Map option next to the ticket number to open the selected ticket in the FuzionView Ticket Viewer application. 
+* From either the List or Map view, select the Map option to open the selected ticket in the FuzionView Ticket Viewer application. 
 
 .. figure:: /_static/TicketViewer1.png
    :alt: The FuzionView Ticket Report
