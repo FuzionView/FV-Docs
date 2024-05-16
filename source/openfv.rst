@@ -18,7 +18,7 @@ Ticket Map
 
 Use the Ticket LMap option to view all tickets on a map. 
 
-.. figure:: /_static/tGeoMooseTicketViewer1.png
+.. figure:: /_static/GeoMooseTicketViewer1.png
    :alt: The FuzionView Ticket Map
    :class: with-border
 
