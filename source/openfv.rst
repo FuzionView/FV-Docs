@@ -25,7 +25,7 @@ Use the Ticket LMap option to view all tickets on a map.
    *See a map of all tickets for your organization*
    
 Ticket List
------------
+------------
 
 Use the Ticket List option to view all tickets in a list. 
 
