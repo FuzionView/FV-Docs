@@ -20,7 +20,7 @@ The System Operator Dashboard displays a list of all the Data Providers managed 
 
 System Operator Admin
 ---------------------------------
-Select **New Data Provier** to add a new data provider to FuzionView.
+Select **New Data Provier** to add a new data provider to FuzionView system.
 
 .. figure:: /_static/SOAdmin1.png
    :alt: The FuzionView System Operator Admin
