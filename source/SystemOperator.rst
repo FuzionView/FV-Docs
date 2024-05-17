@@ -1,6 +1,7 @@
 System Operator Dashboard
 ===========================
-The System Operator Dashboard displays a list of all the Data Providers managed by the System Operator. 
+The System Operator Dashboard is the Operational Interface for the System Operator. 
+The Dashboard displays a list of all the Data Providers managed by the System Operator. 
 
 .. figure:: /_static/SODashboard1.png
    :alt: The FuzionView System Operator Dashboard
@@ -18,6 +19,11 @@ The System Operator Dashboard displays a list of all the Data Providers managed 
    
    *FuzionView System Operator Dashboard*
 
+System Operator Admin
+-----------------------
+
+The System Operator Admin is the FuzionView System management interface.
+
 Select **New Data Provider** to add a new data provider to FuzionView system.
 
 .. figure:: /_static/SODashboard3.png
@@ -26,9 +32,6 @@ Select **New Data Provider** to add a new data provider to FuzionView system.
    
    *FuzionView System Operator Dashboard*
 
-
-System Operator Admin
------------------------
 Enter a name and click **Submit** to add a new data provider to FuzionView system.
 
 .. figure:: /_static/SOAdmin1_NewDP.png
