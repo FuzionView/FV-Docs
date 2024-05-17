@@ -24,8 +24,8 @@ FuzionView is currently in Beta testing. Use the guides to explore the functiona
    :maxdepth: 2
    :caption: Dashboards
    
-   Data Provider Dashboard
-   System Operator Dashboard
+   Data Provider
+   System Operator
 
 .. toctree::
    :maxdepth: 2
