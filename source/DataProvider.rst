@@ -33,7 +33,7 @@ Use the Admin interface to view all the data sets that have been configured:
 
 Select a Data Set to view the configuration:
 
-.. figure:: /_static/DPDAdmin3_DeleteEdit.png
+.. figure:: /_static/DPAdmin3_DeleteEdit.png
    :alt: The FuzionView Data Provider Admin
    :class: with-border
    
@@ -41,13 +41,13 @@ Select a Data Set to view the configuration:
 
 Select **Edit Dataset** to modify the configuration:
 
-.. figure:: /_static/DPDAdmin6_Datasets2.png
+.. figure:: /_static/DPAdmin6_Datasets2.png
    :alt: The FuzionView Data Provider Admin
    :class: with-border
    
    *FuzionView Data Provider Admin*
 
-.. figure:: /_static/DPDAdmin7_Datasets3.png
+.. figure:: /_static/DPAdmin7_Datasets3.png
    :alt: The FuzionView Data Provider Admin
    :class: with-border
    
@@ -55,7 +55,7 @@ Select **Edit Dataset** to modify the configuration:
 
 Use the Admin interface to manage users:
 
-.. figure:: /_static/DPDAdmin2_Users.png
+.. figure:: /_static/DPAdmin2_Users.png
    :alt: The FuzionView Data Provider Admin
    :class: with-border
    
