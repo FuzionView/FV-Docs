@@ -22,7 +22,7 @@ System Operator Admin
 -----------------------
 Select **New Data Provier** to add a new data provider to FuzionView system.
 
-.. figure:: /_static/SOAdmin1.png
+.. figure:: /_static/SOAdmin1_NewDP.png
    :alt: The FuzionView System Operator Admin
    :class: with-border
    
