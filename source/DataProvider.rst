@@ -9,7 +9,7 @@ Tickets can be viewed as a list:
    :alt: The FuzionView Data Provider Dashboard
    :class: with-border
    
-   *FuzionView Data Provider Dashboard*
+   *FuzionView Data Provider Dashboard PLACEHOLDER*
 
 Tickets can also be viewed in a map:
 
@@ -17,7 +17,7 @@ Tickets can also be viewed in a map:
    :alt: The FuzionView Data Provider Dashboard
    :class: with-border
    
-   *FuzionView Data Provider Dashboard*
+   *FuzionView Data Provider Dashboard PLACEHOLDER*
 
 Data Provider Admin
 ---------------------
