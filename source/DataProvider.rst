@@ -25,13 +25,13 @@ Data Provider Admin
 The Data Provider Admin is the Account management interface.
 Use the Admin interface to view all the data sets that have been configured:
 
-.. figure:: /_static/DPDAdmin1_Datasets.png
+.. figure:: /_static/DPAdmin1_Datasets.png
    :alt: The FuzionView Data Provider Admin
    :class: with-border
    
    *FuzionView Data Provider Admin*
 
-Select a Data Set to view the configuration:
+Select a **Data Set** to view the configuration:
 
 .. figure:: /_static/DPAdmin3_DeleteEdit.png
    :alt: The FuzionView Data Provider Admin
