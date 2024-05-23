@@ -128,7 +128,7 @@ Use the **Navigation Options** at the bottom left to:
  2. Zoom to your current location. 
  3. Zoom in (+) and out (-). 
 
-The (4) **Scale** in the bottom right helps you estimate the size of the ticket boundary in meters and feet.
+4. The **Scale** in the bottom right helps you estimate the size of the ticket boundary in meters and feet.
 
 .. figure:: /_static/Navigation1.png
    :alt: Ticket Viewer Navigation Options
