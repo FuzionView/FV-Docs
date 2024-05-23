@@ -35,7 +35,7 @@ Use the **Ticket List** option to view all tickets in a list.
 
    *See a list of all tickets for your organization*
 
-* From either the List or Map view, select the **Ticket** Number to open a report view of the ticket.
+* From either the List or Map view, select the **Ticket Number** to open a report view of the ticket.
 
 Ticket Report
 ---------------
