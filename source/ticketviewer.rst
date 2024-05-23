@@ -1,6 +1,6 @@
 Using Ticket Viewer
 ========================
-The **Ticket Viewer** displays the polygon for the ticket area as solid line (1), surrounded by the 100 foot buffer as a dotted line (2). 
+The **Ticket Viewer** displays the polygon for the ticket area as a solid line (1), surrounded by the 100 foot buffer as a dotted line (2). 
 
 .. figure:: /_static/TicketViewer1.png
    :alt: The FuzionView Ticket Viewer
@@ -13,7 +13,9 @@ The **Ticket Viewer** displays the polygon for the ticket area as solid line (1)
 
 Identify Facility Infrastructure
 ---------------------------------
-Select a **feature dot or line** to display 1: the feature information available, including the date and time last updated.
+Select a **feature dot or line** to display (1)feature information available, including the date and time last updated.
+If a feature exists nearby or on top of another feature, those features IDs will be listed at the bottom (2). 
+Click a **Feature ID** to toggle from one stacked feature to another.
 
 .. figure:: /_static/Identify1.png
    :alt: The FuzionView Ticket displaying information about a selected object
@@ -21,7 +23,7 @@ Select a **feature dot or line** to display 1: the feature information available
    
    *Identifying Infrastructure*
 
-If a feature exists nearby or on top of another feature, those features IDs will be listed at the bottom (2). Click a **Feature ID** to toggle from one stacked feature to another.
+
 
 Ticket Info
 ------------
@@ -50,7 +52,7 @@ Downloads
 ----------
 
 The Ticket Info window offers several **Download Options**:
- * The default **File Type** is GeoJSON. Click the arrow to select one of the other file types: Shapefile or GeoPackage.
+ * The default **File Type** is GeoJSON. Click the arrow to select Shapefile or GeoPackage.
  * Select one of the other options to open Points, Polygons, or Lines data in a new window.
 
 .. figure:: /_static/Downloads.png
@@ -121,12 +123,12 @@ From the Basemaps page, customize your view:
 Navigation
 ------------
 
-Use the **navigation options** at the bottom left to:
+Use the **Navigation Options** at the bottom left to:
  1. Fit the ticket boundaries to the current window. 
  2. Zoom to your current location. 
  3. Zoom in (+) and out (-). 
 
-The **scale** in the bottom right helps you estimate the size of the ticket boundary in meters and feet.
+The (4) **Scale** in the bottom right helps you estimate the size of the ticket boundary in meters and feet.
 
 .. figure:: /_static/Navigation1.png
    :alt: Ticket Viewer Navigation Options
