@@ -16,7 +16,7 @@ Once you are logged in, you will see the available features:
 Ticket Map
 -----------
 
-Use the Ticket LMap option to view all tickets on a map. 
+Use the **Ticket Map** option to view all tickets on a map. 
 
 .. figure:: /_static/GeoMooseTicketViewer1.png
    :alt: The FuzionView Ticket Map
@@ -27,7 +27,7 @@ Use the Ticket LMap option to view all tickets on a map.
 Ticket List
 ------------
 
-Use the Ticket List option to view all tickets in a list. 
+Use the **Ticket List** option to view all tickets in a list. 
 
 .. figure:: /_static/ticketlist1.png
    :alt: The FuzionView Ticket List
@@ -35,10 +35,12 @@ Use the Ticket List option to view all tickets in a list.
 
    *See a list of all tickets for your organization*
 
+* From either the List or Map view, select the Ticket Number to open a report view of the ticket.
+
 Ticket Report
 ---------------
 
-* From either the List or Map view, select the Ticket Number to open a report view of the ticket.
+* The **Report View** of the ticket has a composite map of all features and a map of each individual feature within the ticket boundary.
 
 .. figure:: /_static/TicketReport1.png
    :alt: The FuzionView Ticket Report
@@ -49,7 +51,7 @@ Ticket Report
 Ticket Viewer
 ---------------
 
-* From either the List or Map view, select the Map option to open the selected ticket in the FuzionView Ticket Viewer application. 
+* From either the List view, select the **Map** option to open the selected ticket in the FuzionView Ticket Viewer application. 
 
 .. figure:: /_static/TicketViewer1.png
    :alt: The FuzionView Ticket Report
