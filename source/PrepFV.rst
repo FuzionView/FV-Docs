@@ -18,59 +18,73 @@ Step 2: Information Needed
 ----------------------------
 FuzionView operates with a small set of required and optional data. During onboarding we will ask you to answer questions that help to define business rules that help us configure your data.
 
-**The required data elements are:** 
-* LAYER 
-* PROVIDER_FID 
-* GEOM 
-* STATUS 
+**The required data elements are:**
+
+   * LAYER 
+   * PROVIDER_FID 
+   * GEOM 
+   * STATUS 
 
 **The optional data elements are:** 
-* SIZE, 
-* DEPTH, 
-* ACCURACY_VALUE, and 
-* DESCRIPTION. 
+
+   * SIZE
+   * DEPTH
+   * ACCURACY_VALUE
+   * DESCRIPTION. 
 
 Definitions
 -------------
+
 **LAYER**
 The feature category used to produce the graphical image on the map.
-* Survey
-* Electric
-* OilGasSteam
-* CommCableConduit
-* PotableWaterReclaimedWater
-* SewersDrains
-* Reference
+
+   * Survey
+   * Electric
+   * OilGasSteam
+   * CommCableConduit
+   * PotableWaterReclaimedWater
+   * SewersDrains
+   * Reference
 
 **PROVIDER_FID**
-The feature ID, your organization’s identifying information for each feature 
+
+The feature ID, the identifying information for each feature used by your organization. 
 
 **GEOM**
+
 The 3D geometry used to place the feature on the map.
 
 **STATUS**
+
 Indicates how the feature is currently being used.
-* 0 unknown 
-* 1 active 
-* 2 abandoned 
-* 3 planned/under construction
-* 4 removed
+
+   * 0 unknown 
+   * 1 active 
+   * 2 abandoned 
+   * 3 planned/under construction
+   * 4 removed
 
 **SIZE**
+
 Provided as either a point (with an x/y coordinate) or a line to indicate width and length.
 
 **DEPTH**
+
 Provided as either a point (with an x/y coordinate) or a line to indicate distance from the surface.
 
 **ACCURACY_VALUE**
+
 When provided, indicates the precision used to collect the data.
-* Sub Centimeter
-* Sub Foot
-* Sub Meter
-* Greater Than Meter
-* GeoReferenced, Digitized
-* Hand Drawn
+
+    * Sub Centimeter
+    * Sub Foot
+    * Sub Meter
+    * Greater Than Meter
+    * GeoReferenced/Digitized
+    * Hand Drawn
+
 *See the Glossary below for descriptions of each Accuracy Value*
 
 **DESCRIPTION**
+
 Optional text to be displayed to provide additional information.
