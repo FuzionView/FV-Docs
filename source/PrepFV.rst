@@ -20,17 +20,17 @@ FuzionView operates with a small set of required and optional data. During onboa
 
 **The required data elements are:**
 
-   * LAYER 
-   * PROVIDER_FID 
-   * GEOM 
-   * STATUS 
+ * LAYER 
+ * PROVIDER_FID 
+ * GEOM 
+ * STATUS 
 
 **The optional data elements are:** 
 
-   * SIZE
-   * DEPTH
-   * ACCURACY_VALUE
-   * DESCRIPTION. 
+ * SIZE
+ * DEPTH
+ * ACCURACY_VALUE
+ * DESCRIPTION. 
 
 Definitions
 -------------
@@ -38,13 +38,13 @@ Definitions
 **LAYER**
 The feature category used to produce the graphical image on the map.
 
-   * Survey
-   * Electric
-   * OilGasSteam
-   * CommCableConduit
-   * PotableWaterReclaimedWater
-   * SewersDrains
-   * Reference
+ * Survey
+ * Electric
+ * OilGasSteam
+ * CommCableConduit
+ * PotableWaterReclaimedWater
+ * SewersDrains
+ * Reference
 
 **PROVIDER_FID**
 
@@ -58,11 +58,11 @@ The 3D geometry used to place the feature on the map.
 
 Indicates how the feature is currently being used.
 
-   * 0 unknown 
-   * 1 active 
-   * 2 abandoned 
-   * 3 planned/under construction
-   * 4 removed
+ * 0 unknown 
+ * 1 active 
+ * 2 abandoned 
+ * 3 planned/under construction
+ * 4 removed
 
 **SIZE**
 
@@ -76,12 +76,12 @@ Provided as either a point (with an x/y coordinate) or a line to indicate distan
 
 When provided, indicates the precision used to collect the data.
 
-    * Sub Centimeter
-    * Sub Foot
-    * Sub Meter
-    * Greater Than Meter
-    * GeoReferenced/Digitized
-    * Hand Drawn
+ * Sub Centimeter
+ * Sub Foot
+ * Sub Meter
+ * Greater Than Meter
+ * GeoReferenced/Digitized
+ * Hand Drawn
 
 *See the Glossary below for descriptions of each Accuracy Value*
 
