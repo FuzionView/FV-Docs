@@ -26,6 +26,7 @@ FuzionView is currently in Beta testing. Use the guides to explore the functiona
    
    DataProvider
    SystemOperator
+   PrepFV
 
 .. toctree::
    :maxdepth: 2
