@@ -18,13 +18,13 @@ Step 2: Information Needed
 ----------------------------
 FuzionView operates with a small set of required and optional data. During onboarding we will ask you to answer questions that help to define business rules that help us configure your data.
 
-**The required data elements are:**
+The required data elements are:
  * LAYER 
  * PROVIDER_FID 
  * GEOM 
  * STATUS 
 
-**The optional data elements are:** 
+The optional data elements are:
  * SIZE
  * DEPTH
  * ACCURACY_VALUE
@@ -32,7 +32,7 @@ FuzionView operates with a small set of required and optional data. During onboa
 
 Definitions
 -------------
-**LAYER**
+LAYER
 The feature category used to produce the graphical image on the map.
  * Survey
  * Electric
@@ -42,13 +42,13 @@ The feature category used to produce the graphical image on the map.
  * SewersDrains
  * Reference
 
-**PROVIDER_FID**
+PROVIDER_FID
 The feature ID is the identifying information for each feature used by your organization. 
 
-**GEOM**
+GEOM
 The 3D geometry used to place the feature on the map.
 
-**STATUS**
+STATUS
 Indicates how the feature is currently being used.
  * 0 unknown 
  * 1 active 
@@ -56,13 +56,13 @@ Indicates how the feature is currently being used.
  * 3 planned/under construction
  * 4 removed
 
-**SIZE**
+SIZE
 Provided as either a point (with an x/y coordinate) or a line to indicate width and length.
 
-**DEPTH**
+DEPTH
 Provided as either a point (with an x/y coordinate) or a line to indicate distance from the surface.
 
-**ACCURACY_VALUE**
+ACCURACY_VALUE
 When provided, indicates the precision used to collect the data.
  * Sub Centimeter
  * Sub Foot
@@ -72,5 +72,5 @@ When provided, indicates the precision used to collect the data.
  * Hand Drawn
 *See the Glossary below for descriptions of each Accuracy Value*
 
-**DESCRIPTION**
+DESCRIPTION
 Optional text to be displayed to provide additional information.
