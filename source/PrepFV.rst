@@ -62,6 +62,7 @@ SIZE: Provided as either a point (with an x/y coordinate) or a line to indicate 
 DEPTH: Provided as either a point (with an x/y coordinate) or a line to indicate distance from the surface.
 
 ACCURACY_VALUE: When provided, indicates the precision used to collect the data.
+
 * Sub Centimeter
 * Sub Foot
 * Sub Meter
