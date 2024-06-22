@@ -1,5 +1,20 @@
-System Operator Dashboard
-===========================
+System Operator
+================
+
+Ticket List
+------------
+
+Ticket Map
+-----------
+
+
+System Operator Admin
+======================
+
+The System Operator Admin is the FuzionView System management interface.
+
+Data Provider
+--------------
 The System Operator Dashboard is the Operational Interface for the System Operator. 
 The Dashboard displays a list of all the Data Providers managed by the System Operator. 
 
@@ -18,11 +33,6 @@ The Dashboard displays a list of all the Data Providers managed by the System Op
    :class: with-border
    
    *FuzionView System Operator Dashboard*
-
-System Operator Admin
-======================
-
-The System Operator Admin is the FuzionView System management interface.
 
 Select **New Data Provider** to add a new data provider to FuzionView system.
 

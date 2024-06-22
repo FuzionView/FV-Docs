@@ -1,17 +1,24 @@
-Data Provider Dashboard
-=========================
+Data Provider
+=============
 
-The Data Provider Dashboard is the Operational Interface for all Data Providers. 
-The Dashboard displays a list of all the tickets managed by the Data Provider. 
-Tickets can be viewed as a list:
+The Data Provider Dashboard is the Operational Interface for all Data Providers.
+
+Data Provider Dashboard
+-------------------------
+
+**Ticket List**
+
+Displays a list of all the tickets managed by the Data Provider. 
 
 .. figure:: /_static/DPDashboard1.png
-   :alt: The FuzionView Data Provider Dashboard
+   :alt: The Ticket List
    :class: with-border
    
    *FuzionView Data Provider Dashboard PLACEHOLDER*
 
-Tickets can also be viewed in a map:
+**Ticket Map**
+
+Displays a map of all the tickets managed by the Data Provider.
 
 .. figure:: /_static/DPDashboard2_Map.png
    :alt: The FuzionView Data Provider Dashboard
@@ -23,6 +30,9 @@ Data Provider Admin
 ====================
 
 The Data Provider Admin is the Account management interface.
+
+** Data Sets**
+
 Use the Admin interface to view all the data sets that have been configured:
 
 .. figure:: /_static/DPAdmin1_Datasets.png
@@ -46,6 +56,8 @@ Select **Edit Data Set** to modify the configuration:
    :class: with-border
    
    *FuzionView Data Provider Admin*
+
+**Users**
 
 Use the Admin interface to manage users:
 
