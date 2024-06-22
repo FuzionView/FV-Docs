@@ -38,31 +38,30 @@ Definitions
 ------------
 
 LAYER: The feature category used to produce the graphical image on the map.
- * Survey
- * Electric
- * OilGasSteam
- * CommCableConduit
- * PotableWaterReclaimedWater
- * SewersDrains
- * Reference
+* Survey
+* Electric
+* OilGasSteam
+* CommCableConduit
+* PotableWaterReclaimedWater
+* SewersDrains
+* Reference
 
 PROVIDER_FID: The feature ID is the identifying information for each feature used by your organization. 
 
 GEOM: The 3D geometry used to place the feature on the map.
 
 STATUS: Indicates how the feature is currently being used.
- * 0 unknown 
- * 1 active 
- * 2 abandoned 
- * 3 planned/under construction
- * 4 removed
+* 0 unknown 
+* 1 active 
+* 2 abandoned 
+* 3 planned/under construction
+* 4 removed
 
 SIZE: Provided as either a point (with an x/y coordinate) or a line to indicate width and length.
 
 DEPTH: Provided as either a point (with an x/y coordinate) or a line to indicate distance from the surface.
 
 ACCURACY_VALUE: When provided, indicates the precision used to collect the data.
-
 * Sub Centimeter
 * Sub Foot
 * Sub Meter
@@ -70,6 +69,6 @@ ACCURACY_VALUE: When provided, indicates the precision used to collect the data.
 * GeoReferenced/Digitized
 * Hand Drawn
 
-*See the Glossary for descriptions of each Accuracy Value*
-
 DESCRIPTION: Optional text to be displayed to provide additional information.
+
+*See the Glossary for more detailed descriptions.*
