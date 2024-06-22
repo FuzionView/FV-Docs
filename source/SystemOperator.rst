@@ -1,5 +1,5 @@
-System Operator
-================
+System Operator Dashboard
+===========================
 
 Ticket List
 ------------
