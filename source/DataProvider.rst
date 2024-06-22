@@ -20,7 +20,7 @@ Tickets can also be viewed in a map:
    *FuzionView Data Provider Dashboard PLACEHOLDER*
 
 Data Provider Admin
----------------------
+====================
 
 The Data Provider Admin is the Account management interface.
 Use the Admin interface to view all the data sets that have been configured:
