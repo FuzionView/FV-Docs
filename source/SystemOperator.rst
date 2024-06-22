@@ -20,7 +20,7 @@ The Dashboard displays a list of all the Data Providers managed by the System Op
    *FuzionView System Operator Dashboard*
 
 System Operator Admin
------------------------
+======================
 
 The System Operator Admin is the FuzionView System management interface.
 
@@ -41,7 +41,7 @@ Enter a name and click **Submit** to add a new data provider to FuzionView syste
    *FuzionView System Operator Admin*
 
 System Settings
-****************
+----------------
 
 Use the menu to select **System Operator Admin**:
 
@@ -54,7 +54,7 @@ Use the menu to select **System Operator Admin**:
 Then select **System Settings** from the dropdown:
 
 .. figure:: /_static/AdminMenu2.png
-   :alt: The FuzionView System Settings Menu
+   :alt: System Settings Menu
    :class: with-border
    
    *System Operator Admin Menu*
@@ -62,7 +62,7 @@ Then select **System Settings** from the dropdown:
 The **System Settings** options are displayed:
 
 .. figure:: /_static/SystemSettings1.png
-   :alt: The FuzionView System Operator System Settings
+   :alt: System Operator System Settings
    :class: with-border
    
    *System Settings*
