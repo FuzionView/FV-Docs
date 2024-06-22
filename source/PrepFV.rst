@@ -38,6 +38,7 @@ Definitions
 ------------
 
 LAYER: The feature category used to produce the graphical image on the map.
+
 * Survey
 * Electric
 * OilGasSteam
@@ -51,6 +52,7 @@ PROVIDER_FID: The feature ID is the identifying information for each feature use
 GEOM: The 3D geometry used to place the feature on the map.
 
 STATUS: Indicates how the feature is currently being used.
+
 * 0 unknown 
 * 1 active 
 * 2 abandoned 
