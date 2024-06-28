@@ -9,6 +9,23 @@ Background
 
 Our project is dedicated to providing the most complete map view of underground utilities. Working with partners like you, we will continue to add facility operators to provide the most complete list of features possible for each 811 ticket. This phase of the project is focused on Minnesota and we have partnered with Gopher State One Call (GSOC) the nonprofit, state-wide utility notification center for excavators, engineers and locators in Minnesota.
 
+Onboarding process
+-------------------
+
+In general, these are the steps that will typically occur as you move through the onboarding process:
+ * Your organization contacts FuzionView and expresses interest in providing data to FuzionView that will augement the 811 ticket process.
+ * A representative from your organization reads the Getting Started with FuzionView document. (You are here!)
+ * The decision makers in your organization will attend a demo of FuzionView.
+ * Any concerns or questions from your organization have been satisfactorily resolved.
+ * Your legal department has confirmed there are no legal barriers such as legislation (either current or pending) that would prohibit providing data to FuzionView.
+ * Your organization has designated a primary point of contact to work with FuzionView.
+ * The point of contact for your organization is assigned a FuzionView account for evaluation.
+ * The point of contact at your organization has read the documentation and attended the training for FuzionView.
+ * Your IT department understands the requirements and is prepared to work with the FuzionView team to complete configuration.
+ * The required legal agreements have been duly authorized by your organization.
+ * Your IT team follows the guide and establishes a connection to share data.
+ * Your IT team works with the FuzionView team to configure your datasets and users.
+ * Your organization goes live with FuzionView!
 
 Step 1: Data Access
 --------------------
@@ -34,8 +51,8 @@ The optional data elements are:
  * ACCURACY_VALUE
  * DESCRIPTION. 
 
-Definitions
-------------
+Definitions and Schema
+-----------------------
 
 LAYER: The feature category used to produce the graphical image on the map.
 
@@ -75,3 +92,7 @@ ACCURACY_VALUE: When provided, indicates the precision used to collect the data.
 DESCRIPTION: Optional text to be displayed to provide additional information.
 
 *See the Glossary for more detailed descriptions.*
+
+Connection Information
+-----------------------
+After your organization commits to providing data to FuzionView, we will begin collecting the information necessary to connect to your data source. If possible, you should begin collecting this data to help streamline the onboarding process.
