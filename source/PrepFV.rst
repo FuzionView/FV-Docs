@@ -12,7 +12,7 @@ Our project is dedicated to providing the most complete map view of underground 
 Onboarding process
 -------------------
 
-In general, these are the steps that will typically occur as you move through the onboarding process:
+In general, these are the steps that will occur as you move through the onboarding process:
  * Your organization contacts FuzionView and expresses interest in providing data to FuzionView that will augement the 811 ticket process.
  * A representative from your organization reads the Getting Started with FuzionView document. (You are here!)
  * The decision makers in your organization will attend a demo of FuzionView.
@@ -96,3 +96,21 @@ DESCRIPTION: Optional text to be displayed to provide additional information.
 Connection Information
 -----------------------
 After your organization commits to providing data to FuzionView, we will begin collecting the information necessary to connect to your data source. If possible, you should begin collecting this data to help streamline the onboarding process.
+
+ * Does your data require secure access? FuzionView will need an API token to connect.
+ * By default, the FuzionView engine stores everything as EPSG: 6344 by default. https://spatialreference.org/ref/epsg/6344/. If you plan to use another EPSG code, you'll need to provide that so we can reproject the data. 
+ * Our preferred method of connection is via a WFS web service. We can also support an ESRI Feature web service. You can discuss other options with your FuzionView contact.
+ * Are there any restrictions on how the data can be used? Remember to discuss these as soon as possible with your FuzionView contact.
+
+You'll need to provide the following for your connection:
+ * Layer Name - how you will identify the data in the FuzionView system.
+ * The URL to your Source Data Set
+ * Source SQL
+ * Source CO 
+ * Will you want to cache the whole data set? 
+ * Will the connection be enabled immediately?
+
+Last but not least, review the disclaimers used in the FuzionView system: 
+fuzionview.org/disclaimers
+
+If you have questions, reach out to your FuzionView contact or email bbasques@sharedgeo.org.
