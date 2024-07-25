@@ -33,7 +33,8 @@ FuzionView is currently in Beta testing. Use the guides to explore the functiona
    :caption: Learn More
 
    PrepFV
-   About   
+   FAQ
+   About
    
 .. Indices and tables
 .. ==================
