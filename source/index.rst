@@ -32,10 +32,8 @@ FuzionView is currently in Beta testing. Use the guides to explore the functiona
    :maxdepth: 3
    :caption: Learn More
 
-   About
    PrepFV
-   
-   
+   About   
    
 .. Indices and tables
 .. ==================
