@@ -27,15 +27,15 @@ In general, these are the steps that will occur as you move through the onboardi
  * Your IT team works with the FuzionView team to configure your datasets and users.
  * Your organization goes live with FuzionView!
 
-Step 1: Data Access
---------------------
+Data Access
+------------
 
 FuzionView is designed for maximum flexibility in connecting to your data. The most common connections will be via an ESRI REST server or WFS Service. You’ll want to work with your IT department to create this connection and set up authorization to ensure secure access to the data. Ideally this connection would provide a WFS endpoint with the data in columns as needed, allowing us to perform a one to one transformation on the data. 
 Where necessary, we can create a GUI that would allow us to remap some columns, concatenate some columns, do some lookups with a bounded set of options.
 In rare circumstances, we could manually transform the data using SQL.
 
-Step 2: Information Needed
-----------------------------
+Information Needed
+-------------------
 
 FuzionView operates with a small set of required and optional data. During onboarding we will ask you to answer questions that help to define business rules that help us configure your data.
 
