@@ -28,7 +28,7 @@ Click a **Feature ID** to toggle from one stacked feature to another.
 Ticket Info
 ------------
 
-Click the **Information* icon at the top right to see additional ticket info.
+Click the **Information** icon at the top right to see additional ticket info.
 
 .. figure:: /_static/TicketInfo1.png
    :alt: The FuzionView Ticket Viewer
