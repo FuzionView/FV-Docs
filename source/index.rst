@@ -29,7 +29,7 @@ FuzionView is currently in Beta testing. Use the guides to explore the functiona
 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    :caption: Learn More
 
    PrepFV
