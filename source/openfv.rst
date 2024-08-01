@@ -1,22 +1,44 @@
 Getting Started
 ================
 
-FuzionView is currently in Beta testing. Use the link provided by your Operator to access the most recent version.
+This is a quick overview to get you started using FuzionView.
+*Please note: FuzionView is currently in Beta testing and the login process may change during development.*
 
-Once you are logged in, you will see the available features:
-   * Ticket Map - a map view of all authorized tickets
-   * Ticket List - a list view of all authorized tickets
+.. figure:: /_static/Login0.png
+   :alt: The FuzionView login page
+   :class: with-border
+   
+   *Only authorized users can access FuzionView*
 
-.. figure:: /_static/landing1.png
+   To request a FuzionView account, click **Register** and fill out the form.
+
+.. figure:: /_static/Register1.png
+   :alt: The FuzionView account registration page
+   :class: with-border
+   
+   *FuzionView Account Register Page*
+
+Once you have received your userid and password, login to FuzionView.
+
+.. figure:: /_static/Login2.png
+   :alt: The FuzionView login page
+   :class: with-border
+   
+   *FuzionView Login Page*
+
+Once you have a userid, login to access the most recent version. Once you are logged in, you will see the options you are authorized to access. If you do not see one of the options below, it means you do not have access to that feature. 
+
+.. figure:: /_static/Landing1.png
    :alt: The FuzionView registration page
    :class: with-border
    
    *FuzionView Landing Page*
 
-Ticket Map
------------
+GeoMoose
+----------
 
-Use the **Ticket Map** option to view all tickets on a map. 
+Use the **GeoMoose** option to view all tickets on a map. 
+Please note: This option will be replaced with the **Ticket Map** once development is completed. For documentation on GeoMoose, please contact info@sharedgeo.org
 
 .. figure:: /_static/GeoMooseTicketViewer1.png
    :alt: The FuzionView Ticket Map
@@ -27,15 +49,15 @@ Use the **Ticket Map** option to view all tickets on a map.
 Ticket List
 ------------
 
-Use the **Ticket List** option to view all tickets in a list. 
+Use the **Ticket List** option to view all your tickets in a list. 
 
-.. figure:: /_static/ticketlist1.png
+.. figure:: /_static/TicketList1.png
    :alt: The FuzionView Ticket List
    :class: with-border
 
-   *See a list of all tickets for your organization*
+   *See a list of all your tickets*
 
-* From either the List or Map view, select the **Ticket Number** to open a report view of the ticket.
+* From the Ticket List view, select a **Ticket Number** to open a report view of the ticket.
 
 Ticket Report
 ---------------
@@ -51,7 +73,7 @@ Ticket Report
 Ticket Viewer
 ---------------
 
-* From either the List view, select the **Map** option to open the selected ticket in the FuzionView Ticket Viewer application. 
+* From the List view, select the **Map** option to open the selected ticket in the Ticket Viewer. 
 
 .. figure:: /_static/TicketViewer1.png
    :alt: The FuzionView Ticket Report
@@ -59,4 +81,4 @@ Ticket Viewer
 
    *Map view of the identified features*
 
-   Check out the documentation on the FuzionView Ticket Viewer `here <https://fuzionview.github.io/FV-Docs/ticketviewer.html#>`_
+   Next, find more detailed documentation on using the Ticket Viewer `here <https://fuzionview.github.io/FV-Docs/ticketviewer.html#>`_
