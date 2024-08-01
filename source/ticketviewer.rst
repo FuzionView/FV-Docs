@@ -1,6 +1,6 @@
 Using Ticket Viewer
 ========================
-The **Ticket Viewer** displays the polygon for the ticket area as a solid line (1), surrounded by the 100 foot buffer as a dotted line (2). 
+The **Ticket Viewer** displays the polygon for the ticket area as a solid line (1), surrounded by a 100 foot buffer, shown as a dotted line (2). 
 
 .. figure:: /_static/TicketViewer1.png
    :alt: The FuzionView Ticket Viewer
@@ -13,8 +13,8 @@ The **Ticket Viewer** displays the polygon for the ticket area as a solid line (
 
 Identify Facility Infrastructure
 ---------------------------------
-Select a **feature dot or line** to display (1)feature information available, including the date and time last updated.
-If a feature exists nearby or on top of another feature, those features IDs will be listed at the bottom (2). 
+Select a **feature dot or line** to display the feature information available, including the date and time last updated.
+If a feature exists nearby or on top of another feature, those feature IDs will be listed at the bottom as **Nearby Features**. 
 Click a **Feature ID** to toggle from one stacked feature to another.
 
 .. figure:: /_static/Identify1.png
@@ -23,7 +23,12 @@ Click a **Feature ID** to toggle from one stacked feature to another.
    
    *Identifying Infrastructure*
 
+For definitions for each item, check out the Glossary `here <https://uumpt.sharedgeo.net/docs/PrepFV.html#definitions-and-schema#>`_
 
+Stacked Features
+------------------
+
+Underground utilities are often found above or below other utilities. When you select a feature, if there are other features hidden by the selected feature, those features are listed at the bottom. Simply click through the links provided to see the complete picture of the features at that specific location.
 
 Ticket Info
 ------------
@@ -40,13 +45,7 @@ The **Ticket Info** view has the following tools and information:
    1. Ticket Information - Ticket Number and Type.
    2. Data Set Providers - the owners who provided the information and the count of features they manage.
    3. Options for Downloading the ticket map information. *See the section below on Downloads*
-   4. Links to the GSOC Ticket and Help. *See the section below on GSOC Ticket*
-
-.. figure:: /_static/TicketInfo2.png
-   :alt: The FuzionView Ticket Info
-   :class: with-border
-   
-   *FuzionView Ticket Info*
+   4. Links to the GSOC Ticket and Help. *See the section below on the GSOC Ticket*
 
 Downloads
 ----------
@@ -55,7 +54,7 @@ The Ticket Info window offers several **Download Options**:
  * The default **File Type** is GeoJSON. Click the arrow to select Shapefile or GeoPackage.
  * Select one of the other options to open Points, Polygons, or Lines data in a new window.
 
-.. figure:: /_static/Downloads.png
+.. figure:: /_static/Downloads1.png
    :alt: Download Options
    :class: with-border
    
@@ -84,54 +83,61 @@ From the Ticket Viewer, select the **Layers** icon at the top right to see avail
    
    *Ticket Layers Options*
 
-From the Layers page, customize your view:
- * Click any available feature layer to toggle it on or off. 
+You can customize your view of a ticket by toggling a layer on or off. All layers are shown by default. Click any layer to hide it. Click again to display it once more.
  * Layers with no features will display grayed out.
-
-.. figure:: /_static/Layers2.png
-   :alt: Ticket Layers
-   :class: with-border
-   
-   *Ticket Layers Options*
 
 Basemaps
 ----------
 
 From the Ticket Viewer, select the **Basemaps** icon at the top right to see available map options. 
+* Select **Aerial** to replace the default OpenStreetMap. 
 
-.. figure:: /_static/basemaps2.png
+.. figure:: /_static/Basemaps1.png
    :alt: Map Options
    :class: with-border
    
-   *Display Alternate Map Options*
-
-From the Basemaps page, customize your view:
- * Select **Aerial** to change the Basemap from the default OpenStreetMap. 
-
-.. figure:: /_static/basemaps1.png
-   :alt: Map Options
-   :class: with-border
-   
-   *Select Alternate Map Options*
-
-.. figure:: /_static/basemaps3.png
-   :alt: Aerial View
-   :class: with-border
-   
-   *Aerial Map View*
+   *Display Aerial Map*
 
 Navigation
 ------------
 
 Use the **Navigation Options** at the bottom left to:
- 1. Fit the ticket boundaries to the current window. 
- 2. Zoom to your current location. 
- 3. Zoom in (+) and out (-). 
+ 1. Measure Distance or Area *See  below for more information on using the Measure Tool.*
+ 2. Fit the ticket boundaries to the current window. 
+ 3. Zoom to your current location when GPS location is enabled.
+ 4. Zoom in (+) and out (-) on the ticket boundaries.
 
-4. The **Scale** in the bottom right helps you estimate the size of the ticket boundary in meters and feet.
+ 5. The **Scale** in the bottom right helps you estimate the size of the ticket boundary in meters and feet.
 
 .. figure:: /_static/Navigation1.png
    :alt: Ticket Viewer Navigation Options
    :class: with-border
    
    *Ticket Viewer Navigation Options*
+
+Measure Tool
+--------------
+
+To measure **Distance**, click the Measuring Tool icon and select the distance option.
+
+.. figure:: /_static/MeasureTool1.png
+   :alt: The Measuring Tool
+   :class: with-border
+   
+   *Ticket Viewer Measurement Tools*
+
+Your cursor will become a cross. Click anywhere to create the starting point for the measurement. Click again on the end of the space where you want to measure the distance. You can continue to create distance measurements from the original starting point or double click on the last end point to stop measuring. To clear the measurements and start over, use the refresh button. 
+
+.. figure:: /_static/MeasureTool2.png
+   :alt: The Measuring Tool
+   :class: with-border
+   
+   *Distance Measurement Example*
+
+To measure **Area** click the Measuring Tool and select the Area option. Your cursor will once again be changed to a cross. Click at the starting point, then click again at one boundary of the area to be measured. Click again to create a three sided area. Click again to create a four sided area. You can use multiple, small sides to create more circular areas. 
+
+.. figure:: /_static/MeasureTool3.png
+   :alt: The Measuring Tool
+   :class: with-border
+   
+   *Area Measurement Example*

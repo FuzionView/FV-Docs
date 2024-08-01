@@ -81,4 +81,4 @@ Ticket Viewer
 
    *Map view of the identified features*
 
-   Next, find more detailed documentation on using the Ticket Viewer `here <https://fuzionview.github.io/FV-Docs/ticketviewer.html#>`_
+   Next, find more detailed documentation on using the Ticket Viewer `here <#https://uumpt.sharedgeo.net/docs/ticketviewer.html#>`_
