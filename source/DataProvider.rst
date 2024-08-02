@@ -34,29 +34,16 @@ Datasets
 ----------
 
 Use the Admin interface to view all the data sets that have been configured for your facility.
-Select a **Dataset** to view the configuration:
+Select the icon next to the dataset you want to View, Edit, or Delete.
 
-.. figure:: /_static/DPAdmin3_DeleteEdit.png
-   :alt: The FuzionView Data Provider Admin
+.. figure:: /_static/DPAdmin1_Datasets1.png
+   :alt: Dataset Management
    :class: with-border
    
-   *FuzionView Data Provider Admin*
-
-Select **Edit Data Set** to modify the configuration:
+   *View, Edit, or Delete Dataset*
 
 .. figure:: /_static/DPAdmin6_Datasets2.png
-   :alt: The FuzionView Data Provider Admin
+   :alt: Dataset Management
    :class: with-border
    
-   *FuzionView Data Provider Admin*
-
-Users
-------
-
-Use the Admin interface to manage users:
-
-.. figure:: /_static/DPAdmin2_Users.png
-   :alt: The FuzionView Data Provider Admin
-   :class: with-border
-   
-   *FuzionView Data Provider Admin*
+   *View, Edit, or Delete Dataset*
