@@ -102,11 +102,11 @@ Navigation
 ------------
 
 Use the **Navigation Options** at the bottom left and right to:
- * Measure Distance or Area *See  below for more information on using the Measure Tool.
- * Fit the ticket boundaries to the current window. 
- * Zoom to your current location when GPS location is enabled.
- * Zoom in (+) and out (-) on the ticket boundaries.
- * The **Scale** helps you estimate the size of the ticket boundary in meters and feet.
+ * **Measure** distance or area *See  below for more information on using the Measure Tool.
+ * **Fit** the screen to the ticket boundaries to the current window. 
+ * **Zoom** to your current location when GPS location is enabled.
+ * **Zoom** in (+) and out (-) on the ticket boundaries.
+ * The **Scale** displays the size of the ticket boundary in meters and feet.
 
 .. figure:: /_static/Navigation1.png
    :alt: Ticket Viewer Navigation Options
