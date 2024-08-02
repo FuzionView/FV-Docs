@@ -42,16 +42,16 @@ Click the **Information** icon at the top right to see additional ticket info.
    *FuzionView Ticket Viewer*
 
 The **Ticket Info** view has the following tools and information:
-   1. Ticket Information - Ticket Number and Type.
-   2. Data Set Providers - the owners who provided the information and the count of features they manage.
-   3. Options for Downloading the ticket map information. *See the section below on Downloads*
-   4. Links to the GSOC Ticket and Help. *See the section below on the GSOC Ticket*
+   * Ticket Information - Ticket Number and Type.
+   * Data Set Providers - the owners who provided the information and the count of features they manage.
+   * Options for Downloading the ticket map information. *See the section below on Downloads*
+   * Links to the GSOC Ticket and Help. *See the section below on the GSOC Ticket*
 
 Downloads
 ----------
 
-The Ticket Info window offers several **Download Options**:
- * The default **File Type** is GeoJSON. Click the arrow to select Shapefile or GeoPackage.
+From the Ticket Info window you can select from several **Download Options**:
+ * The default **File Type** is GeoJSON. Click the arrow to select a Shapefile or GeoPackage.
  * Select one of the other options to open Points, Polygons, or Lines data in a new window.
 
 .. figure:: /_static/Downloads1.png
@@ -101,13 +101,12 @@ From the Ticket Viewer, select the **Basemaps** icon at the top right to see ava
 Navigation
 ------------
 
-Use the **Navigation Options** at the bottom left to:
- 1. Measure Distance or Area *See  below for more information on using the Measure Tool.*
- 2. Fit the ticket boundaries to the current window. 
- 3. Zoom to your current location when GPS location is enabled.
- 4. Zoom in (+) and out (-) on the ticket boundaries.
-
- 5. The **Scale** in the bottom right helps you estimate the size of the ticket boundary in meters and feet.
+Use the **Navigation Options** at the bottom left and right to:
+ * Measure Distance or Area *See  below for more information on using the Measure Tool.
+ * Fit the ticket boundaries to the current window. 
+ * Zoom to your current location when GPS location is enabled.
+ * Zoom in (+) and out (-) on the ticket boundaries.
+ * The **Scale** helps you estimate the size of the ticket boundary in meters and feet.
 
 .. figure:: /_static/Navigation1.png
    :alt: Ticket Viewer Navigation Options
