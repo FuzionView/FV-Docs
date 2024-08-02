@@ -33,7 +33,7 @@ The Data Provider Admin is the Account management interface. From this menu you 
 Datasets
 ----------
 
-Use the Admin interface to view all the data sets that have been configured for your facility.
+Use the Admin interface to view all the datasets that have been configured for your facility.
 Select the icon next to the dataset you want to View, Edit, or Delete.
 
 .. figure:: /_static/DPAdmin1_Datasets1.png
