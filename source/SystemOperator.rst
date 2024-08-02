@@ -91,7 +91,7 @@ Feature Classes are used to identify a feature category known as a **LAYER** in 
 When a ticket has features in that layer, it is displayed in a specific color to identify them on the map.
 
    
-.. figure:: /_static/Layers2.png
+.. figure:: /_static/Layers1.png
    :alt: Feature Classes map to Layers in FuzionView
    :class: with-border
    
