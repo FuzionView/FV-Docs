@@ -4,8 +4,24 @@ System Operator Dashboard
 Ticket List
 ------------
 
+Displays a list of all the tickets managed by the System Operator. 
+
+.. figure:: /_static/DPDashboard1.png
+   :alt: The Ticket List
+   :class: with-border
+   
+   *FuzionView System Operator Dashboard PLACEHOLDER*
+
 Ticket Map
 -----------
+
+Displays a map of all the tickets managed by the System Operator.
+
+.. figure:: /_static/DPDashboard2.png
+   :alt: The FuzionView System Operator Dashboard
+   :class: with-border
+   
+   *FuzionView System Operator Dashboard PLACEHOLDER*
 
 
 System Operator Admin
