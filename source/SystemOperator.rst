@@ -203,6 +203,17 @@ You must create a Feature Status before you configure it. Scroll to the bottom a
    
    *Add Feature Status* - Placeholder
 
+Edit Feature Status
+^^^^^^^^^^^^^^^^^^^^
+
+Click the **Pencil** icon next to a status edit it
+
+.. figure:: /_static/SOAdmin6_EditFeatureStatus1.png
+   :alt: Edit Feature Status
+   :class: with-border
+   
+   *Edit Feature Status*
+
 Ticket Types
 ^^^^^^^^^^^^^
 
