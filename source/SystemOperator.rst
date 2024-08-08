@@ -36,7 +36,9 @@ Displays a map of all the tickets managed by the System Operator.
 System Operator Admin
 ======================
 
-The System Operator Admin is the FuzionView System management interface. Use the Admin options to manage:
+The System Operator Admin is the FuzionView system management interface. 
+
+Use the Admin options to manage:
  * Data Providers
  * Datasets
  * Users
@@ -53,7 +55,7 @@ Data Providers
 
 Data Providers displays a list of all the Data Providers or Facility Operators managed by the System Operator. 
 
-**Add Data Provider**
+**Add Data Provider**|br|
 Select either the **Plus** icon or **New Data Provider** at the bottom of the page to add a new data provider.
 Enter a name and click **Submit**.
 
