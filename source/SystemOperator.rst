@@ -71,7 +71,7 @@ Manage Data Providers
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 .. hint::
-   * Click the **Eye** icon to manage the Datasets configured for a Data Provider
+   * Click the **Eye** icon to view and manage the Datasets configured for a Data Provider
    * Click the **Pencil** icon to edit the name of a Data Provider
    * Click the **Person** icon to manage users for a Data Provider
    * Click the **Trashcan** icon to delete a Data Provider
@@ -109,7 +109,7 @@ Refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/
 .. figure:: /_static/SOAdmin2_Datasets1.png
    :alt: Manage Datasets
    :class: with-border
-   
+
    *Manage Datasets*
 
 Users
@@ -120,7 +120,7 @@ Refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/
 .. figure:: /_static/DPAdmin2_Users4.png
    :alt: Manage Users
    :class: with-border
-   
+
    *Manage Users*
 
 System Settings
