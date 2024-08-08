@@ -97,89 +97,92 @@ Change the name of a data provider here.
    
    *Edit Data Provider Name*
 
+**Delete Data Provider**
+
+.. warning::
+   This cannot be undone.
+
+*PLACEHOLDER - This feature doesn't work yet*
+
+.. figure:: /_static/DPAdmin2_Users4.png
+   :alt: Edit Data Provider Name
+   :class: with-border
+   
+   *Edit Data Provider Name*
+
+
 System Settings
 ----------------
 
-Use the menu to select **System Operator Admin**:
+Select **System Settings** from the System Operator menu:
 
-.. figure:: /_static/AdminMenu1.png
-   :alt: The FuzionView System Operator Admin Menu
+.. figure:: /_static/SOAdmin0_Menu1.png
+   :alt: System Operator Admin Menu
    :class: with-border
    
    *System Operator Admin Menu*
 
-Then select **System Settings** from the dropdown:
+**System Settings** 
+Use the **Eye** icon to view and edit and the **Plus** icon to create key database elements
 
-.. figure:: /_static/AdminMenu2.png
-   :alt: System Settings Menu
-   :class: with-border
-   
-   *System Operator Admin Menu*
-
-The **System Settings** options are displayed:
+ * Feature Classes
+ * Features Status
+ * Ticket Types
 
 .. figure:: /_static/SystemSettings1.png
-   :alt: System Operator System Settings
+   :alt: System Settings
    :class: with-border
    
    *System Settings*
 
-Use the **System Settings** options to create and manage key database elements:
-
 **Feature Classes** 
+Feature Classes are used to identify a feature category known as a **LAYER** in the Ticket Viewer. 
+When a ticket has features in that layer, it is displayed on the map in a specific color to clearly identify them.
 
-.. figure:: /_static/FeatureClasses1.png
+.. figure:: /_static/SOAdmin4_FeatureClasses1.png
    :alt: Feature Classes identify the Layers in FuzionView
    :class: with-border
    
    *Feature Classes*
 
-Feature Classes are used to identify a feature category known as a **LAYER** in the Ticket Viewer. 
-When a ticket has features in that layer, it is displayed in a specific color to identify them on the map.
+Use the **Pencil** icon to edit and the **Trashcan** icon to delete.
 
+**Add New Feature Class**
+Scroll to the bottom and select the **Plus** icon or **Add New Feature Class** to identify a new feature class. 
    
-.. figure:: /_static/Layers1.png
-   :alt: Feature Classes map to Layers in FuzionView
-   :class: with-border
-   
-   *Feature Class Layers*
-
-Scroll to the bottom and select **Add New Feature Class** to identify a new feature category. 
-   
-.. figure:: /_static/NewFeatureClass1.png
+.. figure:: /_static/SOAdmin5_NewFeatureClass1.png
    :alt: Add New Feature Classes
    :class: with-border
    
    *Add Feature Class Layers*
 
-A confirmation message will display when complete:
-   
-.. figure:: /_static/FeatureClassCreated1.png
-   :alt: New Feature Class Created
+**Edit Feature Class**
+Select the **Pencil** icon to edit an existing Feature Class.
+
+.. figure:: /_static/SOAdmin5_EditFeatureClass1.png
+   :alt: Add New Feature Classes
    :class: with-border
    
-   *New Feature Class Created*
+   *Add Feature Class Layers*
 
 **Feature Statuses**
+Status is used to indicate whether the feature is in use and in what state of development.
 
-Status is used to indicate whether the feature is in use and in what state of development it is.
-
-.. figure:: /_static/FeatureStatuses1.png
+.. figure:: /_static/SOAdmin5_FeatureStatuses1.png
    :alt: New Feature Statuses
    :class: with-border
    
    *Add Feature Statuses*
 
-Scroll to the bottom and select **Add New Feature Status** to identify a new usage status:
+You must create a Feature Status before you configure it. Scroll to the bottom and select **Add New Feature Status** to identify a new usage status:
 
-.. figure:: /_static/NewFeatureClass1.png
+.. figure:: /_static/SOAdmin6_NewFeatureStatus1.png
    :alt: Add New Feature Status
    :class: with-border
    
    *Add Feature Status* - Placeholder
 
-   **Ticket Types**
-
+**Ticket Types**
 The ticket type is used to visually indicate the urgency of a ticket, which is used in planning response time.
 
 .. figure:: /_static/TicketTypes1.png
