@@ -8,7 +8,7 @@ Ticket List
 
 Displays a list of all the tickets managed by the Data Provider. 
 
-.. figure:: /_static/TicketList1.png
+.. figure:: /_static/DPDashboard1.png
    :alt: The Ticket List
    :class: with-border
    
