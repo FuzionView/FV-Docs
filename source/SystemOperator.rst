@@ -126,8 +126,7 @@ Refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/
 System Settings
 ----------------
 
-Select **System Settings** from the System Operator menu:
-Use the **Eye** icon to view and edit and the **Plus** icon to create key database elements
+Select **System Settings** from the System Operator menu to manage:
 
  * Feature Classes
  * Features Status
@@ -139,6 +138,8 @@ Use the **Eye** icon to view and edit and the **Plus** icon to create key databa
    
    *System Operator Admin Menu*
 
+Use the **Eye** icon to view and edit and the **Plus** icon to create these key elements.
+
 .. figure:: /_static/SystemSettings1.png
    :alt: System Settings
    :class: with-border
@@ -148,16 +149,15 @@ Use the **Eye** icon to view and edit and the **Plus** icon to create key databa
 Feature Classes
 ^^^^^^^^^^^^^^^^^
 
-Feature Classes are used to identify a feature category known as a **LAYER** in the Ticket Viewer. 
-When a ticket has features in that layer, it is displayed on the map in a specific color to clearly identify them.
+Feature Classes are used to identify a feature category - known as a **LAYER** in Ticket Viewer. 
+When a ticket has features in that layer, it will be displayed on the map in a specific color to clearly identify it.
+Use the **Pencil** icon to edit and the **Trashcan** icon to delete.
 
 .. figure:: /_static/SOAdmin4_FeatureClasses1.png
    :alt: Feature Classes identify the Layers in FuzionView
    :class: with-border
    
    *Feature Classes*
-
-Use the **Pencil** icon to edit and the **Trashcan** icon to delete.
 
 Add New Feature Class
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -204,25 +204,32 @@ Ticket Types
 ^^^^^^^^^^^^^
 
 The ticket type is used to visually indicate the urgency of a ticket, which is used in planning response time.
+The current options are Normal and Emergency. Emergency tickets display with the ticket number in red.
 
-.. figure:: /_static/TicketTypes1.png
+.. figure:: /_static/SOAdmin8_TicketTypes1.png
    :alt: Ticket Types
    :class: with-border
    
    *Ticket Types*
 
-The current options are Normal and Emergency. Emergency tickets display with the ticket number in red.
-
-.. figure:: /_static/TicketTypes1.png
-   :alt: Ticket Types
-   :class: with-border
-   
-   *Ticket Types Placeholder*
+Ticket Types
+^^^^^^^^^^^^^
 
 Scroll to the bottom and select **New Ticket Type** to add a new level of urgency.
 
-.. figure:: /_static/NewTicketType1.png
+.. figure:: /_static/SOAdmin8_NewTicketType1.png
    :alt: New Ticket Type
    :class: with-border
    
    *New Ticket Type*
+
+Edit Ticket Type
+^^^^^^^^^^^^^^^^^
+
+Click the **Pencil** icon to edit an existing Ticket Type:
+
+.. figure:: /_static/SOAdmin8_EditTicketType1.png
+   :alt: Edit Ticket Type
+   :class: with-border
+   
+   *Edit Ticket Type*
