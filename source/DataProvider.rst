@@ -82,4 +82,4 @@ To manage existing users, select the icon next to the user you want to Edit, or 
    :alt: Create New User
    :class: with-border
    
-   *Edit, or Delete User*
+   *Edit or Delete User*
