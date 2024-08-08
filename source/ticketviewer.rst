@@ -23,7 +23,7 @@ Click a **Feature ID** to toggle from one stacked feature to another.
    
    *Identifying Infrastructure*
 
-For definitions for each item, check out the Glossary `here <https://uumpt.sharedgeo.net/docs/PrepFV.html#definitions-and-schema#>`_
+For definitions for each item, check out the `Glossary <https://uumpt.sharedgeo.net/docs/PrepFV.html#definitions-and-schema#>`_
 
 Stacked Features
 ------------------
@@ -102,7 +102,7 @@ Navigation
 ------------
 
 Use the **Navigation Options** at the bottom left and right to:
- * **Measure** distance or area *See  below for more information on using the Measure Tool.
+ * **Measure** distance or area *See below for more information on using the Measure Tool.*
  * **Fit** the screen to the ticket boundaries to the current window. 
  * **Zoom** to your current location when GPS location is enabled.
  * **Zoom** in (+) and out (-) on the ticket boundaries.
