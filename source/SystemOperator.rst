@@ -55,8 +55,8 @@ Data Providers
 
 Data Providers displays a list of all the Data Providers or Facility Operators managed by the System Operator. 
 
-**Add Data Provider**
-^^^^^^^^^^^^^^^^^^^^^^^
+Add Data Provider
+^^^^^^^^^^^^^^^^^^^
 
 Select either the **Plus** icon or **New Data Provider** at the bottom of the page to add a new data provider.
 Enter a name and click **Submit**.
@@ -76,7 +76,8 @@ Manage Data Providers
    * Click the **Person** icon to manage users for a Data Provider
    * Click the **Trashcan** icon to delete a Data Provider
 
-**Datasets**
+Datasets
+^^^^^^^^^
 
 Refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/DataProvider.html#data-provider-admin#>`_
 
@@ -86,7 +87,8 @@ Refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/
    
    *Manage Datasets*
 
-**Rename Data Provider**
+Rename Data Provider
+^^^^^^^^^^^^^^^^^^^^^^
 
 Change the name of a data provider from the Data Providers list by clicking the **Pencil** icon next to the provider's information:
 
@@ -96,7 +98,8 @@ Change the name of a data provider from the Data Providers list by clicking the 
    
    *Edit Data Provider Name*
 
-**Users** 
+Users
+^^^^^^
 
 Refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/DataProvider.html#data-provider-admin#>`_
 
@@ -106,7 +109,8 @@ Refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/
    
    *Edit Data Provider Name*
 
-**Delete Data Provider**
+Delete Data Provider
+^^^^^^^^^^^^^^^^^^^^^
 
 .. warning::
    This cannot be undone.
@@ -123,6 +127,11 @@ System Settings
 ----------------
 
 Select **System Settings** from the System Operator menu:
+Use the **Eye** icon to view and edit and the **Plus** icon to create key database elements
+
+ * Feature Classes
+ * Features Status
+ * Ticket Types
 
 .. figure:: /_static/SOAdmin0_Menu1.png
    :alt: System Operator Admin Menu
@@ -130,20 +139,15 @@ Select **System Settings** from the System Operator menu:
    
    *System Operator Admin Menu*
 
-**System Settings** 
-Use the **Eye** icon to view and edit and the **Plus** icon to create key database elements
-
- * Feature Classes
- * Features Status
- * Ticket Types
-
 .. figure:: /_static/SystemSettings1.png
    :alt: System Settings
    :class: with-border
    
    *System Settings*
 
-**Feature Classes** 
+Feature Classes
+^^^^^^^^^^^^^^^^^
+
 Feature Classes are used to identify a feature category known as a **LAYER** in the Ticket Viewer. 
 When a ticket has features in that layer, it is displayed on the map in a specific color to clearly identify them.
 
@@ -155,7 +159,9 @@ When a ticket has features in that layer, it is displayed on the map in a specif
 
 Use the **Pencil** icon to edit and the **Trashcan** icon to delete.
 
-**Add New Feature Class**
+Add New Feature Class
+^^^^^^^^^^^^^^^^^^^^^^^
+
 Scroll to the bottom and select the **Plus** icon or **Add New Feature Class** to identify a new feature class. 
    
 .. figure:: /_static/SOAdmin5_NewFeatureClass1.png
@@ -164,7 +170,9 @@ Scroll to the bottom and select the **Plus** icon or **Add New Feature Class** t
    
    *Add Feature Class Layers*
 
-**Edit Feature Class**
+Edit Feature Class
+^^^^^^^^^^^^^^^^^^^^
+
 Select the **Pencil** icon to edit an existing Feature Class.
 
 .. figure:: /_static/SOAdmin5_EditFeatureClass1.png
@@ -173,7 +181,9 @@ Select the **Pencil** icon to edit an existing Feature Class.
    
    *Add Feature Class Layers*
 
-**Feature Statuses**
+Feature Statuses
+^^^^^^^^^^^^^^^^^^
+
 Status is used to indicate whether the feature is in use and in what state of development.
 
 .. figure:: /_static/SOAdmin5_FeatureStatuses1.png
@@ -190,7 +200,9 @@ You must create a Feature Status before you configure it. Scroll to the bottom a
    
    *Add Feature Status* - Placeholder
 
-**Ticket Types**
+Ticket Types
+^^^^^^^^^^^^^
+
 The ticket type is used to visually indicate the urgency of a ticket, which is used in planning response time.
 
 .. figure:: /_static/TicketTypes1.png
