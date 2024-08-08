@@ -106,7 +106,7 @@ Datasets
 
 Refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/DataProvider.html#data-provider-admin#>`_
 
-.. figure:: /_static/SOAdmin2_Datasets1.png
+.. figure:: /_static/test.png
    :alt: Manage Datasets
    :class: with-border
 
