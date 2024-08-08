@@ -3,10 +3,6 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. |br| raw:: html
-
-   <br />
-   
 FuzionView Documentation
 =========================
 FuzionView software aggregates all utility location data (GIS) into a single map “on the fly”. This provides engineering design teams, facility operators, locators, excavators and homeowners with an unprecedented view of the underground utilities at the site, providing the opportunity for a safer, more efficient approach to each project. Each map is provided as part of a One Call ticket and is limited to the excavation area plus a 100 foot buffer. The software is simple for facility operators to implement, and available only to authorized users.

@@ -55,7 +55,7 @@ Data Providers
 
 Data Providers displays a list of all the Data Providers or Facility Operators managed by the System Operator. 
 
-**Add Data Provider**|br|
+**Add Data Provider**
 Select either the **Plus** icon or **New Data Provider** at the bottom of the page to add a new data provider.
 Enter a name and click **Submit**.
 
