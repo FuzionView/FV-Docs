@@ -203,7 +203,7 @@ You must create a Feature Status before you configure it. Scroll to the bottom a
 Ticket Types
 ^^^^^^^^^^^^^
 
-The ticket type is used to visually indicate the urgency of a ticket, which is used in planning response time.
+The Ticket Type is used to visually indicate the urgency of a ticket, which is used in planning response time.
 The current options are Normal and Emergency. Emergency tickets display with the ticket number in red.
 
 .. figure:: /_static/SOAdmin8_TicketTypes1.png
@@ -212,8 +212,8 @@ The current options are Normal and Emergency. Emergency tickets display with the
    
    *Ticket Types*
 
-Ticket Types
-^^^^^^^^^^^^^
+Add a Ticket Type
+^^^^^^^^^^^^^^^^^^^
 
 Scroll to the bottom and select **New Ticket Type** to add a new level of urgency.
 
