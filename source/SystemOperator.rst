@@ -6,7 +6,7 @@ Ticket List
 
 Displays a list of all the tickets managed by the System Operator. 
 
-.. figure:: /_static/DPDashboard1.png
+.. figure:: /_static/SODashboard1_TicketList1.png
    :alt: The Ticket List
    :class: with-border
    
@@ -17,7 +17,7 @@ Ticket Map
 
 Displays a map of all the tickets managed by the System Operator.
 
-.. figure:: /_static/DPDashboard2.png
+.. figure:: /_static/SODashboard2_TicketMap1.png
    :alt: The FuzionView System Operator Dashboard
    :class: with-border
    
@@ -34,7 +34,7 @@ Data Provider
 The System Operator Dashboard is the Operational Interface for the System Operator. 
 The Dashboard displays a list of all the Data Providers managed by the System Operator. 
 
-.. figure:: /_static/SODashboard1.png
+.. figure:: /_static/SOAdmin1_DataProvider1.png
    :alt: The FuzionView System Operator Dashboard
    :class: with-border
    
