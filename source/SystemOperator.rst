@@ -1,6 +1,15 @@
 System Operator Dashboard
 ===========================
 
+The System Operator Dashboard allows the system operator to view all their tickets that exist in FuzionView. Tickets can be viewed as a List or a Map.
+
+.. figure:: /_static/SODashboard0_Menu1.png
+   :alt: The Ticket List
+   :class: with-border
+   
+   *FuzionView System Operator Dashboard PLACEHOLDER*
+
+
 Ticket List
 ------------
 
@@ -10,7 +19,7 @@ Displays a list of all the tickets managed by the System Operator.
    :alt: The Ticket List
    :class: with-border
    
-   *FuzionView System Operator Dashboard PLACEHOLDER*
+   *The Ticket List PLACEHOLDER*
 
 Ticket Map
 -----------
@@ -18,53 +27,75 @@ Ticket Map
 Displays a map of all the tickets managed by the System Operator.
 
 .. figure:: /_static/SODashboard2_TicketMap1.png
-   :alt: The FuzionView System Operator Dashboard
+   :alt: The Ticket Map
    :class: with-border
    
-   *FuzionView System Operator Dashboard PLACEHOLDER*
+   *The Ticket Map PLACEHOLDER*
 
 
 System Operator Admin
 ======================
 
-The System Operator Admin is the FuzionView System management interface.
+The System Operator Admin is the FuzionView System management interface. Use the Admin options to manage:
+ * Data Providers
+ * Datasets
+ * Users
+ * System Settings
 
-Data Provider
---------------
-The System Operator Dashboard is the Operational Interface for the System Operator. 
-The Dashboard displays a list of all the Data Providers managed by the System Operator. 
-
-.. figure:: /_static/SOAdmin1_DataProvider1.png
-   :alt: The FuzionView System Operator Dashboard
+.. figure:: /_static/SOAdmin0_Menu1.png
+   :alt: System Operator Admin
    :class: with-border
    
-   *FuzionView System Operator Dashboard*
+   *System Operator Admin*
+
+Data Providers
+--------------
+
+Data Providers displays a list of all the Data Providers or Facility Operators managed by the System Operator. 
+
+**Add Data Provider**
+Select either the **Plus** icon or **New Data Provider** at the bottom of the page to add a new data provider.
+Enter a name and click **Submit**.
+
+.. figure:: /_static/SOAdmin1_NewDataProvider1.png
+   :alt: New Data Provider
+   :class: with-border
+   
+   *New Data Provider*
+
+**Manage Data Providers**
 
 .. hint::
-   Click **Show** to open the Data Provider or click **Edit** to change the name of the Data Provider.
+   * Click the **Eye** icon to manage the Datasets configured for a Data Provider
+   * Click the **Pencil** icon to edit the name of a Data Provider
+   * Click the **Person** icon to manage users for a Data Provider
+   * Click the **Trashcan** icon to delete a Data Provider
 
+**Datasets** 
+Refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/DataProvider.html#data-provider-admin#>`_
 
-.. figure:: /_static/SODashboard2.png
-   :alt: The FuzionView System Operator Dashboard
+.. figure:: /_static/SOAdmin2_Datasets1.png
+   :alt: Manage Datasests
    :class: with-border
    
-   *FuzionView System Operator Dashboard*
+   *Manage Datasets*
 
-Select **New Data Provider** to add a new data provider to FuzionView system.
+**Rename Data Provider**
+Change the name of a data provider here.
 
-.. figure:: /_static/SODashboard3.png
-   :alt: The FuzionView System Operator Dashboard
+.. figure:: /_static/SOAdmin2_DataProviderName1.png
+   :alt: Edit Data Provider Name
    :class: with-border
    
-   *FuzionView System Operator Dashboard*
+   *Edit Data Provider Name*
 
-Enter a name and click **Submit** to add a new data provider to FuzionView system.
+**Users** refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/DataProvider.html#data-provider-admin#>`_
 
-.. figure:: /_static/SOAdmin1_NewDP.png
-   :alt: The FuzionView System Operator Admin
+.. figure:: /_static/DPAdmin2_Users4.png
+   :alt: Edit Data Provider Name
    :class: with-border
    
-   *FuzionView System Operator Admin*
+   *Edit Data Provider Name*
 
 System Settings
 ----------------

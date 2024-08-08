@@ -19,7 +19,7 @@ Ticket Map
 
 Displays a map of all the tickets managed by the Data Provider.
 
-.. figure:: /_static/DPDashboard2_TicketMap2.png
+.. figure:: /_static/DPDashboard2_TicketMap1.png
    :alt: The FuzionView Data Provider Dashboard
    :class: with-border
    
@@ -34,6 +34,25 @@ Datasets
 ----------
 
 Use the Admin interface to view all the datasets that have been configured for your facility.
+
+**Add Dataset**
+After the system operator initiates your Data Provider profile, you can open Datasets from the Data Provider Admin in the menu to configure your datasets.
+
+.. figure:: /_static/DPAdmin1_NoDataset1.png
+   :alt: Add Dataset
+   :class: with-border
+   
+   *Add New Dataset*
+
+To add the first dataset, select **New Dataset** from the menu and enter the information needed to connect to the dataset and click **Submit** to add it.
+
+.. figure:: /_static/DPAdmin1_NewDataset1.png
+   :alt: Add Dataset
+   :class: with-border
+   
+   *Add New Dataset*
+
+**Manage Datasets**
 Select the icon next to the dataset you want to View, Edit, or Delete.
 
 .. figure:: /_static/DPAdmin1_Datasets1.png
