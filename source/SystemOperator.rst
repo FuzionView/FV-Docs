@@ -132,11 +132,11 @@ Select **System Settings** from the System Operator menu to manage:
  * Features Status
  * Ticket Types
 
-.. figure:: /_static/SOAdmin0_Menu1.png
-   :alt: System Operator Admin Menu
+.. figure:: /_static/SOAdmin4_SystemSettings1.png
+   :alt: System Settings
    :class: with-border
    
-   *System Operator Admin Menu*
+   *System Settings*
 
 Use the **Eye** icon to view and edit and the **Plus** icon to create these key elements.
 
@@ -190,7 +190,10 @@ Status is used to indicate whether the feature is in use and in what state of de
    :alt: New Feature Statuses
    :class: with-border
    
-   *Add Feature Statuses*
+   *Feature Statuses*
+
+Add Feature Status
+^^^^^^^^^^^^^^^^^^^^
 
 You must create a Feature Status before you configure it. Scroll to the bottom and select **Add New Feature Status** to identify a new usage status:
 
