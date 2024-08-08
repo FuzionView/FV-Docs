@@ -74,7 +74,8 @@ Enter a name and click **Submit**.
    * Click the **Person** icon to manage users for a Data Provider
    * Click the **Trashcan** icon to delete a Data Provider
 
-**Datasets** 
+**Datasets**
+
 Refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/DataProvider.html#data-provider-admin#>`_
 
 .. figure:: /_static/SOAdmin2_Datasets1.png
@@ -84,7 +85,8 @@ Refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/
    *Manage Datasets*
 
 **Rename Data Provider**
-Change the name of a data provider here.
+
+Change the name of a data provider from the Data Providers list by clicking the **Pencil** icon next to the provider's information:
 
 .. figure:: /_static/SOAdmin2_DataProviderName1.png
    :alt: Edit Data Provider Name
@@ -92,7 +94,9 @@ Change the name of a data provider here.
    
    *Edit Data Provider Name*
 
-**Users** refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/DataProvider.html#data-provider-admin#>`_
+**Users** 
+
+Refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/DataProvider.html#data-provider-admin#>`_
 
 .. figure:: /_static/DPAdmin2_Users4.png
    :alt: Edit Data Provider Name
@@ -107,12 +111,11 @@ Change the name of a data provider here.
 
 *PLACEHOLDER - This feature doesn't work yet*
 
-.. figure:: /_static/DPAdmin2_Users4.png
-   :alt: Edit Data Provider Name
+.. figure:: /_static/SOAdmin7_DeleteDataProvider1.png
+   :alt: Delete Data Provider
    :class: with-border
    
-   *Edit Data Provider Name*
-
+   *Delete Data Provider*
 
 System Settings
 ----------------
