@@ -132,15 +132,9 @@ Select **System Settings** from the System Operator menu to manage:
  * Features Status
  * Ticket Types
 
-.. figure:: /_static/SOAdmin4_SystemSettings1.png
-   :alt: System Settings
-   :class: with-border
-   
-   *System Settings*
-
 Use the **Eye** icon to view and edit and the **Plus** icon to create these key elements.
 
-.. figure:: /_static/SystemSettings1.png
+.. figure:: /_static/SOAdmin4_SystemSettings1.png
    :alt: System Settings
    :class: with-border
    

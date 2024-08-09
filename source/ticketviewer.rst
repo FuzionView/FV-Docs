@@ -83,8 +83,13 @@ From the Ticket Viewer, select the **Layers** icon at the top right to see avail
    
    *Ticket Layers Options*
 
-You can customize your view of a ticket by toggling a layer on or off. All layers are shown by default. Click any layer to hide it. Click again to display it once more.
- * Layers with no features will display grayed out.
+You can customize your view of a ticket by toggling a layer on or off. 
+
+All layers are shown by default. Click any layer to hide it. 
+
+Click again to display it once more. 
+
+Layers with no features will display grayed out.
 
 Basemaps
 ----------

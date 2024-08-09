@@ -95,7 +95,7 @@ You will see the confirmation that the user has been created.
    
    *User Created*
 
-To manage existing users, select the icon next to the user you want to Edit, or Delete.
+To manage existing users, select the icon next to the user you want to Edit or Delete.
 
 .. figure:: /_static/DPAdmin2_Users4.png
    :alt: Create New User
