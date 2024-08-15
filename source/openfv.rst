@@ -18,7 +18,7 @@ This is a quick overview to get you started using FuzionView.
    
    *FuzionView Account Register Page*
 
-Once you have received your userid and password, login to FuzionView.
+Once you have received your user ID and password, login to FuzionView.
 
 .. figure:: /_static/Login2.png
    :alt: The FuzionView login page
@@ -26,7 +26,7 @@ Once you have received your userid and password, login to FuzionView.
    
    *FuzionView Login Page*
 
-Once you have a userid, login to access the most recent version. Once you are logged in, you will see the options you are authorized to access. If you do not see one of the options below, it means you do not have access to that feature. 
+Once you have a user ID, login to access the most recent version. Once you are logged in, you will see the options you are authorized to access. If you do not see one of the options below, it means you do not have access to that feature. 
 
 .. figure:: /_static/Landing1.png
    :alt: The FuzionView registration page

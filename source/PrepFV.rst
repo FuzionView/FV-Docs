@@ -13,7 +13,7 @@ Onboarding process
 -------------------
 
 In general, these are the steps that will occur as you move through the onboarding process:
- * Your organization contacts FuzionView and expresses interest in providing data to FuzionView that will augement the 811 ticket process.
+ * Your organization contacts FuzionView and expresses interest in providing data to FuzionView that will augment the 811 ticket process.
  * A representative from your organization reads the Getting Started with FuzionView document. (You are here!)
  * The decision makers in your organization will attend a demo of FuzionView.
  * Any concerns or questions from your organization have been satisfactorily resolved.
@@ -98,7 +98,7 @@ Connection Information
 After your organization commits to providing data to FuzionView, we will begin collecting the information necessary to connect to your data source. If possible, you should begin collecting this data to help streamline the onboarding process.
 
  * Does your data require secure access? FuzionView will need an API token to connect.
- * FuzionView engine stores everything as EPSG: 6344 by default. https://spatialreference.org/ref/epsg/6344/. If you plan to use another EPSG code, you'll need to provide that so we can reproject the data. 
+ * FuzionView engine stores everything as EPSG: 6344 by default. https://spatialreference.org/ref/epsg/6344/. If you plan to use another EPSG code, you'll need to provide that so we can re-project the data. 
  * Our preferred method of connection is via a WFS web service. We can also support an ESRI Feature web service. You can discuss other options with your FuzionView contact.
  * Are there any restrictions on how the data can be used? Remember to discuss these as soon as possible with your FuzionView contact.
 
