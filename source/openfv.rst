@@ -82,7 +82,7 @@ This view is for Facility Operators and System Operators that manage multiple ti
 * From the Ticket List view, select a **Ticket Number** to open the GeoMoose report view of the ticket.
 * From the Ticket List view, select the **Map** option to open the selected ticket in the FuzionView Ticket Viewer. 
 
-   You will find more detailed documentation on using the Ticket Viewer `here <#https://uumpt.sharedgeo.net/docs/ticketviewer.html#>`_
+   You will find more detailed documentation on using the Ticket Viewer `here <#https://https://uumpt.sharedgeo.net/docs/ticketviewer.html#>`_
 
 Self Service Admin Console Data Provider Management Tool
 ----------------------------------------------------------
