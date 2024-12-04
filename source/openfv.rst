@@ -97,9 +97,7 @@ This menu option is used by Facility Operators to configure new or existing data
 
 * Select from the action icons to View or Edit the Data Provider, Manage their Users, or Delete a Data Provider.
 
-   You can find more detailed documentation on using the Admin tools for Data Providers `here. <https://uumpt.sharedgeo.net/docs/DataProvider.html>`_
-
-   You can find more detailed documentation on using the Admin tools for System Operators `here. <https://uumpt.sharedgeo.net/docs/SystemOperator.html>`_
+   You can find more detailed documentation on using the Admin tools for Data Providers `here. <https://uumpt.sharedgeo.net/docs/DataProvider.html>`_ and tools for System Operators `here. <https://uumpt.sharedgeo.net/docs/SystemOperator.html>`_
 
 Who Am I?
 -----------
