@@ -82,7 +82,7 @@ This view is for Facility Operators and System Operators that manage multiple ti
 * From the Ticket List view, select a **Ticket Number** to open the GeoMoose report view of the ticket.
 * From the Ticket List view, select the **Map** option to open the selected ticket in the FuzionView Ticket Viewer. 
 
-   You will find more detailed documentation on using the Ticket Viewer `here <https://uumpt.sharedgeo.net/docs/ticketviewer.html#>`_
+   You will find more detailed documentation on using the Ticket Viewer `here <https://uumpt.sharedgeo.net/docs/ticketviewer.html>`_
 
 Self Service Admin Console Data Provider Management Tool
 ----------------------------------------------------------
@@ -97,9 +97,9 @@ This menu option is used by Facility Operators to configure new or existing data
 
 * Select from the action icons to View or Edit the Data Provider, Manage their Users, or Delete a Data Provider.
 
-   You can find more detailed documentation on using the Admin tools for Data Providers `here <https://uumpt.sharedgeo.net/docs/DataProvider.html#>`_
+   You can find more detailed documentation on using the Admin tools for Data Providers `here. <https://uumpt.sharedgeo.net/docs/DataProvider.html>`_
 
-   You can find more detailed documentation on using the Admin tools for System Operators `here <https://uumpt.sharedgeo.net/docs/SystemOperator.html#>`_
+   You can find more detailed documentation on using the Admin tools for System Operators `here. <https://uumpt.sharedgeo.net/docs/SystemOperator.html>`_
 
 Who Am I?
 -----------
