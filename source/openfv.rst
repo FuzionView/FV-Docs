@@ -2,7 +2,7 @@ Getting Started
 ================
 
 This is a quick overview to get you started using FuzionView.
-*Please note: FuzionView is currently in Beta testing and the login process may change during development.*
+*Please note: FuzionView is an open source product and your login experience may be different.*
 
 .. figure:: /_static/Login0.png
    :alt: The FuzionView login page
@@ -26,7 +26,7 @@ Once you have received your user ID and password, login to FuzionView.
    
    *FuzionView Login Page*
 
-Once you have a user ID, login to access the most recent version. Once you are logged in, you will see the options you are authorized to access. If you do not see one of the options below, it means you do not have access to that feature. 
+Once you log in, you will see the options you are authorized to access. If you do not see one of the options below, it simply means you don't have access to that feature. 
 
 .. figure:: /_static/Landing1.png
    :alt: The FuzionView registration page
@@ -37,32 +37,19 @@ Once you have a user ID, login to access the most recent version. Once you are l
 GeoMoose
 ----------
 
-Use the **GeoMoose** option to view all tickets on a map. 
-Please note: This option will be replaced with the **Ticket Map** once development is completed. For documentation on GeoMoose, please contact info@sharedgeo.org
+Depending on your access, some users will be able to use **GeoMoose** to view all their tickets on a map. 
+For documentation on GeoMoose, please contact info@sharedgeo.org
 
 .. figure:: /_static/GeoMooseTicketViewer1.png
    :alt: The FuzionView Ticket Map
    :class: with-border
 
-   *See a map of all tickets for your organization*
-   
-Ticket List
-------------
+   *See all tickets for your organization in a map view*
+* GeoMoose lets you show tickets and identify the ticket you want to open. Once you select the ticket, you have two options.
 
-Use the **Ticket List** option to view all your tickets in a list. 
+**Ticket Report**
 
-.. figure:: /_static/TicketList1.png
-   :alt: The FuzionView Ticket List
-   :class: with-border
-
-   *See a list of all your tickets*
-
-* From the Ticket List view, select a **Ticket Number** to open a report view of the ticket.
-
-Ticket Report
----------------
-
-* The **Report View** of the ticket has a composite map of all features and a map of each individual feature within the ticket boundary.
+The GeoMoose **View Report** option displays a composite map of all features, plus individual maps of each feature within the ticket boundary.
 
 .. figure:: /_static/TicketReport1.png
    :alt: The FuzionView Ticket Report
@@ -70,15 +57,29 @@ Ticket Report
 
    *Map report on the identified features*
 
-Ticket Viewer
----------------
+**Ticket Map**
 
-* From the List view, select the **Map** option to open the selected ticket in the Ticket Viewer. 
+The GeoMoose **View Ticket Map** option opens **FuzionView** with the selected ticket displayed. 
 
-.. figure:: /_static/TicketViewer1.png
+.. figure:: /_static/TicketMap1.png
    :alt: The FuzionView Ticket Report
    :class: with-border
 
-   *Map view of the identified features*
+   *FuzionView ticket map*
 
-   Next, find more detailed documentation on using the Ticket Viewer `here <#https://uumpt.sharedgeo.net/docs/ticketviewer.html#>`_
+Ticket List
+------------
+
+From the main menu, use the **Ticket List** option to view all your tickets in a list.
+Please note: this view is for Facility Operators and System Operators that manage multiple tickets.
+
+.. figure:: /_static/TicketList1.png
+   :alt: The FuzionView Ticket List
+   :class: with-border
+
+   *See a list of all your tickets*
+
+* From the Ticket List view, select a **Ticket Number** to open the GeoMoose report view of the ticket.
+* From the Ticket List view, select the **Map** option to open the selected ticket in the FuzionView Ticket Viewer. 
+
+   You will find more detailed documentation on using the Ticket Viewer `here <#https://uumpt.sharedgeo.net/docs/ticketviewer.html#>`_
