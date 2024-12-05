@@ -56,10 +56,10 @@ Change the name of a data provider from the Data Providers list by clicking the 
 Delete Data Provider
 ^^^^^^^^^^^^^^^^^^^^^
 
+To permanently remove a data provide, click the **Trashcan** action icon next to the provider name.
+
 .. warning::
    This cannot be undone.
-
-*PLACEHOLDER - This feature doesn't work yet*
 
 .. figure:: /_static/SOAdmin7_DeleteDataProvider1.png
    :alt: Delete Data Provider
