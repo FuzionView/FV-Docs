@@ -1,5 +1,6 @@
 Using Ticket Viewer
 ========================
+
 The FuzionView **Ticket Viewer** displays the polygon for a ticket area as a solid line, surrounded by a 100 foot buffer, shown as a dotted line. When feature information is contributed from a Facility Operator, that data is displayed inside the buffer area as lines and dots.
 
 .. figure:: /_static/TicketViewer1.png
@@ -107,19 +108,19 @@ Basemaps
 ----------
 
 From the Ticket Viewer, select the **Basemaps** icon at the top right to see available map options. 
-* Select **Aerial** to replace the default OpenStreetMap. 
+Select **Aerial** to replace the default OpenStreetMap. 
 
 .. figure:: /_static/Basemaps1.png
    :alt: Map Options
    :class: with-border
-   
+
    *Choose Map Option*
 
 Navigation
 ------------
 
 Use the **Navigation Options** at the bottom left and right to:
- * **Measure** distance or area *See below for more information on using the Measure Tool.
+ * **Measure** distance or area *See below for more information on using the Measure Tool.*
  * **Fit** adjusts the zoom so the ticket boundaries fit in the current window. 
  * **Zoom** to your current location when GPS location is enabled.
  * **Zoom** in (+) and out (-) on the ticket boundaries.
