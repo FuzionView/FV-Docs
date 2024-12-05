@@ -1,5 +1,5 @@
-System Operator Dashboard
-===========================
+System Operator Dashboard - NOT IMPLEMENTED
+=============================================
 
 The System Operator Dashboard allows the system operator to view all their tickets that exist in FuzionView. Tickets can be viewed as a List or a Map.
 

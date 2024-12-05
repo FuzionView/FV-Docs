@@ -1,7 +1,7 @@
-Data Provider Admin
-====================
+Data Provider Admin - NOT IMPLEMENTED
+=======================================
 
-The Data Provider Admin is the Account management interface. From this menu you can manage all datasets and users. 
+The Data Provider Admin is the Account management interface for Facility Operators and other Data Providers. From this menu you can create and manage all datasets and users. 
 
 Datasets
 ----------

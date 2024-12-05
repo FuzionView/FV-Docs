@@ -13,18 +13,17 @@ Use the Admin options to manage:
    :alt: System Operator Admin
    :class: with-border
    
-   *System Operator Admin*
+   *System Operator Admin Menu*
 
 Data Providers
 --------------
 
-Data Providers displays a list of all the Data Providers or Facility Operators managed by the System Operator. 
+The **Data Providers** menu option displays a list of all the Facility Operators and other Data Providers managed by the System Operator. 
 
 Add Data Provider
 ^^^^^^^^^^^^^^^^^^^
 
-Select either the **Plus** icon or **New Data Provider** at the bottom of the page to add a new data provider.
-Enter a name and click **Submit**.
+You can add as many data providers to the system as needed. At the bottom of the page is the option to add a new data provider. Select either the **Plus** icon or **New Data Provider**. Simply enter a name and click **Submit**. Once a Data Provider has been added, datasets can be added.
 
 .. figure:: /_static/SOAdmin1_NewDataProvider1.png
    :alt: New Data Provider
@@ -36,15 +35,17 @@ Manage Data Providers
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 .. hint::
-   * Click the **Eye** icon to view and manage the Datasets configured for a Data Provider
-   * Click the **Pencil** icon to edit the name of a Data Provider
-   * Click the **Person** icon to manage users for a Data Provider
-   * Click the **Trashcan** icon to delete a Data Provider
+   * Click the **Eye** action icon to view and manage the Datasets configured for a Data Provider
+   * Click the **Pencil** action icon to edit the name of a Data Provider
+   * Click the **Person** action icon to manage users with access to a Data Provider
+   * Click the **Trashcan** action icon to delete a Data Provider
 
+
+   
 Rename Data Provider
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Change the name of a data provider from the Data Providers list by clicking the **Pencil** icon next to the provider's information:
+Change the name of a data provider from the Data Providers list by clicking the **Pencil** action icon next to the provider's information:
 
 .. figure:: /_static/SOAdmin2_DataProviderName1.png
    :alt: Edit Data Provider Name
@@ -67,26 +68,121 @@ Delete Data Provider
    *Delete Data Provider*
 
 Datasets
-^^^^^^^^^
+----------
+.. hint::
+   * Click the **Eye** action icon to view and manage a dataset
+   * Click the **Pencil** action icon to edit the connection for a dataset
+   * Click the **Map** action icon to create a test ticket to validate the dataset connection
+   * Click the **Trashcan** action icon to delete a dataset
 
-Refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/DataProvider.html#data-provider-admin#>`_
+View Datasets
+^^^^^^^^^^^^^^^
 
-.. figure:: /_static/test.png
-   :alt: Manage Datasets
+To view and manage the datasets associated with a Data Provider, click the **Eye** action icon next to the data provider's name. When first created, Data Providers have no datasets.
+
+.. figure:: /_static/DPAdmin1_NoDataset1.png
+   :alt: No Datasets 
    :class: with-border
+   
+   *No Datasets have been added*
 
-   *Manage Datasets*
+Add Dataset
+^^^^^^^^^^^^^
+
+To add the first dataset, select **New Dataset** and enter the information needed to connect to the dataset:
+  * Name
+  * Source dataset (the URL for the source ESRI or WFS)
+  
+Click **Submit** to add the dataset.
+
+.. figure:: /_static/DPAdmin1_NewDataset1.png
+   :alt: Add Dataset
+   :class: with-border
+   
+   *Add New Dataset*
+
+Some datasets will require additional information to establish a connection. Click the option for **Basic dataset entry** and add the information needed to connect to your dataset:
+  * Name
+  * Source dataset (the URL for the source ESRI or WFS)
+  * Source SQL
+  * Source CO
+  * Choose whether to Cache the whole dataset
+  * Source SRS (the EPSG code for the coordinate system in use)
+Click **Submit** to add the dataset.
+
+.. figure:: /_static/DPAdmin1_NewDataset1.png
+   :alt: Add Dataset
+   :class: with-border
+   
+   *Add New Dataset*
+
+Manage Datasets
+^^^^^^^^^^^^^^^^^
+Select the icon next to a dataset to View, Edit, or Delete it.
+
+.. figure:: /_static/DPAdmin1_Datasets1.png
+   :alt: Dataset Management
+   :class: with-border
+   
+   *View, Edit, or Delete Dataset*
+
+.. figure:: /_static/DPAdmin6_Datasets2.png
+   :alt: Dataset Management
+   :class: with-border
+   
+   *View, Edit, or Delete Dataset*
+
+Validate Dataset
+^^^^^^^^^^^^^^^^^^
+Select the **map** action icon next to a dataset to create a test ticket. Use the test ticket to validate that your dataset connection is successful.
+
+.. figure:: /_static/DPAdmin10_TestTicket1.png
+   :alt: Dataset Management
+   :class: with-border
+   
+   *View, Edit, or Delete Dataset*
+
+.. figure:: /_static/DPAdmin10_TestTicket2.png
+   :alt: Dataset Management
+   :class: with-border
+   
+   *View, Edit, or Delete Dataset*
 
 Users
-^^^^^^
+------
 
-Refer to the Data Provider Admin guide `here <#https://uumpt.sharedgeo.net/docs/DataProvider.html#data-provider-admin#>`_
+Use the Admin interface to manage users that can securely access your facility's datasets.
+When created, datasets have no users.
+
+.. figure:: /_static/DPAdmin2_Users1.png
+   :alt: User Management
+   :class: with-border
+   
+   *User Management*
+
+Select **New User** to add a user. Enter the email address of the new user and click **Submit**.
+
+.. figure:: /_static/DPAdmin2_Users2.png
+   :alt: Create User
+   :class: with-border
+   
+   *Create User*
+
+A confirmation message will display when the user has been created.
 
 .. figure:: /_static/DPAdmin2_Users4.png
-   :alt: Manage Users
+   :alt: User Created
    :class: with-border
+   
+   *User Created*
 
-   *Manage Users*
+To manage existing users, select the icon next to the user you want to Edit or Delete.
+
+.. figure:: /_static/DPAdmin2_Users3.png
+   :alt: Edit or delete existing user
+   :class: with-border
+   
+   *Edit or Delete User*
 
 System Settings
 ----------------
@@ -206,3 +302,6 @@ Click the **Pencil** icon to edit an existing Ticket Type:
    :class: with-border
    
    *Edit Ticket Type*
+
+System Profile - NOT IMPLEMENTED
+----------------------------------
