@@ -108,7 +108,7 @@ Some datasets will require additional information to establish a connection. Cli
   * Source CO
   * Choose whether to Cache the whole dataset
   * Source SRS (the EPSG code for the coordinate system in use)
-Click **Submit** to add the dataset.
+  * Click **Submit** to add the dataset.
 
 .. figure:: /_static/DPAdmin1_NewDataset1.png
    :alt: Add Dataset
@@ -135,18 +135,42 @@ Select the icon next to a dataset to View, Edit, or Delete it.
 Validate Dataset
 ^^^^^^^^^^^^^^^^^^
 Select the **map** action icon next to a dataset to create a test ticket. Use the test ticket to validate that your dataset connection is successful.
-
-.. figure:: /_static/DPAdmin10_TestTicket1.png
-   :alt: Dataset Management
+ * Select a Data Provider
+ * Select a Dataset
+ * Click the Map icon
+ * Use the Zoom icons to find a test ticket location
+ * Select the Polygon tool icon and draw the ticket boundary
+ * Click Submit
+ 
+ .. figure:: /_static/DPAdmin10_TestTicket1.png
+   :alt: Dataset Validation
    :class: with-border
    
-   *View, Edit, or Delete Dataset*
+   *Create Test Ticket*
 
+A Pending status message is displayed. It may take up to 5 minutes for the available feature data to populate. 
+ 
 .. figure:: /_static/DPAdmin10_TestTicket2.png
-   :alt: Dataset Management
+   :alt: Dataset Validation
    :class: with-border
    
-   *View, Edit, or Delete Dataset*
+   *Create a Test Ticket*
+
+* Once the ticket has been created, the status will update to successful
+* Click the Test Ticket link to view the feature data and confirm configuration
+
+.. Note::
+   The test ticket is available in the system to any authorized user of the dataset. 
+   The ticket exists for only 24 hours and will be automatically deleted.
+
+.. Warning::
+    If you select a ticket boundary outside the service area, an error message will be displayed.
+
+.. figure:: /_static/DPAdmin10_TestTicket0.png
+   :alt: Test Ticket Warning
+   :class: with-border
+   
+   *Create a Test Ticket*
 
 Users
 ------
