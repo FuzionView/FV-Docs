@@ -2,7 +2,12 @@ Getting Started
 ================
 
 This is a quick overview to get you started using FuzionView.
-*Please note: FuzionView is an open source product and your login experience may be different.*
+
+There are two ways to see a ticket:
+  * Option 1: Via a link sent to you by your System Operator - just click the link and the ticket will be displayed. For tips on using the Ticket Viewer, checkout this `guide <https://uumpt.sharedgeo.net/docs/ticketviewer.html>`_
+  * Option 2: Using a login to get to the FuzionView menu. Continue reading to learn about the options on the FuzionView menu.
+
+*Please note: FuzionView is an open source product and the login experience may change.*
 
 .. figure:: /_static/Login0.png
    :alt: The FuzionView login page
@@ -45,6 +50,7 @@ For documentation on GeoMoose, please contact info@sharedgeo.org
    :class: with-border
 
    *See all tickets for your organization in a map view*
+
 * GeoMoose lets you add the Ticket Layer and use Identify to select the ticket you want to open. Once you select the ticket, you have two options.
 
 **Ticket Report**
@@ -97,7 +103,7 @@ This menu option is used by Facility Operators to configure new or existing data
 
 * Select from the action icons to View or Edit the Data Provider, Manage their Users, or Delete a Data Provider.
 
-   You can find more detailed documentation on using the Admin tools for Data Providers `here. <https://uumpt.sharedgeo.net/docs/DataProvider.html#data-provider-admin>`_ and tools for System Operators `here. <https://uumpt.sharedgeo.net/docs/SystemOperator.html#system-operator-admin>`_
+   You can find more detailed documentation in the  `Admin tools for Data Providers <https://uumpt.sharedgeo.net/docs/DataProvider.html#data-provider-admin>`_ and  `tools for System Operators. <https://uumpt.sharedgeo.net/docs/SystemOperator.html#system-operator-admin>`_
 
 Who Am I?
 -----------
@@ -107,10 +113,10 @@ This menu option is helpful when you need support and displays your Name, Email 
 FuzionView Documentation
 --------------------------
 
-This link opens FuzionView documentation.
+This is a link to all FuzionView documentation.
 
 .. figure:: /_static/Documentation.png
    :alt: The FuzionView Documentation
    :class: with-border
 
-   *FuzionView Documentation
+   *FuzionView Documentation*
