@@ -3,7 +3,7 @@ Getting Started
 
 This is a quick overview to get you started using FuzionView.
 
-There are two ways to see a ticket:
+There are two ways to see an 811 ticket:
   * Option 1: Via a link sent to you by your System Operator - just click the link and the ticket will be displayed. For tips on using the Ticket Viewer, checkout this `guide <https://uumpt.sharedgeo.net/docs/ticketviewer.html>`_
   * Option 2: Using a login to get to the FuzionView menu. Continue reading to learn about the options on the FuzionView menu.
 
