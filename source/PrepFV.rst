@@ -40,7 +40,7 @@ Information Needed
 FuzionView operates with a small set of required and optional data. During onboarding we will ask you to answer questions that help to define business rules that help us configure your data.
 
 The required data elements are:
- * LAYER 
+ * FEATURE_CLASS 
  * PROVIDER_FID 
  * GEOM 
  * STATUS 
@@ -49,47 +49,54 @@ The optional data elements are:
  * SIZE
  * DEPTH
  * ACCURACY_VALUE
- * DESCRIPTION. 
+ * DESCRIPTION 
 
-Definitions and Schema
------------------------
+Definitions and Schema - Required
+-----------------------------------
 
-LAYER: The feature category used to produce the graphical image on the map.
+FEATURE_CLASS: The feature category used to produce the graphical image on the map.
 
-* Survey
-* Electric
-* OilGasSteam
-* CommCableConduit
-* PotableWaterReclaimedWater
-* SewersDrains
-* Reference
+* survey
+* electric
+* oil_gas_steam
+* comm_cable_conduit
+* potable_water
+* reclaimed_water
+* sewers_drains
+* reference
+* proposed_excavation
 
 PROVIDER_FID: The feature ID is the identifying information for each feature used by your organization. 
 
-GEOM: The 3D geometry used to place the feature on the map.
+GEOM: The 3D geometry used to place the feature on the map. Multi-point, multi-line, and multi-polygon are supported. **Note for Minnesota:** expected to be convertible to EPSG:6344+5703, NAD83(2011)/UTM 15N, NAVD88 meters.
 
 STATUS: Indicates how the feature is currently being used.
 
-* 0 unknown 
-* 1 active 
-* 2 abandoned 
-* 3 planned/under construction
-* 4 removed
+* unknown 
+* active
+* abandoned
+* planned
+* under_construction
+* removed
 
-SIZE: Provided as either a point (with an x/y coordinate) or a line to indicate width and length.
+Definitions and Schema - Optional
+-----------------------------------
 
-DEPTH: Provided as either a point (with an x/y coordinate) or a line to indicate distance from the surface.
+SIZE: Provided in meters, as either a point (with an x/y coordinate to indicate diameter) or a line, to indicate width. 
 
-ACCURACY_VALUE: When provided, indicates the precision used to collect the data.
+DEPTH: Provided as either a point (with an x/y coordinate) or a line, to indicate meters below the surface.
 
-* Sub Centimeter
-* Sub Foot
-* Sub Meter
-* Greater Than Meter
-* GeoReferenced/Digitized
-* Hand Drawn
+ACCURACY_VALUE: Indicates the precision used to collect the data, using the ASCE DCBA standard (38-22, 75-22).
 
-DESCRIPTION: Optional text to be displayed to provide additional information.
+* sub_centimeter
+* sub-decimeter
+* sub_foot
+* sub_meter
+* greater_than_meter
+* georeferenced_digitized
+* hand_drawn
+
+DESCRIPTION: Optional text to be displayed to provide additional information to the end user.
 
 *See the Glossary for more detailed descriptions.*
 
@@ -103,14 +110,15 @@ After your organization commits to providing data to FuzionView, we will begin c
  * Are there any restrictions on how the data can be used? Remember to discuss these as soon as possible with your FuzionView contact.
 
 You'll need to provide the following for your connection:
- * Layer Name - how you will identify the data in the FuzionView system.
- * The URL to your Source Data Set
+ * Name - how you will identify the dataset in the FuzionView system.
+ * Source dataset - the URL to your source ESRI or WFS data
  * Source SQL
  * Source CO 
- * Will you want to cache the whole data set? 
+ * Will you want to cache the whole dataset? 
  * Will the connection be enabled immediately?
+ * Source SRS - the EPSG code for the coordinate system
 
-Last but not least, review the disclaimers used in the FuzionView system: 
+Finally, please carefully review the disclaimers used in the FuzionView system: 
 fuzionview.org/disclaimers
 
 If you have questions, reach out to your FuzionView contact or email bbasques@sharedgeo.org.
