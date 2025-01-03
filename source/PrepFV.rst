@@ -42,7 +42,7 @@ FuzionView operates with a small set of required and optional data. During onboa
 Definitions and Schema - Required
 -----------------------------------
 
-FEATURE_CLASS: The feature category used to produce the graphical image on the map.
+**FEATURE_CLASS**: The feature category used to produce the graphical image on the map.
 
 * survey
 * electric
@@ -54,11 +54,11 @@ FEATURE_CLASS: The feature category used to produce the graphical image on the m
 * reference
 * proposed_excavation
 
-PROVIDER_FID: The feature ID is the identifying information for each feature used by your organization. 
+**PROVIDER_FID**: The feature ID is the identifying information for each feature used by your organization. 
 
-GEOM: The 3D geometry used to place the feature on the map. Multi-point, multi-line, and multi-polygon are supported. **Note for Minnesota:** expected to be convertible to EPSG:6344+5703, NAD83(2011)/UTM 15N, NAVD88 meters.
+**GEOM**: The 3D geometry used to place the feature on the map. Multi-point, multi-line, and multi-polygon are supported. **Note for Minnesota:** expected to be convertible to EPSG:6344+5703, NAD83(2011)/UTM 15N, NAVD88 meters.
 
-STATUS: Indicates how the feature is currently being used.
+**STATUS**: Indicates how the feature is currently being used.
 
 * unknown 
 * active
