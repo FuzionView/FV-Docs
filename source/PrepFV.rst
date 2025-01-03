@@ -44,15 +44,15 @@ Definitions and Schema - Required
 
 **FEATURE_CLASS**: The feature category used to produce the graphical image on the map. These are the allowable values from the APWA color codes classifications:
 
-* survey
-* electric
-* oil_gas_steam
-* comm_cable_conduit
-* potable_water
-* reclaimed_water
-* sewers_drains
-* reference
-* proposed_excavation
+* "survey"
+* "electric"
+* "oil_gas_steam"
+* "comm_cable_conduit"
+* "potable_water"
+* "reclaimed_water"
+* "sewers_drains"
+* "reference"
+* "proposed_excavation"
 
 **PROVIDER_FID**: The feature ID is the identifying information for each feature used by your organization. This is provided by the data owner.
 
@@ -62,12 +62,12 @@ Multi-point, multi-line, and multi-polygon are supported.
 
 **STATUS**: Indicates how the feature is currently being used.
 
-* unknown 
-* active
-* abandoned
-* planned
-* under_construction
-* removed
+* "unknown" 
+* "active"
+* "abandoned"
+* "planned"
+* "under_construction"
+* "removed"
 
 Definitions and Schema - Optional
 -----------------------------------
@@ -78,17 +78,15 @@ Definitions and Schema - Optional
 
 **ACCURACY_VALUE**: Indicates the precision used to collect the data, using the ASCE DCBA standard (38-22, 75-22).
 
-* sub_centimeter
-* sub-decimeter
-* sub_foot
-* sub_meter
-* greater_than_meter
-* georeferenced_digitized
-* hand_drawn
+* "sub_centimeter"
+* "sub-decimeter"
+* "sub_foot"
+* "sub_meter"
+* "greater_than_meter"
+* "georeferenced_digitized"
+* "hand_drawn"
 
 **DESCRIPTION**: Optional text to be displayed to provide additional information to the end user.
-
-*See the Glossary for more detailed descriptions.*
 
 Connection Information
 -----------------------
