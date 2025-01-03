@@ -42,7 +42,7 @@ FuzionView operates with a small set of required and optional data. During onboa
 Definitions and Schema - Required
 -----------------------------------
 
-**FEATURE_CLASS**: The feature category used to produce the graphical image on the map.
+**FEATURE_CLASS**: The feature category used to produce the graphical image on the map. These are the allowable values from the APWA color codes classifications:
 
 * survey
 * electric
@@ -54,9 +54,11 @@ Definitions and Schema - Required
 * reference
 * proposed_excavation
 
-**PROVIDER_FID**: The feature ID is the identifying information for each feature used by your organization. 
+**PROVIDER_FID**: The feature ID is the identifying information for each feature used by your organization. This is provided by the data owner.
 
-**GEOM**: The 3D geometry used to place the feature on the map. Multi-point, multi-line, and multi-polygon are supported. **Note for Minnesota:** expected to be convertible to EPSG:6344+5703, NAD83(2011)/UTM 15N, NAVD88 meters.
+**GEOM**: The 3D geometry used to place the feature on the map. 
+Multi-point, multi-line, and multi-polygon are supported. 
+**Note for Minnesota:** expected to be convertible to EPSG:6344+5703, NAD83(2011)/UTM 15N, NAVD88 meters.
 
 **STATUS**: Indicates how the feature is currently being used.
 
@@ -70,11 +72,11 @@ Definitions and Schema - Required
 Definitions and Schema - Optional
 -----------------------------------
 
-SIZE: Provided in meters, as either a point (with an x/y coordinate to indicate diameter) or a line, to indicate width. 
+**SIZE**: Provided in meters, as either a point (with an x/y coordinate to indicate diameter) or a line, to indicate width. 
 
-DEPTH: Provided as either a point (with an x/y coordinate) or a line, to indicate meters below the surface.
+**DEPTH**: Provided as either a point (with an x/y coordinate) or a line, to indicate meters below the surface.
 
-ACCURACY_VALUE: Indicates the precision used to collect the data, using the ASCE DCBA standard (38-22, 75-22).
+**ACCURACY_VALUE**: Indicates the precision used to collect the data, using the ASCE DCBA standard (38-22, 75-22).
 
 * sub_centimeter
 * sub-decimeter
@@ -84,7 +86,7 @@ ACCURACY_VALUE: Indicates the precision used to collect the data, using the ASCE
 * georeferenced_digitized
 * hand_drawn
 
-DESCRIPTION: Optional text to be displayed to provide additional information to the end user.
+**DESCRIPTION**: Optional text to be displayed to provide additional information to the end user.
 
 *See the Glossary for more detailed descriptions.*
 
