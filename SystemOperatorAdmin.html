@@ -1,0 +1,489 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>System Operator Admin &mdash; FuzionView 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+    <link rel="shortcut icon" href="_static/fuzionviewicon.ico"/>
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=2709fde1"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Preparing for FuzionView" href="PrepFV.html" />
+    <link rel="prev" title="Data Provider Admin - NOT IMPLEMENTED" href="DataProviderAdmin.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FuzionView
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Ticket Viewer</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="openfv.html">Getting Started</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ticketviewer.html">Using Ticket Viewer</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dashboards</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="DataProvider.html">Data Provider Dashboard - NOT IMPLEMENTED</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SystemOperator.html">System Operator Dashboard - NOT IMPLEMENTED</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Admin Tools</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="DataProviderAdmin.html">Data Provider Admin - NOT IMPLEMENTED</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">System Operator Admin</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#data-providers">Data Providers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#add-data-provider">Add Data Provider</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#manage-data-providers">Manage Data Providers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rename-data-provider">Rename Data Provider</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#delete-data-provider">Delete Data Provider</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#datasets">Datasets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#view-datasets">View Datasets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-dataset">Add Dataset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#manage-datasets">Manage Datasets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#validate-dataset">Validate Dataset</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#users">Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#system-settings">System Settings</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#feature-classes">Feature Classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-new-feature-class">Add New Feature Class</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edit-feature-class">Edit Feature Class</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#feature-statuses">Feature Statuses</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-feature-status">Add Feature Status</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edit-feature-status">Edit Feature Status</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ticket-types">Ticket Types</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-a-ticket-type">Add a Ticket Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edit-ticket-type">Edit Ticket Type</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#system-profile-not-implemented">System Profile - NOT IMPLEMENTED</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learn More</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="PrepFV.html">Preparing for FuzionView</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="About.html">About FuzionView</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FuzionView</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">System Operator Admin</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="system-operator-admin">
+<h1>System Operator Admin<a class="headerlink" href="#system-operator-admin" title="Link to this heading"></a></h1>
+<p>The System Operator Admin is the FuzionView system management interface.</p>
+<dl class="simple">
+<dt>Use the Admin options to manage:</dt><dd><ul class="simple">
+<li><p>Data Providers</p></li>
+<li><p>Datasets</p></li>
+<li><p>Users</p></li>
+<li><p>System Settings</p></li>
+</ul>
+</dd>
+</dl>
+<figure class="align-default" id="id1">
+<img alt="System Operator Admin" class="with-border" src="_images/SOAdmin0_Menu1.png" />
+<figcaption>
+<p><span class="caption-text"><em>System Operator Admin Menu</em></span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<section id="data-providers">
+<h2>Data Providers<a class="headerlink" href="#data-providers" title="Link to this heading"></a></h2>
+<p>The <strong>Data Providers</strong> menu option displays a list of all the Facility Operators and other Data Providers managed by the System Operator.</p>
+<section id="add-data-provider">
+<h3>Add Data Provider<a class="headerlink" href="#add-data-provider" title="Link to this heading"></a></h3>
+<p>You can add as many data providers to the system as needed. At the bottom of the page is the option to add a new data provider. Select either the <strong>Plus</strong> icon or <strong>New Data Provider</strong>. Simply enter a name and click <strong>Submit</strong>. Once a Data Provider has been added, datasets can be added.</p>
+<figure class="align-default" id="id2">
+<img alt="New Data Provider" class="with-border" src="_images/SOAdmin1_NewDataProvider1.png" />
+<figcaption>
+<p><span class="caption-text"><em>New Data Provider</em></span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="manage-data-providers">
+<h3>Manage Data Providers<a class="headerlink" href="#manage-data-providers" title="Link to this heading"></a></h3>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<ul class="simple">
+<li><p>Click the <strong>Eye</strong> action icon to view and manage the Datasets configured for a Data Provider</p></li>
+<li><p>Click the <strong>Pencil</strong> action icon to edit the name of a Data Provider</p></li>
+<li><p>Click the <strong>Person</strong> action icon to manage users with access to a Data Provider</p></li>
+<li><p>Click the <strong>Trashcan</strong> action icon to delete a Data Provider</p></li>
+</ul>
+</div>
+</section>
+<section id="rename-data-provider">
+<h3>Rename Data Provider<a class="headerlink" href="#rename-data-provider" title="Link to this heading"></a></h3>
+<p>Change the name of a data provider from the Data Providers list by clicking the <strong>Pencil</strong> action icon next to the provider’s information:</p>
+<figure class="align-default" id="id3">
+<img alt="Edit Data Provider Name" class="with-border" src="_images/SOAdmin2_DataProviderName1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Edit Data Provider Name</em></span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="delete-data-provider">
+<h3>Delete Data Provider<a class="headerlink" href="#delete-data-provider" title="Link to this heading"></a></h3>
+<p>To permanently remove a data provide, click the <strong>Trashcan</strong> action icon next to the provider name.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This cannot be undone.</p>
+</div>
+<figure class="align-default" id="id4">
+<img alt="Delete Data Provider" class="with-border" src="_images/SOAdmin7_DeleteDataProvider1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Delete Data Provider</em></span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="datasets">
+<h2>Datasets<a class="headerlink" href="#datasets" title="Link to this heading"></a></h2>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<ul class="simple">
+<li><p>Click the <strong>Eye</strong> action icon to view and manage a dataset</p></li>
+<li><p>Click the <strong>Pencil</strong> action icon to edit the connection for a dataset</p></li>
+<li><p>Click the <strong>Map</strong> action icon to create a test ticket to validate the dataset connection</p></li>
+<li><p>Click the <strong>Trashcan</strong> action icon to delete a dataset</p></li>
+</ul>
+</div>
+<section id="view-datasets">
+<h3>View Datasets<a class="headerlink" href="#view-datasets" title="Link to this heading"></a></h3>
+<p>To view and manage the datasets associated with a Data Provider, click the <strong>Eye</strong> action icon next to the data provider’s name. When first created, Data Providers have no datasets.</p>
+<figure class="align-default" id="id5">
+<img alt="No Datasets" class="with-border" src="_images/DPAdmin1_NoDataset1.png" />
+<figcaption>
+<p><span class="caption-text"><em>No Datasets have been added</em></span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="add-dataset">
+<h3>Add Dataset<a class="headerlink" href="#add-dataset" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt>To add the first dataset, select <strong>New Dataset</strong> and enter the information needed to connect to the dataset:</dt><dd><ul class="simple">
+<li><p>Name</p></li>
+<li><p>Source dataset (the URL for the source ESRI or WFS)</p></li>
+</ul>
+</dd>
+</dl>
+<p>Click <strong>Submit</strong> to add the dataset.</p>
+<figure class="align-default" id="id6">
+<img alt="Add Dataset" class="with-border" src="_images/DPAdmin1_NewDataset1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Add New Dataset</em></span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<dl class="simple">
+<dt>Some datasets will require additional information to establish a connection. Click the option for <strong>Basic dataset entry</strong> and add the information needed to connect to your dataset:</dt><dd><ul class="simple">
+<li><p>Name</p></li>
+<li><p>Source dataset (the URL for the source ESRI or WFS)</p></li>
+<li><p>Source SQL</p></li>
+<li><p>Source CO</p></li>
+<li><p>Choose whether to Cache the whole dataset</p></li>
+<li><p>Source SRS (the EPSG code for the coordinate system in use)</p></li>
+<li><p>Click <strong>Submit</strong> to add the dataset.</p></li>
+</ul>
+</dd>
+</dl>
+<figure class="align-default" id="id7">
+<img alt="Add Dataset" class="with-border" src="_images/DPAdmin1_NewDataset1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Add New Dataset</em></span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="manage-datasets">
+<h3>Manage Datasets<a class="headerlink" href="#manage-datasets" title="Link to this heading"></a></h3>
+<p>Select the icon next to a dataset to View, Edit, or Delete it.</p>
+<figure class="align-default" id="id8">
+<img alt="Dataset Management" class="with-border" src="_images/DPAdmin1_Datasets1.png" />
+<figcaption>
+<p><span class="caption-text"><em>View, Edit, or Delete Dataset</em></span><a class="headerlink" href="#id8" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id9">
+<img alt="Dataset Management" class="with-border" src="_images/DPAdmin6_Datasets2.png" />
+<figcaption>
+<p><span class="caption-text"><em>View, Edit, or Delete Dataset</em></span><a class="headerlink" href="#id9" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="validate-dataset">
+<h3>Validate Dataset<a class="headerlink" href="#validate-dataset" title="Link to this heading"></a></h3>
+<dl>
+<dt>Select the <strong>map</strong> action icon next to a dataset to create a test ticket. Use the test ticket to validate that your dataset connection is successful.</dt><dd><ul class="simple">
+<li><p>Select a Data Provider</p></li>
+<li><p>Select a Dataset</p></li>
+<li><p>Click the Map icon</p></li>
+<li><p>Use the Zoom icons to find a test ticket location</p></li>
+<li><p>Select the Polygon tool icon and draw the ticket boundary</p></li>
+<li><p>Click Submit</p></li>
+</ul>
+<figure class="align-default" id="id10">
+<img alt="Dataset Validation" class="with-border" src="_images/DPAdmin10_TestTicket1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Create Test Ticket</em></span><a class="headerlink" href="#id10" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</dd>
+</dl>
+<p>A Pending status message is displayed. It may take up to 5 minutes for the available feature data to populate.</p>
+<figure class="align-default" id="id11">
+<img alt="Dataset Validation" class="with-border" src="_images/DPAdmin10_TestTicket2.png" />
+<figcaption>
+<p><span class="caption-text"><em>Create a Test Ticket</em></span><a class="headerlink" href="#id11" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Once the ticket has been created, the status will update to successful</p></li>
+<li><p>Click the Test Ticket link to view the feature data and confirm configuration</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The test ticket is available in the system to any authorized user of the dataset.
+The ticket exists for only 24 hours and will be automatically deleted.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you select a ticket boundary outside the service area, an error message will be displayed.</p>
+</div>
+<figure class="align-default" id="id12">
+<img alt="Test Ticket Warning" class="with-border" src="_images/DPAdmin10_TestTicket0.png" />
+<figcaption>
+<p><span class="caption-text"><em>Create a Test Ticket</em></span><a class="headerlink" href="#id12" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="users">
+<h2>Users<a class="headerlink" href="#users" title="Link to this heading"></a></h2>
+<p>Use the Admin interface to manage users that can securely access your facility’s datasets.
+When created, datasets have no users.</p>
+<figure class="align-default" id="id13">
+<img alt="User Management" class="with-border" src="_images/DPAdmin2_Users1.png" />
+<figcaption>
+<p><span class="caption-text"><em>User Management</em></span><a class="headerlink" href="#id13" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Select <strong>New User</strong> to add a user. Enter the email address of the new user and click <strong>Submit</strong>.</p>
+<figure class="align-default" id="id14">
+<img alt="Create User" class="with-border" src="_images/DPAdmin2_Users2.png" />
+<figcaption>
+<p><span class="caption-text"><em>Create User</em></span><a class="headerlink" href="#id14" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>A confirmation message will display when the user has been created.</p>
+<figure class="align-default" id="id15">
+<img alt="User Created" class="with-border" src="_images/DPAdmin2_Users4.png" />
+<figcaption>
+<p><span class="caption-text"><em>User Created</em></span><a class="headerlink" href="#id15" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>To manage existing users, select the icon next to the user you want to Edit or Delete.</p>
+<figure class="align-default" id="id16">
+<img alt="Edit or delete existing user" class="with-border" src="_images/DPAdmin2_Users3.png" />
+<figcaption>
+<p><span class="caption-text"><em>Edit or Delete User</em></span><a class="headerlink" href="#id16" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="system-settings">
+<h2>System Settings<a class="headerlink" href="#system-settings" title="Link to this heading"></a></h2>
+<p>Select <strong>System Settings</strong> from the System Operator menu to manage:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Feature Classes</p></li>
+<li><p>Features Status</p></li>
+<li><p>Ticket Types</p></li>
+</ul>
+</div></blockquote>
+<p>Use the <strong>Eye</strong> icon to view and edit and the <strong>Plus</strong> icon to create these key elements.</p>
+<figure class="align-default" id="id17">
+<img alt="System Settings" class="with-border" src="_images/SOAdmin4_SystemSettings1.png" />
+<figcaption>
+<p><span class="caption-text"><em>System Settings</em></span><a class="headerlink" href="#id17" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<section id="feature-classes">
+<h3>Feature Classes<a class="headerlink" href="#feature-classes" title="Link to this heading"></a></h3>
+<p>Feature Classes are used to identify a feature category - known as a <strong>LAYER</strong> in Ticket Viewer.
+When a ticket has features in that layer, it will be displayed on the map in a specific color to clearly identify it.
+Use the <strong>Pencil</strong> icon to edit and the <strong>Trashcan</strong> icon to delete.</p>
+<figure class="align-default" id="id18">
+<img alt="Feature Classes identify the Layers in FuzionView" class="with-border" src="_images/SOAdmin4_FeatureClasses1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Feature Classes</em></span><a class="headerlink" href="#id18" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="add-new-feature-class">
+<h3>Add New Feature Class<a class="headerlink" href="#add-new-feature-class" title="Link to this heading"></a></h3>
+<p>Scroll to the bottom and select the <strong>Plus</strong> icon or <strong>Add New Feature Class</strong> to identify a new feature class.</p>
+<figure class="align-default" id="id19">
+<img alt="Add New Feature Classes" class="with-border" src="_images/SOAdmin5_NewFeatureClass1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Add Feature Class Layers</em></span><a class="headerlink" href="#id19" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="edit-feature-class">
+<h3>Edit Feature Class<a class="headerlink" href="#edit-feature-class" title="Link to this heading"></a></h3>
+<p>Select the <strong>Pencil</strong> icon to edit an existing Feature Class.</p>
+<figure class="align-default" id="id20">
+<img alt="Add New Feature Classes" class="with-border" src="_images/SOAdmin5_EditFeatureClass1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Add Feature Class Layers</em></span><a class="headerlink" href="#id20" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="feature-statuses">
+<h3>Feature Statuses<a class="headerlink" href="#feature-statuses" title="Link to this heading"></a></h3>
+<p>Status is used to indicate whether the feature is in use and in what state of development.</p>
+<figure class="align-default" id="id21">
+<img alt="New Feature Statuses" class="with-border" src="_images/SOAdmin5_FeatureStatuses1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Feature Statuses</em></span><a class="headerlink" href="#id21" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="add-feature-status">
+<h3>Add Feature Status<a class="headerlink" href="#add-feature-status" title="Link to this heading"></a></h3>
+<p>You must create a Feature Status before you configure it. Scroll to the bottom and select <strong>Add New Feature Status</strong> to identify a new usage status:</p>
+<figure class="align-default" id="id22">
+<img alt="Add New Feature Status" class="with-border" src="_images/SOAdmin6_NewFeatureStatus1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Add Feature Status</em> - Placeholder</span><a class="headerlink" href="#id22" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="edit-feature-status">
+<h3>Edit Feature Status<a class="headerlink" href="#edit-feature-status" title="Link to this heading"></a></h3>
+<p>Click the <strong>Pencil</strong> icon next to a status edit it</p>
+<figure class="align-default" id="id23">
+<img alt="Edit Feature Status" class="with-border" src="_images/SOAdmin6_EditFeatureStatus1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Edit Feature Status</em></span><a class="headerlink" href="#id23" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="ticket-types">
+<h3>Ticket Types<a class="headerlink" href="#ticket-types" title="Link to this heading"></a></h3>
+<p>The Ticket Type is used to visually indicate the urgency of a ticket, which is used in planning response time.
+The current options are Normal and Emergency. Emergency tickets display with the ticket number in red.</p>
+<figure class="align-default" id="id24">
+<img alt="Ticket Types" class="with-border" src="_images/SOAdmin8_TicketTypes1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Ticket Types</em></span><a class="headerlink" href="#id24" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="add-a-ticket-type">
+<h3>Add a Ticket Type<a class="headerlink" href="#add-a-ticket-type" title="Link to this heading"></a></h3>
+<p>Scroll to the bottom and select <strong>New Ticket Type</strong> to add a new level of urgency.</p>
+<figure class="align-default" id="id25">
+<img alt="New Ticket Type" class="with-border" src="_images/SOAdmin8_NewTicketType1.png" />
+<figcaption>
+<p><span class="caption-text"><em>New Ticket Type</em></span><a class="headerlink" href="#id25" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="edit-ticket-type">
+<h3>Edit Ticket Type<a class="headerlink" href="#edit-ticket-type" title="Link to this heading"></a></h3>
+<p>Click the <strong>Pencil</strong> icon to edit an existing Ticket Type:</p>
+<figure class="align-default" id="id26">
+<img alt="Edit Ticket Type" class="with-border" src="_images/SOAdmin8_EditTicketType1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Edit Ticket Type</em></span><a class="headerlink" href="#id26" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="system-profile-not-implemented">
+<h2>System Profile - NOT IMPLEMENTED<a class="headerlink" href="#system-profile-not-implemented" title="Link to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="DataProviderAdmin.html" class="btn btn-neutral float-left" title="Data Provider Admin - NOT IMPLEMENTED" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="PrepFV.html" class="btn btn-neutral float-right" title="Preparing for FuzionView" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, SharedGeo.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
