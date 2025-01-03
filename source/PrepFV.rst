@@ -39,18 +39,6 @@ Information Needed
 
 FuzionView operates with a small set of required and optional data. During onboarding we will ask you to answer questions that help to define business rules that help us configure your data.
 
-The required data elements are:
- * FEATURE_CLASS 
- * PROVIDER_FID 
- * GEOM 
- * STATUS 
-
-The optional data elements are:
- * SIZE
- * DEPTH
- * ACCURACY_VALUE
- * DESCRIPTION 
-
 Definitions and Schema - Required
 -----------------------------------
 
