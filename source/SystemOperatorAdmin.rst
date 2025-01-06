@@ -87,7 +87,7 @@ To view and manage the datasets associated with a Data Provider, click the **Eye
    *No Datasets have been added*
 
 Add Dataset
-^^^^^^^^^^^^^
+^^^^^^^^^^^^^ 
 
 To add the first dataset, select **New Dataset** and enter the information needed to connect to the dataset:
   * Name
@@ -106,9 +106,13 @@ Some datasets will require additional information to establish a connection. Cli
   * Source dataset (the URL for the source ESRI or WFS)
   * Source SQL
   * Source CO
-  * Choose whether to Cache the whole dataset
+  * Choose whether to cache the whole dataset
+  * Choose whether to enable the dataset (on by default)
   * Source SRS (the EPSG code for the coordinate system in use)
   * Click **Submit** to add the dataset.
+
+.. Note::
+   When the dataset is not enabled, the data will only be visible in test tickets used to validate the dataset. 
 
 .. figure:: /_static/DPAdmin1_NewDataset1.png
    :alt: Add Dataset
