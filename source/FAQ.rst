@@ -37,7 +37,7 @@ Category: Connectivity
 **Q:** How do you set up an API key?
 **A:** FuzionView needs an API token to connect to most GIS systems. Arc GIS has a good tutorial that is available here: 
 https://developers.arcgis.com/documentation/mapping-apis-and-services/security/tutorials/create-and-manage-an-api-key/
-You will need an ArcGIS Dev or Arc Online (Creater) account.  There are limitations put on the API creation aspect by ESRI.  
+You will need an ArcGIS Dev or Arc Online (Creator) account.  There are limitations put on the API creation aspect by ESRI.  
 
 Another potential option is to turn on WFS on your server.  Needs research 
 
