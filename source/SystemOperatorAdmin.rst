@@ -136,6 +136,9 @@ Select the icon next to a dataset to View, Edit, or Delete it.
    
    *View, Edit, or Delete Dataset*
 
+.. Warning::
+   When a dataset is modified, the original data will remain in the system until related tickeds expire.
+
 Validate Dataset
 ^^^^^^^^^^^^^^^^^^
 Select the **map** action icon next to a dataset to create a test ticket. Use the test ticket to validate that your dataset connection is successful.
