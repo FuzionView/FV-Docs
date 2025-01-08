@@ -42,25 +42,41 @@ FuzionView operates with a small set of required and optional data. During onboa
 Definitions and Schema - Required
 -----------------------------------
 
-**FEATURE_CLASS**: The feature category used to produce the graphical image on the map. These are the allowable values from the APWA color codes classifications:
+**FEATURE_CLASS**
+The feature category used to produce the graphical image on the map. These are the allowable values from the APWA uniform color codeused to mark underground utilities and excavation sites:  
 
-* "survey"
-* "electric"
-* "oil_gas_steam"
-* "comm_cable_conduit"
-* "potable_water"
-* "reclaimed_water"
-* "sewers_drains"
+* Pink: "survey"
+* Red: "electric"
+* Yellow: "oil_gas_steam"
+* Orange: "comm_cable_conduit"
+* Blue: "potable_water"
+* Purple: "reclaimed_water"
+* Green: "sewers_drains"
 * "reference"
-* "proposed_excavation"
+* White: "proposed_excavation"
 
-**PROVIDER_FID**: The feature ID is the identifying information for each feature used by your organization. This is provided by the data owner.
+ 
+.. figure:: /_static/APWA_color_code.png
+   :alt: Standard APWA Colors
+   :class: with-border
+   
+   *APWA Standard Colors*
 
-**GEOM**: The 3D geometry used to place the feature on the map. 
+.. More Information::
+    The APWA color code is based on the ANSI standard Z53.1 Safety Colors. It's used by public agencies, utilities, contractors, and other groups who participate in ground excavation
+
+**PROVIDER_FID**
+The feature ID is the identifying information for each feature used by your organization. This is provided by the data owner.
+
+**GEOM**
+The 3D geometry used to place the feature on the map. 
 Multi-point, multi-line, and multi-polygon are supported. 
-**Note for Minnesota:** expected to be convertible to EPSG:6344+5703, NAD83(2011)/UTM 15N, NAVD88 meters.
 
-**STATUS**: Indicates how the feature is currently being used.
+.. Note for Minnesota::
+   Geometry values are expected to be convertible to EPSG:6344+5703, NAD83(2011)/UTM 15N, NAVD88 meters.
+
+**STATUS**
+Indicates how the feature is currently being used.
 
 * "unknown" 
 * "active"
