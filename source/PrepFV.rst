@@ -56,13 +56,13 @@ The feature category used to produce the graphical image on the map. These are t
 * White: "proposed_excavation"
 
  
-.. figure:: /_static/APWA_color_code.png
+.. figure:: /_static/APWA_Color_Code.png
    :alt: Standard APWA Colors
    :class: with-border
    
    *APWA Standard Colors*
 
-.. More Information::
+.. Note::
     The APWA color code is based on the ANSI standard Z53.1 Safety Colors. It's used by public agencies, utilities, contractors, and other groups who participate in ground excavation
 
 **PROVIDER_FID**
