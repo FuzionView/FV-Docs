@@ -43,7 +43,7 @@ Definitions and Schema - Required
 -----------------------------------
 
 **FEATURE_CLASS**
-The feature category used to produce the graphical image on the map. These are the allowable values from the APWA uniform color codeused to mark underground utilities and excavation sites:  
+The feature category used to produce the graphical image on the map. These are the allowable values from the APWA uniform color code used to mark underground utilities and excavation sites:  
 
 * Pink: "survey"
 * Red: "electric"
@@ -88,11 +88,14 @@ Indicates how the feature is currently being used.
 Definitions and Schema - Optional
 -----------------------------------
 
-**SIZE**: Provided in meters, as either a point (with an x/y coordinate to indicate diameter) or a line, to indicate width. 
+**SIZE**: 
+Provided in meters, as either a point (with an x/y coordinate to indicate diameter) or a line, to indicate width. 
 
-**DEPTH**: Provided as either a point (with an x/y coordinate) or a line, to indicate meters below the surface.
+**DEPTH**: 
+Provided as either a point (with an x/y coordinate) or a line, to indicate meters below the surface.
 
-**ACCURACY_VALUE**: Indicates the precision used to collect the data, using the ASCE DCBA standard (38-22, 75-22).
+**ACCURACY_VALUE**: 
+Indicates the precision used to collect the data, using the ASCE DCBA standard (38-22, 75-22).
 
 * "sub_centimeter"
 * "sub-decimeter"
@@ -102,7 +105,8 @@ Definitions and Schema - Optional
 * "georeferenced_digitized"
 * "hand_drawn"
 
-**DESCRIPTION**: Optional text to be displayed to provide additional information to the end user.
+**DESCRIPTION**: 
+Optional text to be displayed to provide additional information to the end user.
 
 Connection Information
 -----------------------
