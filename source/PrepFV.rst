@@ -45,6 +45,7 @@ Definitions and Schema - Required
 | **FEATURE_CLASS**
 | The feature category used to produce the graphical image on the map. These are the allowable values from the APWA uniform color code used to mark underground utilities and excavation sites:  
 
+* White: "proposed_excavation"
 * Pink: "survey"
 * Red: "electric"
 * Yellow: "oil_gas_steam"
@@ -53,7 +54,7 @@ Definitions and Schema - Required
 * Purple: "reclaimed_water"
 * Green: "sewers_drains"
 * "reference"
-* White: "proposed_excavation"
+
 
  
 .. figure:: /_static/APWA_Color_Code.png
