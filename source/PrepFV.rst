@@ -42,8 +42,8 @@ FuzionView operates with a small set of required and optional data. During onboa
 Definitions and Schema - Required
 -----------------------------------
 
-**FEATURE_CLASS** <br />
-The feature category used to produce the graphical image on the map. These are the allowable values from the APWA uniform color code used to mark underground utilities and excavation sites:  
+| **FEATURE_CLASS**
+| The feature category used to produce the graphical image on the map. These are the allowable values from the APWA uniform color code used to mark underground utilities and excavation sites:  
 
 * Pink: "survey"
 * Red: "electric"
