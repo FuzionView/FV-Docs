@@ -65,18 +65,18 @@ Definitions and Schema - Required
 .. Note::
     The APWA color code is based on the ANSI standard Z53.1 Safety Colors. It's used by public agencies, utilities, contractors, and other groups who participate in ground excavation
 
-**PROVIDER_FID**
-The feature ID is the identifying information for each feature used by your organization. This is provided by the data owner.
+| **PROVIDER_FID**
+| The feature ID is the identifying information for each feature used by your organization. This is provided by the data owner.
 
-**GEOM**
-The 3D geometry used to place the feature on the map. 
+| **GEOM**
+| The 3D geometry used to place the feature on the map. 
 Multi-point, multi-line, and multi-polygon are supported. 
 
 .. Note for Minnesota::
    Geometry values are expected to be convertible to EPSG:6344+5703, NAD83(2011)/UTM 15N, NAVD88 meters.
 
-**STATUS**
-Indicates how the feature is currently being used.
+| **STATUS**
+| Indicates how the feature is currently being used.
 
 * "unknown" 
 * "active"
@@ -88,14 +88,14 @@ Indicates how the feature is currently being used.
 Definitions and Schema - Optional
 -----------------------------------
 
-**SIZE**: 
-Provided in meters, as either a point (with an x/y coordinate to indicate diameter) or a line, to indicate width. 
+| **SIZE**: 
+| Provided in meters, as either a point (with an x/y coordinate to indicate diameter) or a line, to indicate width. 
 
-**DEPTH**: 
-Provided as either a point (with an x/y coordinate) or a line, to indicate meters below the surface.
+| **DEPTH**: 
+| Provided as either a point (with an x/y coordinate) or a line, to indicate meters below the surface.
 
-**ACCURACY_VALUE**: 
-Indicates the precision used to collect the data, using the ASCE DCBA standard (38-22, 75-22).
+| **ACCURACY_VALUE**: 
+| Indicates the precision used to collect the data, using the ASCE DCBA standard (38-22, 75-22).
 
 * "sub_centimeter"
 * "sub-decimeter"
@@ -105,8 +105,8 @@ Indicates the precision used to collect the data, using the ASCE DCBA standard (
 * "georeferenced_digitized"
 * "hand_drawn"
 
-**DESCRIPTION**: 
-Optional text to be displayed to provide additional information to the end user.
+| **DESCRIPTION**: 
+| Optional text to be displayed to provide additional information to the end user.
 
 Connection Information
 -----------------------
