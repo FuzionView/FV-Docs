@@ -109,6 +109,11 @@ Definitions and Schema - Optional
 | **DESCRIPTION**: 
 | Optional text to be displayed to provide additional information to the end user.
 
+.. csv-table:: FuzionView Schema
+   :file: FuzionView_Schema.csv
+   :widths: 30, 50, 50
+   :header-rows: 1
+
 Connection Information
 -----------------------
 After your organization commits to providing data to FuzionView, we will begin collecting the information necessary to connect to your data source. If possible, you should begin collecting this data to help streamline the onboarding process.
