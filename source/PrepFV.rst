@@ -110,9 +110,9 @@ Definitions and Schema - Optional
 | Optional text to be displayed to provide additional information to the end user.
 
 .. csv-table:: FuzionView Schema
-   :file: /source/FuzionView_Schema.csv
-   :widths: 30, 40, 30
-   :header-rows: 1
+   :file: /source/fuzionview_schema.csv
+   :widths: 16,30,30,24 
+   :header-rows: Attribute, Description, Values, Required or Optional
 
 Connection Information
 -----------------------
