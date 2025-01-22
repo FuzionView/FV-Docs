@@ -111,7 +111,7 @@ Definitions and Schema - Optional
 
 .. csv-table:: FuzionView Schema
    :file: /source/FuzionView_Schema.csv
-   :widths: 30, 50, 50
+   :widths: 30, 40, 30
    :header-rows: 1
 
 Connection Information
