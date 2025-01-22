@@ -110,7 +110,7 @@ Definitions and Schema - Optional
 | Optional text to be displayed to provide additional information to the end user.
 
 .. csv-table:: FuzionView Schema
-   :file: FuzionView_Schema.csv
+   :file: /source/FuzionView_Schema.csv
    :widths: 30, 50, 50
    :header-rows: 1
 
