@@ -114,7 +114,7 @@ Definitions and Schema - Optional
    :widths: 16,30,30,24 
    :header-rows: Attribute, Description, Values, Required or Optional
 
-Change before this Connection Information
+Connection Information
 -------------------------------------------
 After your organization commits to providing data to FuzionView, we will begin collecting the information necessary to connect to your data source. If possible, you should begin collecting this data to help streamline the onboarding process.
 
