@@ -137,7 +137,7 @@ Select the icon next to a dataset to View, Edit, or Delete it.
    *View, Edit, or Delete Dataset*
 
 .. Warning::
-   When a dataset is modified, the original data will remain in the system until related tickeds expire.
+   When a dataset is modified, the original data will remain in the system until related tickets expire.
 
 Validate Dataset
 ^^^^^^^^^^^^^^^^^^

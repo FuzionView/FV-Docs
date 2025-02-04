@@ -6,7 +6,7 @@ Revolutionizing Underground Utility Safety
 A unique public-private effort to advance geospatial technology which will:
 * Save lives
 * Improve business efficiency
-* *Dramatically reduce construction costs
+* Dramatically reduce construction costs
 * Address well-known community deficiencies
 * Pave the way for advanced technologies which will save even more lives.
 
