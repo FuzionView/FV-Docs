@@ -32,5 +32,5 @@ Available Documentation
    * **Components**: A visual explanation of a FuzionView system. 
    * **Frequently Asked Questions**: A collection of common questions from our partners.
    * **Facility Operator Admin Guide**: Walks through the FuzionView admin tools used to create and validate datasets prior to making your data available to FuzionView.
-   * **System Operator Admin Guide**: Covers additional features available to a system operator.
+   * **System Operator Admin Guide**: Covers additional features available to a system operator...
 
