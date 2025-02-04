@@ -1,5 +1,5 @@
-FuzionView
-===========
+FuzionView Open Source Documentation
+=====================================
 
 Revolutionizing Underground Utility Safety
 
@@ -12,16 +12,16 @@ A unique public-private effort to advance geospatial technology which will:
 
 
 Overview
-========
+---------
 FuzionView software aggregates all utility location data (GIS) into a single map “on the fly”.  This provides engineering design teams, facility operators, locators, excavators and homeowners with an unprecedented view of the site's underground utilities, providing the opportunity for a safer, more efficient approach to each project.  Each map is provided as part of a one call ticket and is limited to the excavation area.  The software is simple for facility operators to implement, and the utility is secure from unauthorized use.
 
 Audience
-=========
+---------
 
 This documentation is intended to assist in installing and configuring FuzionView by the IT staff at a System Operator, or a Facility Owner or other data provider, as well as developers who are interested in building functionality using the FuzionView Core Engine.
 
 Available Documentation
-========================
+------------------------
 
    * **Guide for Developers**: Tips for getting started with the FuzionView Core Engine open source project.
    * **Technical Specifications**: More detailed information about the FuzionView data schema, APIs, and functionality.
