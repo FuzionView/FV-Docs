@@ -179,6 +179,54 @@ A Pending status message is displayed. It may take up to 5 minutes for the avail
    
    *Create a Test Ticket*
 
+Service Area
+-------------
+Data providers can define their service area, which allows FuzionView to optimize service requests. 
+
+Create Service Area
+^^^^^^^^^^^^^^^^^^^^
+
+Navigate to Datasets, select the option to **Define a Service Area**.
+
+.. figure:: /_static/DPAdmin11_ServiceArea1.png
+   :alt: Dataset Management
+   :class: with-border
+   
+   *Dataset Management*
+
+Draw the Service Area
+^^^^^^^^^^^^^^^^^^^^
+
+Use the **+** icon on the left to zoom into the correct location. Select the **Polygon** icon on the left and draw a simple shape around the desired area. Use the points in the middle of each line to adjust the shape until it correctly defines your service area. 
+
+.. figure:: /_static/DPAdmin11_ServiceArea3.png
+   :alt: Service Area Management
+   :class: with-border
+   
+   *Service Area Management*
+
+Submit Service Area
+^^^^^^^^^^^^^^^^^^^^
+
+When the service area is defined as accurately as possible, click the **Submit** button to save. A message will display indicating that the service area has been set.
+
+.. figure:: /_static/DPAdmin11_ServiceArea4.png
+   :alt: Submit Service Area
+   :class: with-border
+   
+   *Submit Service Area*
+
+Delete Service Area
+^^^^^^^^^^^^^^^^^^^^
+
+If the service area changes, simply delete the existing service area and create a new one. A confirmation will be displayed. Click **OK** to remove the service area.
+
+.. figure:: /_static/DPAdmin11_ServiceArea5.png
+   :alt: Delete Service Area
+   :class: with-border
+   
+   *Delete Service Area*
+
 Users
 ------
 
