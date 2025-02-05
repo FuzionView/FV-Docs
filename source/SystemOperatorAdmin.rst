@@ -195,7 +195,7 @@ Navigate to Datasets, select the option to **Define a Service Area**.
    *Dataset Management*
 
 Draw the Service Area
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 
 Use the **+** icon on the left to zoom into the correct location. Select the **Polygon** icon on the left and draw a simple shape around the desired area. Use the points in the middle of each line to adjust the shape until it correctly defines your service area. 
 
