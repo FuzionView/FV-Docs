@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'FuzionView'
-copyright = '2024, SharedGeo'
+copyright = '2025, SharedGeo'
 author = 'SharedGeo'
 release = '0.1'
 
