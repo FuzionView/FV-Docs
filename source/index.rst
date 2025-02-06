@@ -11,24 +11,28 @@ Use these guides to explore the available functionality.
 If you have feedback, please email info@sharedgeo.org
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 99
    :caption: Ticket Viewer
    
    openfv
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 99
 
    ticketviewer
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Admin Guide   
+   :maxdepth: 99
+   :caption: Admin Guide
+
    SystemOperatorAdmin
 
 .. toctree::
    :maxdepth: 99
    :caption: Learn More
+
+.. toctree::
+   :maxdepth: 99
 
    OpenSourceDoc
    PrepFV
