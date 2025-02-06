@@ -23,16 +23,7 @@ If you have feedback, please email info@sharedgeo.org
 
 .. toctree::
    :maxdepth: 2
-   :caption: Dashboards
-   
-   DataProvider
-   SystemOperator
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Admin Tools
-   
-   DataProviderAdmin
+   :caption: Admin Guide   
    SystemOperatorAdmin
 
 .. toctree::

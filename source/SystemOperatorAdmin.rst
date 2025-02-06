@@ -239,6 +239,9 @@ When created, datasets have no users.
    
    *User Management*
 
+Create User
+^^^^^^^^^^^^
+
 Select **New User** to add a user. Enter the email address of the new user and click **Submit**.
 
 .. figure:: /_static/DPAdmin2_Users2.png
@@ -255,6 +258,9 @@ A confirmation message will display when the user has been created.
    
    *User Created*
 
+Manage Users
+^^^^^^^^^^^^^
+
 To manage existing users, select the icon next to the user you want to Edit or Delete.
 
 .. figure:: /_static/DPAdmin2_Users3.png
@@ -264,6 +270,7 @@ To manage existing users, select the icon next to the user you want to Edit or D
    *Edit or Delete User*
 
 System Settings
+
 ----------------
 
 Select **System Settings** from the System Operator menu to manage:
