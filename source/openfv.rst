@@ -1,5 +1,8 @@
+User Documentation
+==================
+
 Getting Started
-================
+----------------
 
 This is a quick overview to get you started using FuzionView.
 
@@ -14,6 +17,9 @@ There are two ways to see an 811 ticket:
    :class: with-border
    
    *Only authorized users can access FuzionView*
+
+Registration
+^^^^^^^^^^^^^
 
    To request a FuzionView account, click **Register** and fill out the form.
 
@@ -39,42 +45,8 @@ Once you log in, you will see the options you are authorized to access. If you d
    
    *FuzionView Landing Page*
 
-GeoMoose
-----------
-
-Depending on your access, some users will be able to use **GeoMoose** to view all their tickets on a map. 
-For documentation on GeoMoose, please contact info@sharedgeo.org
-
-.. figure:: /_static/GeoMooseTicketViewer1.png
-   :alt: The FuzionView Ticket Map
-   :class: with-border
-
-   *See all tickets for your organization in a map view*
-
-* GeoMoose lets you add the Ticket Layer and use Identify to select the ticket you want to open. Once you select the ticket, you have two options.
-
-**Ticket Report**
-
-The GeoMoose **View Report** option displays a composite map of all features, plus individual maps of each feature within the ticket boundary.
-
-.. figure:: /_static/TicketReport1.png
-   :alt: The FuzionView Ticket Report
-   :class: with-border
-
-   *Map report on the identified features*
-
-**Ticket Map**
-
-The GeoMoose **View Ticket Map** option opens **FuzionView** with the selected ticket displayed. 
-
-.. figure:: /_static/TicketMap1.png
-   :alt: The FuzionView Ticket Report
-   :class: with-border
-
-   *FuzionView ticket map*
-
 Ticket List
-------------
+^^^^^^^^^^^^
 
 From the main menu, use the **Ticket List** option to view all your tickets in a list.
 This view is for Facility Operators and System Operators that manage multiple tickets.
@@ -90,8 +62,8 @@ This view is for Facility Operators and System Operators that manage multiple ti
 
    You will find more detailed documentation on using the Ticket Viewer `here <https://uumpt.sharedgeo.net/docs/ticketviewer.html>`_
 
-Self Service Admin Console Data Provider Management Tool
-----------------------------------------------------------
+Data Provider Documentation
+=============================
 
 This menu option is used by Facility Operators to configure new or existing datasets and by the System Operator to view and manage data from all Facility Operators and other Data Providers.
 
@@ -104,19 +76,3 @@ This menu option is used by Facility Operators to configure new or existing data
 * Select from the action icons to View or Edit the Data Provider, Manage their Users, or Delete a Data Provider.
 
    You can find more detailed documentation in the  `Admin tools for Data Providers <https://uumpt.sharedgeo.net/docs/DataProvider.html#data-provider-admin>`_ and  `tools for System Operators. <https://uumpt.sharedgeo.net/docs/SystemOperator.html#system-operator-admin>`_
-
-Who Am I?
------------
-
-This menu option is helpful when you need support and displays your Name, Email used for registration, and the roles assigned to you. This is also where you'll find the option to Logout.
-
-FuzionView Documentation
---------------------------
-
-This is a link to all FuzionView documentation.
-
-.. figure:: /_static/Documentation.png
-   :alt: The FuzionView Documentation
-   :class: with-border
-
-   *FuzionView Documentation*

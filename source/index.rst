@@ -12,16 +12,22 @@ If you have feedback, please email info@sharedgeo.org
 
 .. toctree::
    :maxdepth: 99
+   :caption: User Documentation
 
    openfv
    ticketviewer
+   
+.. toctree::
+   :maxdepth: 99
+   :caption: Technical Documentation
+   
    SystemOperatorAdmin
+   OpenSourceDoc
 
 .. toctree::
    :maxdepth: 99
    :caption: Learn More
-   
-   OpenSourceDoc
+
    PrepFV
    FAQ
    About
