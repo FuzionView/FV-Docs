@@ -22,6 +22,7 @@ If you have feedback, please email info@sharedgeo.org
    :caption: Data Provider Documentation
    
    DataProviderAdmin
+   DataProvider
    ConnectToFV
    Components
    TechnicalSpecs
@@ -32,8 +33,9 @@ If you have feedback, please email info@sharedgeo.org
    :caption: System Admin Documentation
 
    SystemOperatorAdmin
+   SystemOperator
    Components
-   TechnicalSpecs
+   TechSpecs
    SecuritySpecs
 
 .. toctree::

@@ -1,6 +1,9 @@
-System Operator Dashboard - NOT IMPLEMENTED
-=============================================
+System Operator Dashboard
+==========================
 
+.. Note::
+   This document will be updated once the features are complete. The current content is just a placeholder.
+   
 The System Operator Dashboard allows the system operator to view all their tickets that exist in FuzionView. Tickets can be viewed as a List or a Map.
 
 .. figure:: /_static/SODashboard0_Menu1.png
