@@ -1,5 +1,5 @@
-Using Ticket Viewer
-========================
+Ticket Viewer
+==============
 
 The FuzionView **Ticket Viewer** displays the polygon for a ticket area as a solid line, surrounded by a 100 foot buffer, shown as a dotted line. When feature information is contributed from a Facility Operator, that data is displayed inside the buffer area as lines and dots.
 
