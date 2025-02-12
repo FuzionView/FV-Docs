@@ -21,6 +21,7 @@ If you have feedback, please email info@sharedgeo.org
    :maxdepth: 99
    :caption: Technical Documentation
    
+   DataProviderAdmin
    SystemOperatorAdmin
    OpenSourceDoc
 
