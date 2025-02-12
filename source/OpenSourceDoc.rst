@@ -29,15 +29,15 @@ This documentation has four audiences:
 
 End User Documentation
 -----------------------
-   * `**Getting Started** <https://fuzionview.github.io/FV-Docs/openfv.html>`_ : Describes the basic features of the application.
-   * `**Using Ticket Viewer** <https://fuzionview.github.io/FV-Docs/ticketviewer.html>`_ : User Guide with detailed descriptions and screenshots on how to use Ticket Viewer.
+   * `Getting Started <https://fuzionview.github.io/FV-Docs/openfv.html>`_: Describes the basic features of the application.
+   * `Using Ticket Viewer <https://fuzionview.github.io/FV-Docs/ticketviewer.html>`_: User Guide with detailed descriptions and screenshots on how to use Ticket Viewer.
 
 Data Provider Documentation
 ----------------------------
 
-  * **Facility Operator Admin Guide**: Walks through the FuzionView admin tools used to create and validate datasets prior to making your data available to FuzionView.
-  * **Connecting to FuzionView**: Outlines the preferred method of connecting your data to FuzionView and discusses other methods that may be used for specific situations.
-  * **Components**: A visual explanation of a FuzionView system. 
+  * `Data Provider Admin <https://fuzionview.github.io/FV-Docs/DataProviderAdmin.html>`_ The guide Walks through the FuzionView admin tools used by facility operators to create and validate their datasets prior to making the data available to FuzionView.
+  * `Connecting to FuzionView <https://fuzionview.github.io/FV-Docs/ConnectToFV.html>`_ Outlines the preferred method of connecting your data to FuzionView and discusses other methods that may be approved in specific situations.
+  * **Components**: A visual explanation of the FuzionView system. 
   * **Technical Specifications**: More detailed information about the FuzionView data schema, APIs, and functionality.
   * **Security Specifications**: Provides an understanding of FuzionView's three pronged approach to data security.
   * **Frequently Asked Questions**: A collection of common questions from data providers.

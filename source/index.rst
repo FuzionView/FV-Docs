@@ -25,7 +25,7 @@ If you have feedback, please email info@sharedgeo.org
    DataProvider
    ConnectToFV
    Components
-   TechnicalSpecs
+   TechSpecs
    SecuritySpecs
    
 .. toctree::
