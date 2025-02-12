@@ -26,6 +26,10 @@ Registration
    
    *FuzionView Account Register Page*
 
+
+Logging In
+===========
+
 Once you have received your user ID and password, login to FuzionView.
 
 .. figure:: /_static/Login2.png
