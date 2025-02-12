@@ -19,10 +19,27 @@ If you have feedback, please email info@sharedgeo.org
    
 .. toctree::
    :maxdepth: 99
-   :caption: Technical Documentation
+   :caption: Data Provider Documentation
    
    DataProviderAdmin
+   ConnectToFV
+   Components
+   TechnicalSpecs
+   SecuritySpecs
+   
+.. toctree::
+   :maxdepth: 99
+   :caption: System Admin Documentation
+
    SystemOperatorAdmin
+   Components
+   TechnicalSpecs
+   SecuritySpecs
+
+.. toctree::
+   :maxdepth: 99
+   :caption: Open Source Documentation
+
    OpenSourceDoc
 
 .. toctree::
