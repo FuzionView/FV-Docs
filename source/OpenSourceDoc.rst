@@ -29,9 +29,8 @@ This documentation has four audiences:
 
 End User Documentation
 -----------------------
-
-   * **Getting Started User Guide**: Describes the basic features of the application.
-   * **User Manual**: Detailed descriptions and screenshots on how to use Ticket Viewer.
+   * `**Getting Started** <https://fuzionview.github.io/FV-Docs/openfv.html>`_ : Describes the basic features of the application.
+   * `**Using Ticket Viewer** <https://fuzionview.github.io/FV-Docs/ticketviewer.html>`_ : User Guide with detailed descriptions and screenshots on how to use Ticket Viewer.
 
 Data Provider Documentation
 ----------------------------
