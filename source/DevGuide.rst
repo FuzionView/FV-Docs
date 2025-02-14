@@ -1,7 +1,7 @@
 Guide for Developers
 =====================
 
-..Note::
+.. Note::
     This is from the readme file in the Git repository FV-Demo. Do we want to modify it at all for the in app documentation?
 
 FV-Demo
@@ -34,13 +34,13 @@ Be aware that this repository uses git submodules to pull in the various parts o
 Cloning
 --------
 
-..code::
+.. code::
     git clone --recurse-submodules git@github.com:FuzionView/FV-Demo 
 
 Pulling (Updating)
 -------------------
 
-..code::
+.. code::
     git pull --recurse-submodules
 
 Pushing
@@ -48,26 +48,26 @@ Pushing
 
 If pushing changes to the FV-Demo repo, it is recommended to use: 
 
-..Code::
+.. Code::
     git push --recurse-submodules=check 
 
 This will avoid pushing an update to FV-Demo that requires commits that are not yet pushed to the submodules. 
 
 Make this option the default for this repo: 
 
-..Code::
+.. Code::
     git config push.recurseSubmodules check
 
 Make this the default option for all repos:
 
-..Cocde::
+.. Cocde::
     git config --global push.recurseSubmodules check
 
 Also, note that because submodules checkout a specific commit hash, the submodules will initially be in a detached head state. Before making changes to a submodule, it is likely a good idea to switch to the main branch. 
 
 Example:
 
-..code::
+.. code::
     cd src/FV-Engine
     git checkout main
     ... work ...
@@ -84,7 +84,7 @@ To update FV-Demo to use the new version of the submodule git add it and commit,
 
 Example:
 
-..code::
+.. code::
     cd ../.. # back to FV-Demo
     git add src/FV-Engine
     git commit -m 'Updating FV-Engine to include new changes from ...'
@@ -98,19 +98,19 @@ Building/Running with Docker
 Build
 ^^^^^^
 
-..code::
+.. code::
     DOCKER_BUILDKIT=1 docker-compose build
 
 Start
 ^^^^^^
 
-..code:: 
+.. code:: 
     docker-compose up -d && docker-compose logs -f
 
 Stop
 ^^^^^^
 
-..code::
+.. code::
     docker-compose down -t0
 
 Podman
@@ -121,19 +121,19 @@ Building/Running with Podman
 Build
 ^^^^^^
 
-..code::
+.. code::
     podman-compose build
 
 Start
 ^^^^^^
 
-..code::
+.. code::
     podman-compose up -d && podman-compose logs -f
 
 Stop
 ^^^^^^
 
-..code::
+.. code::
     podman-compose down -t0
 
 Accessing the FV-Demo
@@ -148,7 +148,7 @@ PostgreSQL
 
 The PostgreSQL database inside the container is made available on port 54321. And can be accessed, for example, with:
 
-..code::
+.. code::
     psql 'host=localhost port=54321 dbname=fv user=fv_admin password=password'
 
 Shell Access
@@ -156,6 +156,6 @@ Shell Access
 
 Shell access to the various containers is available via the standard Docker/Podman tools. For example:
 
-..code::
+.. code::
     docker-compose exec fv-apache-server bash
     podman-compose exec fv-apache-server bash
