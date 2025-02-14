@@ -29,4 +29,12 @@ Admin features include:
 About this graphic:
 The 811 ticket originates from the Minnesota Gopher State One Call service, managed by OCC. XML data is pushed to FuzionView core engine which initiates a request for data from established data connections. This information is collected and compiled into a features map that can be viewed and manipulated in the FuzionView Ticket Viewer. System Operators can add new data providers, data providers can add new datasets and authorize access to their data.
 
+The FuzionView engine has the following components:
 
+  * fv-db-maint: Database maintenance. Purges out of date tickets and fetches features into the feature cache.
+  * fv-ticket-loader: Creates new tickets randomly within the FV-Demo sample data area.
+  * fv-api-server: API server for https://localhost:4443/api/....
+  * fv-apache-server: Hosts the static web content, the Rails admin tool (https://localhost:4443/admin/...), and MapServer. Also responsible for SSL and most authorization.
+  * postgres: The PostgreSQL/PostGIS database that ties everything together.
+  
+FuzionView is tested to work with Docker and Podman, and on x86-64 and aarch64 (arm64).
