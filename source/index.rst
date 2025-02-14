@@ -49,7 +49,7 @@ If you have feedback, please email info@sharedgeo.org
 
    OpenSourceDoc
    DevGuide
-   Implementation
+   ImplementationGuide
    Components
    TechSpecs
    SecuritySpecs
