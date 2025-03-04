@@ -12,7 +12,7 @@ FuzionView uses data and services from a wide variety of sources to create an au
 
 FuzionView components include:
   * Core Engine
-  * Shared Features database schema
+  * Shared Features database schema using PostgreSQL
   * User identity management database
   * Data transfer APIs
 
@@ -37,3 +37,19 @@ Available Support:
   * Deployment and Configuration Tools
   * Hosting Services
   * FuzionView Onboarding
+
+
+  Front End
+  React Typescript
+  Leaflet is the main mapping technology used
+  OpenStreet map is hosted by SharedGeo - managed service (ask Jim/Bob re: update schedule)
+  Front end calls sharedgeo apis: tickets api, report json - homemade webmap services - Bob and Jim set up mapserver - check geospatial data into - creates an api against the geospacial features. Basemap tiles come through mapserver, ex: ticket geometry - give it a feature ID - 
+  Front end doesn't call externally 
+  
+  ES Lint - linting tool
+  Vite - run locally and point to external api's
+  check code into github 
+  setup docker for local instance of database for validating
+
+  Bundle up html, javascript and typescript and hands it off to jim's engine
+  
