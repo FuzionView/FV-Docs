@@ -1,6 +1,6 @@
 About FuzionView
 ==================
-A unique public-private effort to advance geospatial technology which will:
+A unique public-private effort to advance geospatial mapping technology which will:
  * Save Lives
  * Improve Business Efficiency
  * Reduce Construction Costs
