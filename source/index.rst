@@ -68,9 +68,9 @@ If you have feedback, please email info@sharedgeo.org
 .. toctree::
    :maxdepth: 99
    :caption: Learn More
-
-    About
-    ContactUs
+   
+   About
+   ContactUs
    
 .. Indices and tables
 .. ==================
