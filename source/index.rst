@@ -70,7 +70,6 @@ If you have feedback, please email info@sharedgeo.org
    :caption: Learn More
    
    About
-   ContactUs
    
 .. Indices and tables
 .. ==================
