@@ -2,4 +2,4 @@ FuzionViewEnv/
 build/
 **/.DS_Store
 source/FV-Docs.code-workspace
-.gitignore
+Venv/
