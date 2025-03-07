@@ -1,8 +1,5 @@
-Guide for Developers
+Guide to FV-Demo
 =====================
-
-FV-Demo
---------
 
 This repository contains the files needed to build a Docker image to run the FuzionView demonstration / development build. The configuration here is simplified for ease of getting started in a trusted environment and is not meant for production use. In particular, be aware that default, insecure passwords are used and that the PostgreSQL database is ephemeral as it lives inside the container.
 

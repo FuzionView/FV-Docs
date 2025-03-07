@@ -5,7 +5,7 @@ Category: Data Creation
 -------------------------
 
 
-**Q:** Are all the Facility Operator fields mandatory?
+**Q:** Are all the Facility Operator fields in the schema mandatory?
 **A:** No. The first four fields are Required; the others are Optional. If the data is available and provided, it will be displayed. Follow this link to learn more about required and optional fields.
 
 
@@ -17,13 +17,13 @@ Category: Data Creation
 
 
 **Q:** Should we combine abandon_mainline & mainline or can we leave them separate?
-A: They can be combined or separated.  All features will be grouped by FuzionView engine based on their APWA FEATURE_CLASS color coded infrastructure type.
+**A:** They can be combined or separated.  All features will be grouped by FuzionView engine based on their APWA FEATURE_CLASS color coded infrastructure type.
 Ideally they would be combined into one feature category, as long as the STATUS was correctly identified as abandoned or active. 
 
 
 
 **Q:** Does the Provider ID need unique numbering? 
-**A:** It only needs to be unique by dataset.
+**A:** It only needs to be unique within each dataset.
 
 **Q:** Should the fields have a text/number classification & is there a standard length?
 **A:** Data elements can be alphanumeric, and there is currently no length limitation.  The emphasis should be on providing the data elements in as human readable a format as possible.

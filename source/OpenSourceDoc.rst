@@ -69,7 +69,8 @@ FV-Demo
 
 FV-Engine is used for the more public components of FuzionView. FV-Admin is kept in a separate respository so that access can be more restricted. Check out the System Operator documentation for more information. 
 
-**FV-Demo** has been created to pull all the modules together and allow you to run FuzionView for development or demonstration with a very minimal configuration.
-
 ..Note::
     FV-Demo uses a self-signed certificate for demonstration and testing purposes. 
+    
+**FV-Demo** has been created to pull all the modules together and allow you to run FuzionView for development or demonstration with a very minimal configuration. Check out the FV-Demo documentation for more details.
+
