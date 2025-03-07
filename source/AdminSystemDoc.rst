@@ -40,7 +40,8 @@ Configuration
 
 Rename env_example to .env and fill in the required environment variables:
 
-.. Code-block::
+.. Code-block:: RST 
+
     SECRET_KEY_BASE=
 
     PG_DB=
@@ -81,12 +82,12 @@ Development
 Clone the repository.
 Install dependencies
 
-.. code-block:: 
+.. code-block:: RST
     bundle install
 
 **Start the server**
 
-.. code-block:: 
+.. code-block:: RST
     bin/rails server
 
 Testing
@@ -94,12 +95,13 @@ Testing
 
 Running tests
 
-.. code-block::
+.. code-block:: RST
     RAILS_ENV=test bundle exec rails db:drop db:create db:schema:load
     bin/rails test
 
 Migration
 ----------
 
-.. code-block::
+.. code-block:: RST
     bin/rails db:migrate
+    
