@@ -55,7 +55,6 @@ If you have feedback, please email info@sharedgeo.org
    OpenSourceDoc
    DevGuide
    AdminSystemDoc
-   ImplementationGuide
    
 .. toctree::
    :maxdepth: 99
