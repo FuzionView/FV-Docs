@@ -59,6 +59,7 @@ If you have feedback, please email info@sharedgeo.org
 
    OpenSourceDoc
    DevGuide
+   AdminSystemDoc
    ImplementationGuide
    Components
    TechSpecs
