@@ -39,7 +39,6 @@ If you have feedback, please email info@sharedgeo.org
    Components
    TechSpecs
    SecuritySpecs
-   FAQ
    
 .. toctree::
    :maxdepth: 99
@@ -48,11 +47,7 @@ If you have feedback, please email info@sharedgeo.org
    ImplementationGuide
    SystemOperatorAdmin
    SystemOperator
-   Components
-   TechSpecs
-   SecuritySpecs
-   FAQ
-
+   
 .. toctree::
    :maxdepth: 99
    :caption: Developer Documentation
@@ -61,11 +56,7 @@ If you have feedback, please email info@sharedgeo.org
    DevGuide
    AdminSystemDoc
    ImplementationGuide
-   Components
-   TechSpecs
-   SecuritySpecs
-   FAQ
-
+   
 .. toctree::
    :maxdepth: 99
    :caption: Learn More
