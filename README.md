@@ -12,6 +12,6 @@ The FuzionView documentation has four audiences:
 
 **Developer Documentation** is for those who wish to use the FuzionView Core Engine to build their own product.
 
-Open the HTML version of the documentation here: /build/html/_static/index.html
+Open the HTML version of the documentation 'here `CNN <https://fuzionview.github.io/FV-Docs/index.html>`_ .
 Use these guides to explore the available functionality and learn more about FuzionView.
 If you have feedback, please email info@sharedgeo.org
