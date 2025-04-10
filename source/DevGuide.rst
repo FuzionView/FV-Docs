@@ -29,57 +29,64 @@ Cloning
 --------
 
 .. code-block::
-    git clone --recurse-submodules git@github.com:FuzionView/FV-Demo 
+
+    git clone --recurse-submodules git@github.com:FuzionView/FV-Demo
 
 Pulling (Updating)
 -------------------
 
 .. code-block::
-    git pull --recurse-submodules
+
+   git pull --recurse-submodules
 
 Pushing
 --------
 
-If pushing changes to the FV-Demo repo, it is recommended to use: 
+If pushing changes to the FV-Demo repo, it is recommended to use:
 
 .. code-block::
-    git push --recurse-submodules=check 
 
-This will avoid pushing an update to FV-Demo that requires commits that are not yet pushed to the submodules. 
+   git push --recurse-submodules=check
 
-Make this option the default for this repo: 
+This will avoid pushing an update to FV-Demo that requires commits that are not yet pushed to the submodules.
+
+Make this option the default for this repo:
 
 .. code-block::
-    git config push.recurseSubmodules check
+
+   git config push.recurseSubmodules check
 
 Make this the default option for all repos:
 
 .. code-block::
-    git config --global push.recurseSubmodules check
 
-Also, note that because submodules checkout a specific commit hash, the submodules will initially be in a detached head state. Before making changes to a submodule, it is likely a good idea to switch to the main branch. 
+   git config --global push.recurseSubmodules check
+
+Also, note that because submodules checkout a specific commit hash, the submodules will initially be in a detached head state. Before making changes to a submodule, it is likely a good idea to switch to the main branch.
 
 Example:
 
 .. code-block::
-    cd src/FV-Engine
+
+   cd src/FV-Engine
     git checkout main
     ... work ...
     git add ...
     git commit
     git push
 
-Then work within that submodule normally, potentially rebuilding and testing the Docker image, and committing and pushing the work to the submodule. 
+Then work within that submodule normally, potentially rebuilding and testing the Docker image, and committing and pushing the work to the submodule.
 
 Update FV-Demo
 ---------------
 
-To update FV-Demo to use the new version of the submodule git add it and commit, and push. 
+To update FV-Demo to use the new version of the submodule git add it and commit, and push.
 
 Example:
 
 .. code-block::
-    cd ../.. # back to FV-Demo
+
+   cd ../.. # back to FV-Demo
     git add src/FV-Engine
     git commit -m 'Updating FV-Engine to include new changes from ...'
     git push
@@ -93,19 +100,22 @@ Build
 ^^^^^^
 
 .. code-block::
-    DOCKER_BUILDKIT=1 docker-compose build
+
+   DOCKER_BUILDKIT=1 docker-compose build
 
 Start
 ^^^^^^
 
-.. code-block:: 
-    docker-compose up -d && docker-compose logs -f
+.. code-block::
+
+   docker-compose up -d && docker-compose logs -f
 
 Stop
 ^^^^^^
 
 .. code-block::
-    docker-compose down -t0
+
+   docker-compose down -t0
 
 Podman
 -------
@@ -116,25 +126,28 @@ Build
 ^^^^^^
 
 .. code-block::
-    podman-compose build
+
+   podman-compose build
 
 Start
 ^^^^^^
 
 .. code-block::
-    podman-compose up -d && podman-compose logs -f
+
+   podman-compose up -d && podman-compose logs -f
 
 Stop
 ^^^^^^
 
 .. code-block::
-    podman-compose down -t0
+
+   podman-compose down -t0
 
 Accessing the FV-Demo
 ======================
 
-  * Once the containers are running, the FuzionView web interface will be available on https://localhost:4443. 
-  * The default username is **demo** and default password is **fv**. 
+  * Once the containers are running, the FuzionView web interface will be available on https://localhost:4443.
+  * The default username is **demo** and default password is **fv**.
   * Right now, the FV-Admin interface depends on the SharedGeo Keycloak server and requires a Keycloak account.
 
 PostgreSQL
@@ -143,7 +156,8 @@ PostgreSQL
 The PostgreSQL database inside the container is made available on port 54321. And can be accessed, for example, with:
 
 .. code-block::
-    psql 'host=localhost port=54321 dbname=fv user=fv_admin password=password'
+
+   psql 'host=localhost port=54321 dbname=fv user=fv_admin password=password'
 
 Shell Access
 -------------
@@ -151,5 +165,6 @@ Shell Access
 Shell access to the various containers is available via the standard Docker/Podman tools. For example:
 
 .. code-block::
-    docker-compose exec fv-apache-server bash
-    podman-compose exec fv-apache-server bash
+
+   docker-compose exec fv-apache-server bash
+   podman-compose exec fv-apache-server bash
