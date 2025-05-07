@@ -22,6 +22,7 @@ Click on a **dot or line** to display the available feature information.
   * The name of the Data Provider that manages the data
   * Your ticket number 
   * Information on the source of the data:
+  
      * Feature Class - the type of utility
      * Dataset - the name of the shared data source
      * Data Owner - who owns and manages the data
