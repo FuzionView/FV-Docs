@@ -20,7 +20,7 @@ Identify Utility Infrastructure
 Click on a **dot or line** to display the available feature information. 
 
   * The name of the Data Provider - who manages the data
-  * Your Ticket Number. 
+  * Your ticket number 
   * Information on the source of the data:
      * Feature Class - the type of utility
      * Dataset - the name of the shared data source
