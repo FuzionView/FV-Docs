@@ -75,7 +75,7 @@ From ticket Information, you can select from several **Download Options**:
 
 Go back to the original GSOC ticket by clicking **View Ticket**. For help using GSOC, check out their `documentation <https://www.gopherstateonecall.org/resources/downloads#iticVideos>`_ 
 
-.. figure:: /_static/T-GSOC2.png
+.. figure:: /_static/T-GSOC1.png
    :alt: Gopher State One Call
    :class: with-border
    
@@ -145,4 +145,3 @@ Double click to stop measuring. To clear a measurement, click the red X to close
    :class: with-border
    
    *Ticket Viewer Measurements*
-T
