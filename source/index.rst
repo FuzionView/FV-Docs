@@ -1,28 +1,25 @@
 .. FuzionView documentation master file, created by
    sphinx-quickstart on Sat Jan 20 11:09:55 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 FuzionView Documentation
 =========================
-FuzionView software aggregates all utility location data (GIS) into a single map “on the fly”. This provides engineering design teams, facility operators, locators, excavators and homeowners with an unprecedented view of the underground utilities at the site, providing the opportunity for a safer, more efficient approach to each project. Each map is provided as part of an 811 ticket and is limited to the excavation area, plus a 100 foot buffer. The software is easy for facility operators to implement, and data is only available to authorized users.
+FuzionView software aggregates all utility location data (GIS) into a single map “on the fly”. Engineering design teams, facility operators, locators, excavators and homeowners have an unprecedented view of the underground utilities at the site, providing the opportunity for a safer, more efficient approach to each project. FuzionView maps supplement the 811 ticket and are limited to the excavation area, plus a 100 foot buffer. Facility operators can quickly share their datasets and have control to disable access at any time. Map and feature data is only available to authorized users.
 
-This documentation has four audiences:
+Select the documentation that is right for you:
 
-**End User Documentation** is for homeowners, locators, excavators, and design Engineers who are ticket owners that want to use the FuzionView Ticket Viewer.
+**End User** Homeowners, locators, excavators, and design Engineers to view their tickets in the FuzionView Ticket Viewer.
 
-**Data Provider Documentation** is for facility owners and other data providers who need to configure datasets and users to manage their data.
+**Data Provider** Facility owners and other data providers to connect, authorize, and manage shared datasets.
 
-**System Operator Documentation** is for the GIS or IT staff at an 811 system operator who need to install and configure the FuzionView system.
+**System Operator** 811 system operator IT/GIS staff to implement and administer a FuzionView server.
 
-**Developer Documentation** is for those who wish to use the FuzionView Core Engine to build their own product.
+**Developer** Developers to leverage the FuzionView Core Engine open source product.
 
-Use these guides to explore the available functionality. 
-If you have feedback, please email info@sharedgeo.org
+Please email info@sharedgeo.org with any feedback.
 
 .. toctree::
    :maxdepth: 99
-   :caption: User Documentation
+   :caption: End Users
 
    openfv
    ticketviewer
@@ -30,7 +27,7 @@ If you have feedback, please email info@sharedgeo.org
    
 .. toctree::
    :maxdepth: 99
-   :caption: Data Provider Documentation
+   :caption: Data Providers
    
    PrepFV
    DataProviderAdmin
@@ -42,7 +39,7 @@ If you have feedback, please email info@sharedgeo.org
    
 .. toctree::
    :maxdepth: 99
-   :caption: System Operator Documentation
+   :caption: System Operators
 
    ImplementationGuide
    SystemOperatorAdmin
@@ -50,7 +47,7 @@ If you have feedback, please email info@sharedgeo.org
    
 .. toctree::
    :maxdepth: 99
-   :caption: Developer Documentation
+   :caption: Developers
 
    OpenSourceDoc
    DevGuide
