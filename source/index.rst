@@ -36,6 +36,7 @@ Please email info@sharedgeo.org with any feedback.
    Components
    TechSpecs
    SecuritySpecs
+   Glossary
    
 .. toctree::
    :maxdepth: 99

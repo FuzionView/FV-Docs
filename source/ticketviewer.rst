@@ -40,7 +40,7 @@ Click on a **dot or line** to display the available feature information.
    
    *Identifying Features*
 
-The `Glossary :ref:`prepfv:definitions-and-schema-required` has more detailed explanations about ticket details.
+The `Glossary <https://uumpt.sharedgeo.net/docs/glossary.rst>`_ has more information about the FuzionView schema.
 
 Stacked Features
 ------------------

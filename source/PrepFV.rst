@@ -39,77 +39,26 @@ Information Needed
 
 FuzionView operates with a small set of required and optional data. During onboarding we will ask you to answer questions that help to define business rules that help us configure your data.
 
-Definitions and Schema - Required
------------------------------------
+Required Schema
+----------------
 
-| **FEATURE_CLASS**
-| The feature category used to produce the graphical image on the map. These are the allowable values from the APWA uniform color code used to mark underground utilities and excavation sites:  
+* FEATURE_CLASS
+* PROVIDER_FID
+* GEOM
+* STATUS
 
-* White: "proposed_excavation"
-* Pink: "survey"
-* Red: "electric"
-* Yellow: "oil_gas_steam"
-* Orange: "comm_cable_conduit"
-* Blue: "potable_water"
-* Purple: "reclaimed_water"
-* Green: "sewers_drains"
-* "reference"
+Optional - Schema
+------------------
 
+* SIZE
+* DEPTH 
+* ACCURACY_VALUE
+* DESCRIPTION
 
- 
-.. figure:: /_static/APWA_Color_Code.png
-   :alt: Standard APWA Colors
-   :class: with-border
-   
-   *APWA Standard Colors*
-
-.. Note::
-    The APWA color code is based on the ANSI standard Z53.1 Safety Colors. It's used by public agencies, utilities, contractors, and other groups who participate in ground excavation
-
-| **PROVIDER_FID**
-| The feature ID is the identifying information for each feature used by your organization. This is provided by the data owner.
-
-| **GEOM**
-| The 3D geometry used to place the feature on the map. Multi-point, multi-line, and multi-polygon are supported. 
-
-.. Note for Minnesota::
-   Geometry values are expected to be convertible to EPSG:6344+5703, NAD83(2011)/UTM 15N, NAVD88 meters.
-
-| **STATUS**
-| Indicates how the feature is currently being used.
-
-* "unknown" 
-* "active"
-* "abandoned"
-* "planned"
-* "under_construction"
-* "removed"
-
-Definitions and Schema - Optional
------------------------------------
-
-| **SIZE**: 
-| Provided in meters, as either a point (with an x/y coordinate to indicate diameter) or a line, to indicate width. 
-
-| **DEPTH**: 
-| Provided as either a point (with an x/y coordinate) or a line, to indicate meters below the surface.
-
-| **ACCURACY_VALUE**: 
-| Indicates the precision used to collect the data, using the ASCE DCBA standard (38-22, 75-22).
-
-* "sub_centimeter"
-* "sub-decimeter"
-* "sub_foot"
-* "sub_meter"
-* "greater_than_meter"
-* "georeferenced_digitized"
-* "hand_drawn"
-
-| **DESCRIPTION**: 
-| Optional text to be displayed to provide additional information to the end user.
+The `Glossary <https://uumpt.sharedgeo.net/docs/glossary.rst>`_ has more information about the FuzionView schema.
 
 Connection Information
--------------------------------------------
+-----------------------
 After your organization commits to providing data to FuzionView, we will begin collecting the information necessary to connect to your data source. If possible, you should begin collecting this data to help streamline the onboarding process.
 
  * Does your data require secure access? FuzionView will need an API token to connect.
