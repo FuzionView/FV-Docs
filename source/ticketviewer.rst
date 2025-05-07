@@ -22,7 +22,7 @@ Click on a **dot or line** to display the available feature information.
   * The name of the Data Provider that manages the data
   * Your ticket number 
   * Information on the source of the data:
-  
+
      * Feature Class - the type of utility
      * Dataset - the name of the shared data source
      * Data Owner - who owns and manages the data
@@ -40,7 +40,7 @@ Click on a **dot or line** to display the available feature information.
    
    *Identifying Features*
 
-The `Glossary <https://uumpt.sharedgeo.net/docs/PrepFV.html#definitions-and-schema-required#>`_ explains ticket details.
+The `Glossary :ref:`prepfv:definitions-and-schema-required` has more detailed explanations about ticket details.
 
 Stacked Features
 ------------------
