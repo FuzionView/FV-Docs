@@ -1,81 +1,81 @@
 Ticket Viewer
 ==============
 
-The FuzionView **Ticket Viewer** displays the polygon for a ticket area as a solid line, surrounded by a 100 foot buffer, shown as a dotted line. When feature information is contributed from a Facility Operator, that data is displayed inside the buffer area as lines and dots.
+The FuzionView **Ticket Viewer** displays a map with the polygon for your ticket area as a solid line. The ticket boundary is surrounded by a 100 foot buffer, shown as a dotted line. When feature information is contributed from a Facility Operator, that data is displayed inside the ticket and buffer area as lines and dots.
 
-.. figure:: /_static/TicketViewer1.png
+.. figure:: /_static/T-TicketViewer1.png
    :alt: The FuzionView Ticket Viewer
    :class: with-border
    
    *FuzionView Ticket Viewer*
 
 .. hint::
-   Zoom in to see features at a greater scale. Zoom out to see buildings and infrastructure that surround the ticket area.
+   Zoom in (+) to see features at a greater scale. Zoom out (-) to see buildings and infrastructure that surround the ticket area.
 
-Identify Facility Infrastructure
----------------------------------
-Hover over a **dot or line** to see highlighted borders around a feature. Click on the feature you want to identify to display the available information. The header shows the Data Provider and Ticket Number, and the feature information provided to FuzionView by the Data Provider:
-  * Feature Class
-  * Dataset
-  * Data Owner
-  * Status from 811 system
-  * Ticket Number
-  * Updated At date and time
+Identify Utility Infrastructure
+--------------------------------
+
+Click on a **dot or line** to display the available feature information. At the top of the popup is the name of the Data Provider - who manages the data - and your Ticket Number. Below that is information on the source of the data. FuzionView displays the most up to date details available for:
+  * Feature Class - the type of utility
+  * Dataset - the name of the shared data source
+  * Data Owner - who owns and manages the data
+  * Status from the 811 system - such as active, under construction, or abandoned
+  * Ticket Number - ticket identifier from GSOC
+  * Updated At - date and time the feature was last updated
   * Description (if provided)
   * Size (if provided)
   
 
-If a feature exists nearby or on top of another feature, those feature IDs will be listed at the bottom as **Nearby Features**. 
+More than one utility may be located at any position, stacked one above the other. When that happens, you can see the details by click a link in **Nearby Features**.
 See **Stacked Features** below for more information.
 
-.. figure:: /_static/Identify1.png
+.. figure:: /_static/T-Identify1.png
    :alt: Information about the selected object
    :class: with-border
    
    *Identifying Features*
 
-For definitions for each item of information, check out the `Glossary <https://uumpt.sharedgeo.net/docs/PrepFV.html#definitions-and-schema#>`_
+The `Glossary <https://uumpt.sharedgeo.net/docs/PrepFV.html#definitions-and-schema#>`_ explains ticket details.
 
 Stacked Features
 ------------------
 
-Underground utilities are often found above or below other utilities. When you select a feature, if there are other utilities hidden by the selected feature, those feature IDs are listed at the bottom. Simply click through all the **Nearby Features** links to see a complete picture of all the features within the buffer area.
+Underground utilities are often found above or below other utilities. When you select a feature, other utilities may be hidden by the selected feature. All known utilities at or near the selected point or line are are listed at the bottom. Simply click through all the **Nearby Features** links to see a complete picture of all the known features within the buffer area.
 
 Ticket Info
 ------------
 
-Click the **Information** icon at the top right to see additional ticket info.
+Click the **I** icon at the top right to see additional ticket information.
 
-.. figure:: /_static/TicketInfo1.png
+.. figure:: /_static/T-TicketInfo1.png
    :alt: Ticket Information
    :class: with-border
    
    *Ticket Information*
 
-The **Ticket Info** view has the following tools and information:
-   * Ticket Information - Ticket Number and Type.
-   * Data Set Providers - the owners who provided the information and the number of features they manage.
-   * Options for Downloading the ticket map information. *See the section below on Downloads*
-   * Links to the GSOC Ticket and Help. *See the section below on the GSOC Ticket*
+The ticket **information** view displays:
+   * Ticket Information - Ticket Number and Type, such as normal, emergency, and more.
+   * Dataset Providers - Source of the information and the number of features they provided for this ticket.
+   * Download - options data to a file.
+   * Links to your GSOC Ticket and FuzionView documentation.
 
 **Downloads**
 
-From the Ticket Info window you can select from several **Download Options**:
- * The default **File Type** is GeoJSON. Click the arrow to select a Shapefile or GeoPackage.
- * Select one of the other options to open a Points, Polygons, or Lines file in a new window.
+From ticket Information, you can select from several **Download Options**:
+ * The default **File Type** is GeoJSON. Click the arrow to select a Shapefile or GeoPackage instead.
+ * Then select Points, Polygons, or Lines to open the data in a new tab. Notice the option at the top left to change the format of the data to **Pretty-print**. You can save this file as a .json file.
 
-.. figure:: /_static/Downloads1.png
+.. figure:: /_static/T-Downloads1.png
    :alt: Download Options
    :class: with-border
    
    *FuzionView Download Options*
 
-**The GSOC Ticket**
+**The GSOC 811 Ticket**
 
-You can open the original GSOC ticket from Ticket Info by clicking **View GSOC Ticket**. 
-This is the original ticket in your 811 ticketing system. For more information about GSOC, check out the documentation `here <https://www.gopherstateonecall.org/resources/downloads#iticVideos>`_ 
+Go back to the original GSOC ticket by clicking **View Ticket**. For help using GSOC, check out their `documentation <https://www.gopherstateonecall.org/resources/downloads#iticVideos>`_ 
 
-.. figure:: /_static/GSOC2.png
+.. figure:: /_static/T-GSOC2.png
    :alt: Gopher State One Call
    :class: with-border
    
@@ -83,34 +83,32 @@ This is the original ticket in your 811 ticketing system. For more information a
 
 **Help**
 
-This link opens the FuzionView documentation.
+A link to all FuzionView documentation.
 
-Ticket Layers
---------------
 
-From the Ticket Viewer, select the **Layers** icon at the top right to see available features in each layer. 
+Feature Layers
+---------------
 
-.. figure:: /_static/Layers1.png
+Select the **Layers** icon under the information icon to manage the features displayed in your map. 
+
+.. figure:: /_static/T-Layers1.png
    :alt: Ticket Layers
    :class: with-border
    
-   *Ticket Layers Options*
+   *Display Layers Option*
 
-You can change your view of a ticket by toggling a layer on or off. 
+Available layers are shown by default with a count of how many of that type. You can remove features by clicking on the layer. Click again to toggle it back on. 
 
-All layers are shown by default. Click any layer to hide it. 
-
-Click again to display it once more. 
-
-Layers with no features will display grayed out.
+.. hint::
+   Layers with no features will display grayed out with the note **no data**.
 
 Basemaps
 ----------
 
-From the Ticket Viewer, select the **Basemaps** icon at the top right to see available map options. 
-Select **Aerial** to replace the default OpenStreetMap. 
+From the Ticket Viewer, select the **map** icon below the layers icon to change your map. 
+The default option is **OpenStreetMap**. Select **Aerial** to see a satellite image instead. 
 
-.. figure:: /_static/Basemaps1.png
+.. figure:: /_static/T-Basemaps1.png
    :alt: Map Options
    :class: with-border
 
@@ -119,42 +117,32 @@ Select **Aerial** to replace the default OpenStreetMap.
 Navigation
 ------------
 
-Use the **Navigation Options** at the bottom left and right to:
- * **Measure** distance or area *See below for more information on using the Measure Tool.*
- * **Fit** adjusts the zoom so the ticket boundaries fit in the current window. 
- * **Zoom** to your current location when GPS location is enabled.
- * **Zoom** in (+) and out (-) on the ticket boundaries.
- * The **Scale** displays the size of the ticket boundary in meters and feet.
+Use the tools on the bottom left to:
+ * **Measure** distance or area 
+ * **Fit** adjusts the zoom so the ticket boundaries fit in the current window 
+ * **Zoom** to your current location when you have GPS enabled
+ * **Zoom** in (+) and out (-) on the map
 
-.. figure:: /_static/Navigation1.png
-   :alt: Ticket Viewer Navigation Options
+.. figure:: /_static/T-NavigationIcons-manual.png
+   :alt: Ticket Viewer Map Tools
    :class: with-border
    
    *Ticket Viewer Navigation Options*
 
+
 Measure Tool
 --------------
 
-To measure **Distance**, click the Measuring Tool icon and select the Distance option.
+To measure **Distance**, click the Measurement icon and select the Distance option. Your cursor becomes a cross. Click anywhere on the map to create the starting point for your measurement. Click again at the end of the line you want to measure. You can continue to create distance segments by clicking in a new location. 
 
-.. figure:: /_static/MeasureTool1.png
-   :alt: The Measuring Tool
+
+To measure **Area** click the Measurement icon and select the Area option. Your cursor will once again be changed to a cross. Click at the starting point for your polygon, then click again at one boundary of the area to be measured. Click again to create a three sided area. Click again to create a four sided area, and so on. You can use multiple, small sides to create more circular areas.
+
+Double click to stop measuring. To clear a measurement, click the red X to close the popup. 
+
+.. figure:: /_static/T-Measurement1-manual.png
+   :alt: Distance and Area measurements
    :class: with-border
    
-   *Ticket Viewer Measurement Tools*
-
-Your cursor will become a cross. Click anywhere to create the starting point for the measurement. Click again on the end of the space where you want to measure the distance. You can continue to create distance measurements from the original starting point or double click on the last end point to stop measuring. To clear the measurements and start over, use the refresh button. 
-
-.. figure:: /_static/MeasureTool2.png
-   :alt: The Measuring Tool
-   :class: with-border
-   
-   *Distance Measurement Example*
-
-To measure **Area** click the Measuring Tool and select the Area option. Your cursor will once again be changed to a cross. Click at the starting point, then click again at one boundary of the area to be measured. Click again to create a three sided area. Click again to create a four sided area. You can use multiple, small sides to create more circular areas. 
-
-.. figure:: /_static/MeasureTool3.png
-   :alt: The Measuring Tool
-   :class: with-border
-   
-   *Area Measurement Example*
+   *Ticket Viewer Measurements*
+T
