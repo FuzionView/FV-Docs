@@ -1,48 +1,25 @@
-Getting Started
-================
+Quick Start
+============
 
-This is a quick overview to get you started using FuzionView.
+When you submit an 811 ticket to request a locate, you receive an email once the request is completed. When you open your 811 ticket, look for the option to **Access FV ticket viewer**. 
 
-There are two ways to see an 811 ticket:
-  * Option 1: Via a link sent to you by your System Operator - just click the link and the ticket will be displayed. For tips on using the Ticket Viewer, checkout this `guide <https://uumpt.sharedgeo.net/docs/ticketviewer.html>`_
-  * Option 2: Using a login to get to the FuzionView menu. Continue reading to learn about the options on the FuzionView menu.
-
-*Please note: FuzionView is an open source product and the login experience may change.*
-
-.. figure:: /_static/Login0.png
-   :alt: The FuzionView login page
+.. figure:: /_static/O-LinkWithFuzionView.png
+   :alt: Link from the GSOC/811 ticket to the FuzionView ticket viewer
    :class: with-border
-   
-   *Only authorized users can access FuzionView*
+ 
+That's it!
 
-Registration
-^^^^^^^^^^^^^
+Ticket Viewer displays all the utilities available from participating utility owners:
+  * Communications, Cable, Conduit lines
+  * Electric
+  * Oil, Gas, Steam
+  * Potable Water
+  * Reclaimed Water
+  * Reference
+  * Sewers, Drains
+  * Survey
 
-   To request a FuzionView account, click **Register** and fill out the form.
+.. note::
+   The FuzionView ticket map is designed to **supplement** your 811 ticket. Not all utility information has been shared and some features in your ticket boundary may not be shown.
 
-.. figure:: /_static/Register1.png
-   :alt: The FuzionView account registration page
-   :class: with-border
-   
-   *FuzionView Account Register Page*
-
-
-Logging In
-^^^^^^^^^^^
-
-Once you have received your user ID and password, login to FuzionView.
-
-.. figure:: /_static/Login2.png
-   :alt: The FuzionView login page
-   :class: with-border
-   
-   *FuzionView Login Page*
-
-Once you log in, you will see the options you are authorized to access. If you do not see one of the options below, it simply means you don't have access to that feature. 
-
-.. figure:: /_static/Landing1.png
-   :alt: The FuzionView registration page
-   :class: with-border
-   
-   *FuzionView Landing Page*
-
+Next: learn how to leverage the many powerful features in FuzionView `here <https://uumpt.sharedgeo.net/docs/ticketviewer.html>`_
