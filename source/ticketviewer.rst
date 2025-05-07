@@ -1,6 +1,7 @@
 Ticket Viewer
 ==============
 
+
 The FuzionView **Ticket Viewer** displays a map with the polygon for your ticket area as a solid line. The ticket boundary is surrounded by a 100 foot buffer, shown as a dotted line. When feature information is contributed from a Facility Operator, that data is displayed inside the ticket and buffer area as lines and dots.
 
 .. figure:: /_static/T-TicketViewer1.png
@@ -15,7 +16,9 @@ The FuzionView **Ticket Viewer** displays a map with the polygon for your ticket
 Identify Utility Infrastructure
 --------------------------------
 
-Click on a **dot or line** to display the available feature information. At the top of the popup is the name of the Data Provider - who manages the data - and your Ticket Number. Below that is information on the source of the data. FuzionView displays the most up to date details available for:
+Click on a **dot or line** to:
+
+Display the available feature information. At the top of the popup is the name of the Data Provider - who manages the data - and your Ticket Number. Below that is information on the source of the data. FuzionView displays the most up to date details available for:
   * Feature Class - the type of utility
   * Dataset - the name of the shared data source
   * Data Owner - who owns and manages the data
