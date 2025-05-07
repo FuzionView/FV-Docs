@@ -55,7 +55,7 @@ Optional - Schema
 * ACCURACY_VALUE
 * DESCRIPTION
 
-The `Glossary <https://uumpt.sharedgeo.net/docs/glossary.rst>`_ has more information about the FuzionView schema.
+The `Glossary <glossary.rst>`_ has more information about the FuzionView schema.
 
 Connection Information
 -----------------------
