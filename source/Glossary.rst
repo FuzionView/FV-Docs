@@ -45,7 +45,7 @@ Glossary
 
 .. Note for Minnesota::
    Geometry values are expected to be convertible to EPSG:6344+5703, NAD83(2011)/UTM 15N, NAVD88 meters.
-
+   
 **PROVIDER_FID**
 | The feature ID is the identifying information for each feature used by your organization. This is provided by the data owner.
 
