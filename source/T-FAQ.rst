@@ -1,5 +1,5 @@
 Frequently Asked Questions
-============================
+===========================
 
 **Q:** How do I open my FuzionView ticket map?
 **A:** You can only open the ticket map from a link in GSOC.  
