@@ -55,7 +55,7 @@ Optional - Schema
 * ACCURACY_VALUE
 * DESCRIPTION
 
-The `Glossary <glossary.rst>`_ has more information about the FuzionView schema.
+The `Glossary <glossary.html>`_ has more information about the FuzionView schema.
 
 Connection Information
 -----------------------
