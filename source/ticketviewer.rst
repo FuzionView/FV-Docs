@@ -19,7 +19,7 @@ Identify Utility Infrastructure
 
 Click on a **dot or line** to display the available feature information. 
 
-  * The name of the Data Provider - who manages the data
+  * The name of the Data Provider that manages the data
   * Your ticket number 
   * Information on the source of the data:
      * Feature Class - the type of utility
@@ -39,17 +39,17 @@ Click on a **dot or line** to display the available feature information.
    
    *Identifying Features*
 
-The `Glossary <https://uumpt.sharedgeo.net/docs/PrepFV.html#definitions-and-schema#>`_ explains ticket details.
+The `Glossary <https://uumpt.sharedgeo.net/docs/PrepFV.html#definitions-and-schema-required#>`_ explains ticket details.
 
 Stacked Features
 ------------------
 
 Underground utilities are often found above or below other utilities. When you select a feature, other utilities may be hidden by the selected feature. All known utilities at or near the selected point or line are listed at the bottom. Simply click through the **Nearby Features** links to see a complete picture of all the known features within the buffer area.
 
-Ticket Info
-------------
+Ticket Information
+-------------------
 
-Click the **I** icon at the top right to see additional ticket information.
+Click the **( i )** icon at the top right to see additional ticket information.
 
 .. figure:: /_static/T-TicketInfo1.png
    :alt: Ticket Information
@@ -67,7 +67,7 @@ The ticket **information** view displays:
 
 From ticket Information, you can select from several **Download Options**:
  * The default **File Type** is GeoJSON. Click the arrow to select a Shapefile or GeoPackage instead.
- * Then select Points, Polygons, or Lines to open the data in a new tab. Notice the option at the top left to change the format of the data to **Pretty-print**. You can save this file as a .json file.
+ * Select Points, Polygons, or Lines to open the data in a new tab. Notice the option at the top left to change the format of the data to **Pretty-print**. You can save this file as a .json file.
 
 .. figure:: /_static/T-Downloads1.png
    :alt: Download Options
@@ -77,7 +77,7 @@ From ticket Information, you can select from several **Download Options**:
 
 **The GSOC 811 Ticket**
 
-Go back to the original GSOC ticket by clicking **View Ticket**. For help using GSOC, check out their `documentation <https://www.gopherstateonecall.org/resources/downloads#iticVideos>`_ 
+Go back to the original GSOC ticket by clicking **View Ticket**. For help using GSOC, check out their `documentation <https://www.gopherstateonecall.org/resources/downloads#iticVideos>`_ .
 
 .. figure:: /_static/T-GSOC1.png
    :alt: Gopher State One Call
@@ -87,7 +87,7 @@ Go back to the original GSOC ticket by clicking **View Ticket**. For help using 
 
 **Help**
 
-A link to all FuzionView documentation.
+Opens all FuzionView documentation.
 
 
 Feature Layers
@@ -101,7 +101,7 @@ Select the **Layers** icon under the information icon to manage the features dis
    
    *Display Layers Option*
 
-Available layers are shown by default with a count of how many of that type. You can remove features by clicking on the layer. Click again to toggle it back on. 
+Available layers are shown by default with a count for each type. You can remove features by clicking on the layer. Click again to toggle it back on. 
 
 .. hint::
    Layers with no features will display grayed out with the note **no data**.
@@ -110,13 +110,21 @@ Basemaps
 ----------
 
 From the Ticket Viewer, select the **map** icon below the layers icon to change your map. 
-The default option is **OpenStreetMap**. Select **Aerial** to see a satellite image instead. 
+The default option is **OpenStreetMap**. 
 
 .. figure:: /_static/T-Basemaps1.png
    :alt: Map Options
    :class: with-border
 
-   *Choose Map Option*
+   *OpenStreetMap*
+
+Select **Aerial** to see a satellite image instead. 
+
+.. figure:: /_static/T-Basemaps2.png
+   :alt: Map Options
+   :class: with-border
+
+   *OpenStreetMap*
 
 Navigation
 ------------
@@ -137,10 +145,10 @@ Use the tools on the bottom left to:
 Measure Tool
 --------------
 
-To measure **Distance**, click the Measurement icon and select the Distance option. Your cursor becomes a cross. Click anywhere on the map to create the starting point for your measurement. Click again at the end of the line you want to measure. You can continue to create distance segments by clicking in a new location. 
+To measure the distance between two or more points, click the Measurement icon and select the **Distance** option. Your cursor becomes a cross. Click anywhere on the map to create the starting point for your measurement. Click again at the end of the line you want to measure. You can continue to create distance segments by clicking in a new location. 
 
 
-To measure **Area** click the Measurement icon and select the Area option. Your cursor will once again be changed to a cross. Click at the starting point for your polygon, then click again at one boundary of the area to be measured. Click again to create a three sided area. Click again to create a four sided area, and so on. You can use multiple, small sides to create more circular areas.
+To measure within a selected polygon area, click the Measurement icon and select the **Area option**. Your cursor will once again be changed to a cross. Click at the starting point for your polygon, then click again at one point of the area to be measured. Click again to create a three sided area. Click again to create a four sided area, and so on. You can use multiple, small sides to create more circular areas.
 
 Double click to stop measuring. To clear a measurement, click the red X to close the popup. 
 
