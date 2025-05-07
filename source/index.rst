@@ -23,7 +23,7 @@ Please email info@sharedgeo.org with any feedback.
 
    openfv
    ticketviewer
-   FAQ
+   T-FAQ
    
 .. toctree::
    :maxdepth: 99
