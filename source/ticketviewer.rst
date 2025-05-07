@@ -16,6 +16,7 @@ The FuzionView **Ticket Viewer** displays a map with the polygon for your ticket
 Identify Utility Infrastructure
 --------------------------------
 
+
 Click on a **dot or line** to:
 
 Display the available feature information. At the top of the popup is the name of the Data Provider - who manages the data - and your Ticket Number. Below that is information on the source of the data. FuzionView displays the most up to date details available for:
