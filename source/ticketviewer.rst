@@ -17,21 +17,21 @@ Identify Utility Infrastructure
 --------------------------------
 
 
-Click on a **dot or line** to:
+Click on a **dot or line** to display the available feature information. 
 
-Display the available feature information. At the top of the popup is the name of the Data Provider - who manages the data - and your Ticket Number. Below that is information on the source of the data. FuzionView displays the most up to date details available for:
-  * Feature Class - the type of utility
-  * Dataset - the name of the shared data source
-  * Data Owner - who owns and manages the data
-  * Status from the 811 system - such as active, under construction, or abandoned
-  * Ticket Number - ticket identifier from GSOC
-  * Updated At - date and time the feature was last updated
-  * Description (if provided)
-  * Size (if provided)
-  
+  * The name of the Data Provider - who manages the data
+  * Your Ticket Number. 
+  * Information on the source of the data:
+     * Feature Class - the type of utility
+     * Dataset - the name of the shared data source
+     * Data Owner - who owns and manages the data
+     * Status from the 811 system - such as active, under construction, or abandoned
+     * Ticket Number - ticket identifier from GSOC
+     * Updated At - date and time the feature was last updated
+     * Description (if provided)
+     * Size (if provided)
 
-More than one utility may be located at any position, stacked one above the other. When that happens, you can see the details by click a link in **Nearby Features**.
-See **Stacked Features** below for more information.
+*FuzionView displays the most up to date details available.*  
 
 .. figure:: /_static/T-Identify1.png
    :alt: Information about the selected object
@@ -44,7 +44,7 @@ The `Glossary <https://uumpt.sharedgeo.net/docs/PrepFV.html#definitions-and-sche
 Stacked Features
 ------------------
 
-Underground utilities are often found above or below other utilities. When you select a feature, other utilities may be hidden by the selected feature. All known utilities at or near the selected point or line are are listed at the bottom. Simply click through all the **Nearby Features** links to see a complete picture of all the known features within the buffer area.
+Underground utilities are often found above or below other utilities. When you select a feature, other utilities may be hidden by the selected feature. All known utilities at or near the selected point or line are listed at the bottom. Simply click through the **Nearby Features** links to see a complete picture of all the known features within the buffer area.
 
 Ticket Info
 ------------
