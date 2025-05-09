@@ -54,6 +54,7 @@ Please email info@sharedgeo.org with any feedback.
    OpenSourceDoc
    DevGuide
    AdminSystemDoc
+   Licensing
    
 .. toctree::
    :maxdepth: 99
