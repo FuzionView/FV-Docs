@@ -391,3 +391,7 @@ Click the **Pencil** icon to edit an existing Ticket Type:
 
 System Profile - NOT IMPLEMENTED
 ----------------------------------
+
+.. |date| date::
+
+Last Updated on |date|
