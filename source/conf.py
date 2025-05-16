@@ -8,7 +8,7 @@
 
 project = 'FuzionView BETA'
 copyright = '2025 SharedGeo'
-author = 'SharedGeo Last Updated May 19, 2025'
+author = 'SharedGeo'
 release = '1.0'
 
 # -- General configuration ---------------------------------------------------
