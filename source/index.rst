@@ -4,8 +4,6 @@
 FuzionView Documentation 
 =========================
 
-*last updated May 19, 2025*
-
 FuzionView software aggregates all utility location data (GIS) into a single map “on the fly”. Engineering design teams, facility operators, locators, excavators and homeowners have an unprecedented view of the underground utilities at the site, providing the opportunity for a safer, more efficient approach to each project. FuzionView maps supplement the 811 ticket and are limited to the excavation area, plus a 100 foot buffer. Facility operators can quickly share their datasets and have control to disable access at any time. Map and feature data is only available to authorized users.
 
 Select the documentation that is right for you:
@@ -77,3 +75,4 @@ Please email info@sharedgeo.org with any feedback.
 .. * :ref:`modindex`
 .. * :ref:`search`
 
+Last Updated: |today|
