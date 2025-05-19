@@ -3,7 +3,7 @@ System Operator Admin
 
 After logging into FuzionView, System Operators have a menu of options. Select a link to learn more:
 
-  * GeoMoose :ref:'GeoMoose'
+:ref: 'GeoMoose'
   * Ticket List
   * Admin Console
   * Who Am I
