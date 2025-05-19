@@ -3,18 +3,21 @@ System Operator Admin
 
 After logging into FuzionView, System Operators have a menu of options. Select a link to learn more:
 
-:ref: 'GeoMoose'
-  * Ticket List
-  * Admin Console
-  * Who Am I
-  * Keep Out!
-  * FuzionView Documentation
+:ref:`GeoMoose`
+:ref:`Ticket List`
+:ref:`Admin Console`
+:ref:`Who Am I`
+:ref:`Keep Out!`
+:ref:`FuzionView Documentation`
 
 .. figure:: /_static/A-Login1.png
    :alt: Admin Landing Page
    :class: with-border
    
    *Admin Landing Page*
+
+Admin Console
+==============
 
 Use the Admin Console to manage:
  * Data Providers
@@ -405,6 +408,27 @@ Click the **Pencil** icon to edit an existing Ticket Type:
 System Profile - NOT IMPLEMENTED
 ----------------------------------
 
-.. |date| date::
+GeoMoose
+---------
 
-Last Updated on |date|
+GeoMoose is a temporary solution to the ticket map for data providers. 
+
+.. figure:: /_static/A-GeoMoose.png
+   :alt: The GeoMoose Landing Page
+   :class: with-border
+   
+   *GeoMoose Ticket Map Placeholder*
+
+Ticket List
+------------
+
+Who Am I
+---------
+
+Keep Out!
+----------
+
+FuzionView Documentation
+-------------------------
+
+Last Updated on |today|
