@@ -28,7 +28,7 @@ Use the Admin Console to manage:
 
 .. figure:: /_static/A-Login2.png
    :alt: System Operator Admin
-   :class: with-border
+   :class: bordered-figure
    
    *System Operator Menu*
 
