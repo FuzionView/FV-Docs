@@ -18,6 +18,7 @@ Select the documentation that is right for you:
 Please email info@sharedgeo.org with any feedback.
 
 .. toctree::
+   :hidden:
    :maxdepth: 99
    :caption: End Users
 
