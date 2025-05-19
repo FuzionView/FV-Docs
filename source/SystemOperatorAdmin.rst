@@ -1,7 +1,7 @@
 System Operator Admin
 ======================
 
-After logging into FuzionView, System Operators have a menu of options. Select a link to learn more:
+After logging in, the system menu is displayed. Select a link to learn more about each option:
 
 + :ref:`GeoMoose`
 + :ref:`Ticket List`
@@ -21,10 +21,10 @@ Admin Console
 ==============
 
 Use the Admin Console to manage:
- * Data Providers
- * Datasets
- * Users
- * System Settings
++ :ref:`Data Providers`
++ :ref:`Users`
++ :ref:`Datasets`
++ :ref:`System Settings`
 
 .. figure:: /_static/A-Login2.png
    :alt: System Operator Admin
@@ -32,17 +32,32 @@ Use the Admin Console to manage:
    
    *System Operator Menu*
 
-Data Providers
---------------
+Admin Menu
+-----------
 
-The **Data Providers** menu option displays a list of all the Facility Operators and other Data Providers managed by the System Operator. 
+.. figure:: /_static/A-Login2.png
+   :alt: Admin Menu
+   :class: with-border
+   
+   *Admin Menu*
+
+Data Providers
+---------------
+
+The **Data Providers** page displays a list of all the facility operators and other data providers you've added to the system.
+
+.. figure:: /_static/A-DataProviders1.png
+   :alt: Data Providers
+   :class: with-border
+   
+   *Data Providers*
 
 Add Data Provider
 ^^^^^^^^^^^^^^^^^^^
 
-You can add as many data providers to the system as needed. At the bottom of the page is the option to add a new data provider. Select either the **Plus** icon or **New Data Provider**. Simply enter a name and click **Submit**. Once a Data Provider has been added, datasets can be added.
+Add as many data providers to the system as needed by selecting **Add New Data Provider** from the dropdown menu or the link at the bottom of the page. Enter a clear identifying name and click **Submit**. 
 
-.. figure:: /_static/SOAdmin1_NewDataProvider1.png
+.. figure:: /_static/A-DataProviderNew1.png
    :alt: New Data Provider
    :class: with-border
    
@@ -57,8 +72,6 @@ Manage Data Providers
    * Click the **Person** action icon to manage users with access to a Data Provider
    * Click the **Trashcan** action icon to delete a Data Provider
 
-
-   
 Rename Data Provider
 ^^^^^^^^^^^^^^^^^^^^^^
 
@@ -84,24 +97,56 @@ To permanently remove a data provide, click the **Trashcan** action icon next to
    
    *Delete Data Provider*
 
-Datasets
-----------
-.. hint::
-   * Click the **Eye** action icon to view and manage a dataset
-   * Click the **Pencil** action icon to edit the connection for a dataset
-   * Click the **Map** action icon to create a test ticket to validate the dataset connection
-   * Click the **Trashcan** action icon to delete a dataset
+Users
+------
 
-View Datasets
-^^^^^^^^^^^^^^^
+Once a Data Provider has been added, add a user to securely access and manage their datasets. When created, datasets have no users.
 
-To view and manage the datasets associated with a Data Provider, click the **Eye** action icon next to the data provider's name. When first created, Data Providers have no datasets.
-
-.. figure:: /_static/DPAdmin1_NoDataset1.png
-   :alt: No Datasets 
+.. figure:: /_static/A-Users0.png
+   :alt: Add First User
    :class: with-border
    
-   *No Datasets have been added*
+   *User Management*
+
+Create User
+^^^^^^^^^^^^
+
+Select **New User** to add a user. Enter the email address of the new user and click **Submit**.
+
+.. figure:: /_static/DPAdmin2_Users2.png
+   :alt: Create User
+   :class: with-border
+   
+   *Create User*
+
+A confirmation message will display when the user has been created.
+
+.. figure:: /_static/DPAdmin2_Users4.png
+   :alt: User Created
+   :class: with-border
+   
+   *User Created*
+
+Manage Users
+^^^^^^^^^^^^^
+
+To manage existing users, select the icon next to the user you want to Edit or Delete.
+
+.. figure:: /_static/DPAdmin2_Users3.png
+   :alt: Edit or delete existing user
+   :class: with-border
+   
+   *Edit or Delete User*
+
+Datasets
+----------
+
+Once the System Operator adds you to FuzionView as a data provider, these actions are available to you:
+
+   * Click the **Eye** icon to view, add, and manage your datasets
+   * Click the **Pencil** icon to edit the connection for a dataset
+   * Click the **Map** icon to create a test ticket to validate the dataset connection
+   * Click the **Trashcan** icon to delete a dataset
 
 Add Dataset
 ^^^^^^^^^^^^^ 
@@ -136,6 +181,19 @@ Some datasets will require additional information to establish a connection. Cli
    :class: with-border
    
    *Add New Dataset*
+   
+View Datasets
+^^^^^^^^^^^^^^^
+
+To view and manage the datasets associated with a Data Provider, click the **Eye** action icon next to the data provider's name. When first created, Data Providers have no datasets.
+
+.. figure:: /_static/DPAdmin1_NoDataset1.png
+   :alt: No Datasets 
+   :class: with-border
+   
+   *No Datasets have been added*
+
+
 
 Manage Datasets
 ^^^^^^^^^^^^^^^^^
@@ -244,50 +302,7 @@ If the service area changes, simply delete the existing service area and create 
    
    *Delete Service Area*
 
-Users
-------
-
-Use the Admin interface to manage users that can securely access your facility's datasets.
-When created, datasets have no users.
-
-.. figure:: /_static/DPAdmin2_Users1.png
-   :alt: User Management
-   :class: with-border
-   
-   *User Management*
-
-Create User
-^^^^^^^^^^^^
-
-Select **New User** to add a user. Enter the email address of the new user and click **Submit**.
-
-.. figure:: /_static/DPAdmin2_Users2.png
-   :alt: Create User
-   :class: with-border
-   
-   *Create User*
-
-A confirmation message will display when the user has been created.
-
-.. figure:: /_static/DPAdmin2_Users4.png
-   :alt: User Created
-   :class: with-border
-   
-   *User Created*
-
-Manage Users
-^^^^^^^^^^^^^
-
-To manage existing users, select the icon next to the user you want to Edit or Delete.
-
-.. figure:: /_static/DPAdmin2_Users3.png
-   :alt: Edit or delete existing user
-   :class: with-border
-   
-   *Edit or Delete User*
-
 System Settings
-
 ----------------
 
 Select **System Settings** from the System Operator menu to manage:
