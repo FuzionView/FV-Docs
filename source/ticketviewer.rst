@@ -158,3 +158,5 @@ Double click to stop measuring. To clear a measurement, click the red X to close
    :class: with-border
    
    *Ticket Viewer Measurements*
+
+Last change: |today|
