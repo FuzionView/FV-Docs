@@ -8,13 +8,13 @@ FuzionView software aggregates all utility location data (GIS) into a single map
 
 Select the documentation that is right for you:
 
-**End User** Homeowners, locators, excavators, and design Engineers to view their tickets in the FuzionView Ticket Viewer.
+**End Users** Guide homeowners, locators, excavators, and design Engineers to view their tickets in the FuzionView Ticket Viewer.
 
-**Data Provider** Facility owners and other data providers to connect, authorize, and manage shared datasets.
+**Data Providers** Guide facility owners and other data providers to connect, authorize, and manage shared datasets.
 
-**System Operator** 811 system operator IT/GIS staff to implement and administer a FuzionView server.
+**System Operators** Guide 811 system operator IT/GIS staff to implement and administer a FuzionView server.
 
-**Developer** Developers to leverage the FuzionView Core Engine open source product.
+**Developers** Guide to leveraging the FuzionView Core Engine open source product.
 
 Please email info@sharedgeo.org with any feedback.
 
