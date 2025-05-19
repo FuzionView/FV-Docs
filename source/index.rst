@@ -42,8 +42,8 @@ Please email info@sharedgeo.org with any feedback.
    FAQ
    
 .. toctree::
-    :hidden:
-    :maxdepth: 99
+   :hidden:
+   :maxdepth: 99
    :caption: System Operators
 
    ImplementationGuide
@@ -51,8 +51,8 @@ Please email info@sharedgeo.org with any feedback.
    SystemOperator
    
 .. toctree::
-    :hidden:
-    :maxdepth: 99
+   :hidden:
+   :maxdepth: 99
    :caption: Developers
 
    OpenSourceDoc
