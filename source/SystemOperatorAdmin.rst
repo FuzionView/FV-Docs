@@ -3,12 +3,13 @@ System Operator Admin
 
 After logging into FuzionView, System Operators have a menu of options. Select a link to learn more:
 
-:ref:`GeoMoose`
-:ref:`Ticket List`
-:ref:`Admin Console`
-:ref:`Who Am I`
-:ref:`Keep Out!`
-:ref:`FuzionView Documentation`
++ :ref:`GeoMoose`
++ :ref:`Ticket List`
++ :ref:`Admin Console`
++ :ref:`Who Am I`
++ :ref:`Keep Out!`
++ :ref:`FuzionView Documentation`
+
 
 .. figure:: /_static/A-Login1.png
    :alt: Admin Landing Page
