@@ -27,3 +27,6 @@ Displays a map of all the tickets managed by the Data Provider.
    :class: with-border
    
    *FuzionView Data Provider Dashboard PLACEHOLDER*
+
+
+Last Updated: |today|

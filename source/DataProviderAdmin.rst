@@ -78,3 +78,5 @@ To manage existing users, select the icon next to the user you want to Edit or D
    :class: with-border
    
    *Edit or Delete User*
+
+Last Updated: |today|

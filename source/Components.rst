@@ -38,3 +38,6 @@ The FuzionView engine has the following components:
   * postgres: The PostgreSQL/PostGIS database that ties everything together.
   
 FuzionView is tested to work with Docker and Podman, and on x86-64 and aarch64 (arm64).
+
+
+Last Updated: |today|

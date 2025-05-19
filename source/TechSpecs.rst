@@ -53,3 +53,5 @@ Available Support:
   setup docker for local instance of database for validating
 
   Bundle up html, javascript and typescript and hands it off to jim's engine
+
+Last Updated: |today|

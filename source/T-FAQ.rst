@@ -9,3 +9,5 @@ Frequently Asked Questions
 
 
 For more info check out the TicketViewer `guide <ticketviewer.html>`_ 
+
+Last Updated: |today|

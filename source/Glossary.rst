@@ -61,3 +61,5 @@ Glossary
 * "planned"
 * "under_construction"
 * "removed"
+
+Last Updated: |today|

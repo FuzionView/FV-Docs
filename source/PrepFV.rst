@@ -79,3 +79,5 @@ Finally, please carefully review the disclaimers used in the FuzionView system:
 fuzionview.org/disclaimers
 
 If you have questions, reach out to your FuzionView contact or email bbasques@sharedgeo.org.
+
+Last Updated: |today|

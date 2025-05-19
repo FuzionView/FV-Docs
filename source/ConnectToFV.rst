@@ -54,4 +54,7 @@ While not ideal, under limited conditions we may be able to support other certai
   * Source CO
   * Source SRC (the EPSG code for the coordinate system)
   * Choice to cache the whole dataset or not
-  * Chose oto enable the dataset or not
+  * Choice to enable the dataset or not
+
+
+Last Updated: |today|

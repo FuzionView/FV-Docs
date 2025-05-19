@@ -12,3 +12,5 @@ FuzionView Security Overview
   * The FuzionView design uses a bounding box concept, meaning the data available to the ticket creator is limited to only the data within the ticket boundary, plus the 100 foot standard buffer. That data is only available for the life of the ticket, which in most cases is 14 days. This is far shorter than markings may exist on the ground.
   * In addition, only registered users, authorized by an agreement with the data provider or facility operator, will have access to that limited data.
   * This combined approach will effectively make FuzionView data access more controlled than the current federal government’s “Gold Standard” geospatial data program - HIFLD Gold.  More exactly, such an approach will be better than For Official Use Only (FOUO).
+
+Last Updated: |today|

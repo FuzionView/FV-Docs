@@ -110,3 +110,6 @@ Migration
 .. code-block::
 
    bin/rails db:migrate
+
+
+Last Updated: |today|
