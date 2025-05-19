@@ -1,19 +1,32 @@
 System Operator Admin
 ======================
 
-The System Operator Admin is the FuzionView system management interface. 
+After logging into FuzionView, System Operators have a menu of options. Select a link to learn more:
 
-Use the Admin options to manage:
+  * GeoMoose :ref:'GeoMoose'
+  * Ticket List
+  * Admin Console
+  * Who Am I
+  * Keep Out!
+  * FuzionView Documentation
+
+.. figure:: /_static/A-Login1.png
+   :alt: Admin Landing Page
+   :class: with-border
+   
+   *Admin Landing Page*
+
+Use the Admin Console to manage:
  * Data Providers
  * Datasets
  * Users
  * System Settings
 
-.. figure:: /_static/SOAdmin0_Menu1.png
+.. figure:: /_static/A-Login2.png
    :alt: System Operator Admin
    :class: with-border
    
-   *System Operator Admin Menu*
+   *System Operator Menu*
 
 Data Providers
 --------------
