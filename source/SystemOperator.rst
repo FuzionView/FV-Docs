@@ -6,10 +6,7 @@ The System Operator can display all tickets in their FuzionView system on both a
 Ticket List
 ------------
 
-Displays a list of all tickets managed by the System Operator. The list has the following information:
-
-  * Map: Links to the ticket map in FuzionView
-  * Type: Indicates the purpose of the ticket such as Normal, Update, Meet, or Emergency.
+Displays a list of all tickets managed by the System Operator. Select the **Map** link to open the ticket map in the FuzionView TicketViewer.
 
 .. figure:: /_static/A-TicketList1.png
    :alt: The FuzionView Ticket List
@@ -17,11 +14,10 @@ Displays a list of all tickets managed by the System Operator. The list has the 
    
    *FuzionView System Operator Ticket List*
 
-
 Ticket Map
 -----------
 
-Displays a map of all tickets managed by the System Operator. Use the map to zoom into a particular location and see nearby tickets. Select a ticket to display the ticket in the FuzionView TicketViewer. Get more information about TicketViewer 'here <https://uumpt.sharedgeo.net/docs/ticketviewer.html>`_ . 
+Displays a map of all tickets managed by the System Operator. Use the map to zoom into a particular location and see nearby tickets. Select a ticket to display the ticket in the FuzionView TicketViewer. 
 
 .. figure:: /_static/A-GeoMoose.png
    :alt: The FuzionView Ticket Map
@@ -29,5 +25,6 @@ Displays a map of all tickets managed by the System Operator. Use the map to zoo
    
    *The Ticket Map PLACEHOLDER*
 
+Get more information about TicketViewer 'here <https://uumpt.sharedgeo.net/docs/ticketviewer.html>`_ . 
 
 Last change: |today|
