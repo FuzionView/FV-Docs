@@ -27,6 +27,7 @@ Please email info@sharedgeo.org with any feedback.
    T-FAQ
    
 .. toctree::
+   :hidden:
    :maxdepth: 99
    :caption: Data Providers
    
@@ -41,7 +42,8 @@ Please email info@sharedgeo.org with any feedback.
    FAQ
    
 .. toctree::
-   :maxdepth: 99
+    :hidden:
+    :maxdepth: 99
    :caption: System Operators
 
    ImplementationGuide
@@ -49,7 +51,8 @@ Please email info@sharedgeo.org with any feedback.
    SystemOperator
    
 .. toctree::
-   :maxdepth: 99
+    :hidden:
+    :maxdepth: 99
    :caption: Developers
 
    OpenSourceDoc
@@ -58,6 +61,7 @@ Please email info@sharedgeo.org with any feedback.
    Licensing
    
 .. toctree::
+   :hidden:
    :maxdepth: 99
    :caption: Learn More
    
