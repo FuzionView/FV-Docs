@@ -1,7 +1,7 @@
 Quick Start
 ============
 
-When you submit an 811 ticket to request a locate, you receive an email once the request is completed. When you open your 811 ticket, look for the option to **Access FV ticket viewer**. 
+When you submit an 811 ticket to request a locate, you receive an email once the request is completed. When you open your 811 ticket, click on the option to **Access FV ticket viewer**. 
 
 .. figure:: /_static/O-LinkWithFuzionView.png
    :alt: Link from the GSOC/811 ticket to the FuzionView ticket viewer
