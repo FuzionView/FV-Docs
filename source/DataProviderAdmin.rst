@@ -6,8 +6,8 @@ Data Provider Admin
 
 The Data Provider Admin is the Account management interface for Facility Operators and other Data Providers. From this menu you can create and manage all datasets and users. 
 
-Datasets
-----------
+Dataset Management
+-------------------
 
 Use the Admin interface to view all the datasets that have been configured for your facility.
 
@@ -28,7 +28,7 @@ To add the first dataset, select **New Dataset** from the menu and enter the inf
    
    *Add New Dataset*
 
-**Manage Datasets**
+**Configure Datasets**
 Select the icon next to the dataset you want to View, Edit, or Delete.
 
 .. figure:: /_static/DPAdmin1_Datasets1.png
@@ -43,8 +43,8 @@ Select the icon next to the dataset you want to View, Edit, or Delete.
    
    *View, Edit, or Delete Dataset*
 
-Users
-------
+User Management
+----------------
 
 Use the Admin interface to manage users that can securely access your facility datasets. 
 Select **New User** to add a user.

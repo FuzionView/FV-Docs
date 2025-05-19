@@ -1,5 +1,5 @@
-Frequently Asked Questions
-============================
+FAQ for Data Providers
+=======================
 
 Category: Data Creation
 -------------------------
