@@ -33,7 +33,6 @@ Please email info@sharedgeo.org with any feedback.
    :caption: Data Providers
    
    PrepFV
-   SystemMenu
    SystemAdmin
    ConnectToFV
    Components
@@ -48,7 +47,6 @@ Please email info@sharedgeo.org with any feedback.
    :caption: System Operators
 
    ImplementationGuide
-   SystemMenu
    SystemAdmin
    
 .. toctree::
