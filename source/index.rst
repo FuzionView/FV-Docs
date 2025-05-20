@@ -33,7 +33,7 @@ Please email info@sharedgeo.org with any feedback.
    :caption: Data Providers
    
    PrepFV
-   DataProviderAdmin
+   AdminConsole
    Dashboard
    ConnectToFV
    Components
@@ -48,7 +48,7 @@ Please email info@sharedgeo.org with any feedback.
    :caption: System Operators
 
    ImplementationGuide
-   SystemOperatorAdmin
+   AdminConsole
    Dashboard
    
 .. toctree::
