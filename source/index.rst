@@ -46,6 +46,7 @@ Please email info@sharedgeo.org with any feedback.
 
    ImplementationGuide
    SystemAdmin
+   LandingPage
    
 .. toctree::
    :hidden:
