@@ -200,7 +200,7 @@ Select the **map** action icon next to a dataset to create a test ticket. Use th
  * Select the Polygon tool icon and draw the ticket boundary
  * Click Submit
  
- .. figure:: /_static/DA-TestTicketManual.png
+ .. figure:: /_static/A-TestTicketManual.png
    :alt: Dataset Validation
    :class: bordered-figure
    
@@ -291,7 +291,7 @@ When a ticket has features in that layer, it will be displayed on the map in a s
 
    *Feature Classes*
 
-   
+
  * Use the **Pencil** icon to edit and the **Trashcan** icon to delete class.
  * Select the **Plus** icon or **Add New Feature Class** to create a class.
  * Select the **Pencil** icon to edit an existing class.
