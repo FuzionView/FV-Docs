@@ -5,7 +5,7 @@ After logging in, the system menu is displayed. Select a link to learn more abou
 
 + :ref:`GeoMoose`
 + :ref:`Ticket List`
-+ `System Admin <https://uumpt.sharedgeo.net/docs/SystemAdmin.html>_`
++ `System Admin <https://uumpt.sharedgeo.net/docs/SystemAdmin.html>`_ 
 + :ref:`Who Am I`
 + :ref:`Keep Out!`
 + :ref:`FuzionView Documentation`
