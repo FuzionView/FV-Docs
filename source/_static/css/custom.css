@@ -1,9 +1,5 @@
 /* custom.css */
 /* Add border to figures with the class "bordered-figure" */
 div.figure.bordered-figure {
-    border: 2px solid #555;
-    padding: 10px;
-    background-color: #fefefe;
-    border-radius: 5px;
-    margin: 1em 0;
+    border: 2px solid #555,
 }
