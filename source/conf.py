@@ -9,7 +9,7 @@
 project = 'FuzionView BETA'
 copyright = '2025 SharedGeo'
 author = 'SharedGeo'
-release = '1.0'
+release = 'Beta'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -22,8 +22,9 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 html_theme_options = {
-    `collapse_navigation`: True;
-    `display_version` : True;
+    `collapse_navigation`: True,
+    `display_version` : True,
+    `prev_next_buttons_location` : both,
 }
 
 html_favicon = "_static/fuzionviewicon.ico"
