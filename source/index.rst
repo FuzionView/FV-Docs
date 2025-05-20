@@ -33,6 +33,7 @@ Please email info@sharedgeo.org with any feedback.
    :caption: Data Providers
    
    PrepFV
+   SystemMenu
    AdminConsole
    Dashboard
    ConnectToFV
@@ -48,6 +49,7 @@ Please email info@sharedgeo.org with any feedback.
    :caption: System Operators
 
    ImplementationGuide
+   SystemMenu
    AdminConsole
    Dashboard
    
