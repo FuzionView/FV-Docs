@@ -18,7 +18,7 @@ Use the tools in System Admin to manage:
 
 .. figure:: /_static/A-Login2.png
    :alt: System Operator Admin
-    :class: bordered-figure
+   :class: bordered-figure
    
    *System Operator Menu*
 

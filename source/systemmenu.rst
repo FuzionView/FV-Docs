@@ -52,7 +52,7 @@ Check out the documentation for `System Admin <https://uumpt.sharedgeo.net/docs/
 
 .. figure:: /_static/A-Login2.png
    :alt: System Admin
-    :class: bordered-figure
+   :class: bordered-figure
    
    *System Admin Menu*
 
@@ -77,7 +77,7 @@ Check out the `guides <https://uumpt.sharedgeo.net/docs/#>`_  for end users, dat
 
 .. figure:: /_static/A-Documentation.png
    :alt: FuzionView Documentation
-    :class: bordered-figure
+   :class: bordered-figure
    
    *FuzionView Documentation*
 

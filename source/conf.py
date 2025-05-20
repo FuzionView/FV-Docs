@@ -21,7 +21,7 @@ html_show_sourcelink = False
 templates_path = ['_templates']
 exclude_patterns = []
 
-#html_globaltoc_collapse = `True`
+collapse_navigation=True
 
 html_favicon = "_static/fuzionviewicon.ico"
 # -- Options for the HTML output -------------------------------------------------
