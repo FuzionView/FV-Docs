@@ -21,11 +21,11 @@ html_show_sourcelink = False
 templates_path = ['_templates']
 exclude_patterns = []
 
-html_theme_options = {
-    `collapse_navigation`: True,
-    `display_version` : True,
-    `prev_next_buttons_location` : both,
-}
+#html_theme_options = {
+#    `collapse_navigation`: True,
+#    `display_version` : True,
+#    `prev_next_buttons_location` : Both,
+#}
 
 html_favicon = "_static/fuzionviewicon.ico"
 # -- Options for the HTML output -------------------------------------------------
