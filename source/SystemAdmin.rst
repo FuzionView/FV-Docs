@@ -1,5 +1,5 @@
-System Admin
-=============
+System Administration
+======================
 
 After logging in, select the System Admin option from the menu:
 

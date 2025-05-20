@@ -33,7 +33,7 @@ Ticket List
 
 Displays all your tickets in a list. Select the **map** link to open a ticket in the TicketViewer.
 
-.. figure:: /_static/A-TicketList.png
+.. figure:: /_static/A-TicketList1.png
    :alt: The GeoMoose Landing Page
    :class: bordered-figure
    
@@ -47,7 +47,8 @@ Use the System Admin tools to manage:
  * Users
  * Datasets
  * System Settings
-Check out the documentation `here <https://uumpt.sharedgeo.net/docs/SystemAdmin.html>`_ . 
+
+Check out the documentation for `System Admin <https://uumpt.sharedgeo.net/docs/SystemAdmin.html>`_ 
 
 .. figure:: /_static/A-Login2.png
    :alt: System Admin
@@ -72,7 +73,7 @@ A placeholder to test authorization and accessability - it has no functionality.
 FuzionView Documentation
 -------------------------
 
-Documentation for end users, data providers, system operators, and open source developers can be found `here <https://uumpt.sharedgeo.net/docs/#>`_ .
+End user, data provider, system operator, and open source developer `documentation is here <https://uumpt.sharedgeo.net/docs/#>`_ .
 
 .. figure:: /_static/A-Documentation.png
    :alt: FuzionView Documentation
