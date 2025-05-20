@@ -1,6 +1,6 @@
 /* custom.css */
 /* Add border to figures with the class "bordered-figure" */
-.figure.bordered-figure {
+figure.bordered-figure {
     border-style: solid;
     border-width: 2px;
     border-color: black;
