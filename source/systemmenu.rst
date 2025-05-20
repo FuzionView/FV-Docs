@@ -70,10 +70,10 @@ Keep Out!
 
 A placeholder to test authorization and accessability - it has no functionality.
 
-Docs
------
+Documentation
+---------------
 
-End user, data provider, system operator, and open source developer `documentation is here <https://uumpt.sharedgeo.net/docs/#>`_ .
+Check out the `guides <https://uumpt.sharedgeo.net/docs/#>`_  for end users, data providers, system operators, and open source developers.
 
 .. figure:: /_static/A-Documentation.png
    :alt: FuzionView Documentation
