@@ -31,16 +31,16 @@ GeoMoose is a temporary solution from another SharedGeo product to provide an ad
 Ticket List
 ------------
 
-Displays all your tickets in a list. Check out the documentation `here <https://uumpt.sharedgeo.net/docs/Dashboard.html>`_ .
+Displays all your tickets in a list. Select the **map** link to open a ticket in the TicketViewer.
 
-.. figure:: /_static/A-GeoMoose.png
+.. figure:: /_static/A-TicketList.png
    :alt: The GeoMoose Landing Page
    :class: bordered-figure
    
-   *GeoMoose Ticket Map Placeholder*
+   *Ticket List*
    
-   System Admin
-==============
+System Admin
+-------------
 
 Use the System Admin tools to manage:
  * Data Providers
