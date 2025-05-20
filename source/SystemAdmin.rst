@@ -1,47 +1,6 @@
 System Administration
 ======================
 
-After logging in, the system menu is displayed. Select a link to learn more about each option:
-
-+ :ref:`GeoMoose`
-+ :ref:`Ticket List`
-+ :ref:`System Admin`
-+ :ref:`Who Am I`
-+ :ref:`Keep Out!`
-+ :ref:`FuzionView Documentation`
-
-
-.. figure:: /_static/A-Login1.png
-   :alt: System Menu Page
-   :class: bordered-figure
-   
-   *System Menu*
-
-GeoMoose
----------
-
-GeoMoose is a temporary solution from another SharedGeo product to provide an admin ticket map. 
-
-.. figure:: /_static/A-GeoMoose.png
-   :alt: The GeoMoose Landing Page
-   :class: bordered-figure
-   
-   *GeoMoose Ticket Map Placeholder*
-
-Ticket List
-------------
-
-Displays all your tickets in a list. Select the **map** link to open a ticket in the TicketViewer.
-
-.. figure:: /_static/A-TicketList1.png
-   :alt: The GeoMoose Landing Page
-   :class: bordered-figure
-   
-   *Ticket List*
-   
-System Admin
-=============
-
 Use the tools in System Admin to manage:
 
 + :ref:`Data Providers`
@@ -91,7 +50,7 @@ Rename Data Provider
 
 Change the name of a data provider from the Data Providers list by clicking the **Pencil** action icon next to the provider's information:
 
-.. figure:: /_static/SOAdmin2_DataProviderName1.png
+.. figure:: /_static/A-DataProviderName.png
    :alt: Edit Data Provider Name
    :class: bordered-figure
    
@@ -100,12 +59,12 @@ Change the name of a data provider from the Data Providers list by clicking the 
 Delete Data Provider
 ^^^^^^^^^^^^^^^^^^^^^
 
-To permanently remove a data provide, click the **Trashcan** action icon next to the provider name.
+To permanently remove a data provider, click the **Trashcan** action icon next to the provider name.
 
 .. warning::
    This cannot be undone.
 
-.. figure:: /_static/SOAdmin7_DeleteDataProvider1.png
+.. figure:: /_static/A-DataProviderDelete.png
    :alt: Delete Data Provider
    :class: bordered-figure
    
@@ -114,7 +73,7 @@ To permanently remove a data provide, click the **Trashcan** action icon next to
 Users
 ------
 
-Once a Data Provider has been added, add a user to securely access and manage their datasets. When created, datasets have no users.
+Once a Data Provider has been added, add datasets and a user who can securely manage their datasets. 
 
 .. figure:: /_static/A-Users0.png
    :alt: Add First User
@@ -127,7 +86,7 @@ Create User
 
 Select **New User** to add a user. Enter the email address of the new user and click **Submit**.
 
-.. figure:: /_static/DPAdmin2_Users2.png
+.. figure:: /_static/A-Users1.png
    :alt: Create User
    :class: bordered-figure
    
@@ -135,7 +94,7 @@ Select **New User** to add a user. Enter the email address of the new user and c
 
 A confirmation message will display when the user has been created.
 
-.. figure:: /_static/DPAdmin2_Users4.png
+.. figure:: /_static/A-Users2.png
    :alt: User Created
    :class: bordered-figure
    
@@ -144,9 +103,9 @@ A confirmation message will display when the user has been created.
 Manage Users
 ^^^^^^^^^^^^^
 
-To manage existing users, select the icon next to the user you want to Edit or Delete.
+To manage existing users, select the pencil or trashcan action icon next to the user you want to edit or delete.
 
-.. figure:: /_static/DPAdmin2_Users3.png
+.. figure:: /_static/A-Users2.png
    :alt: Edit or delete existing user
    :class: bordered-figure
    
@@ -155,47 +114,13 @@ To manage existing users, select the icon next to the user you want to Edit or D
 Datasets
 ----------
 
-Once the System Operator adds you to FuzionView as a data provider, these actions are available to you:
+Once a data provider is added, these are the actions available:
 
-   * Click the **Eye** icon to view, add, and manage your datasets
+   * Click the **Eye** icon to view, add, and manage datasets
    * Click the **Pencil** icon to edit the connection for a dataset
    * Click the **Map** icon to create a test ticket to validate the dataset connection
    * Click the **Trashcan** icon to delete a dataset
 
-Add Dataset
-^^^^^^^^^^^^^ 
-
-To add the first dataset, select **New Dataset** and enter the information needed to connect to the dataset:
-  * Name
-  * Source dataset (the URL for the source ESRI or WFS)
-  
-Click **Submit** to add the dataset.
-
-.. figure:: /_static/DPAdmin1_NewDataset1.png
-   :alt: Add Dataset
-   :class: bordered-figure
-   
-   *Add New Dataset*
-
-Some datasets will require additional information to establish a connection. Click the option for **Basic dataset entry** and add the information needed to connect to your dataset:
-  * Name
-  * Source dataset (the URL for the source ESRI or WFS)
-  * Source SQL
-  * Source CO
-  * Choose whether to cache the whole dataset
-  * Choose whether to enable the dataset (on by default)
-  * Source SRS (the EPSG code for the coordinate system in use)
-  * Click **Submit** to add the dataset.
-
-.. Note::
-   When the dataset is not enabled, the data will only be visible in test tickets used to validate the dataset. 
-
-.. figure:: /_static/DPAdmin1_NewDataset1.png
-   :alt: Add Dataset
-   :class: bordered-figure
-   
-   *Add New Dataset*
-   
 View Datasets
 ^^^^^^^^^^^^^^^
 
@@ -207,7 +132,44 @@ To view and manage the datasets associated with a Data Provider, click the **Eye
    
    *No Datasets have been added*
 
+Add Dataset - Quick Add
+^^^^^^^^^^^^^^^^^^^^^^^^
 
+To add the first dataset, select **New Dataset** and enter the name and URL of your dataset. ESRIJSON and WFS are supported. Use a 'WFS:' prefix before WFS dataset urls. ESRIJSON sources should start with 'ESRIJSON:'.
+  * Name
+  * Credential: No authentication required
+  * Source dataset (the URL for the source ESRI or WFS)
+  
+Click **Submit** to add the dataset.
+
+.. figure:: /_static/A-Dataset2.png
+   :alt: Add Dataset
+   :class: bordered-figure
+   
+   *Add New Dataset*
+
+Add Dataset - Basic Entry
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Some datasets can be entered with minimal validation. Click the option for **Basic dataset entry** and add the information needed to connect to your dataset:
+  * Name
+  * Source dataset URL: external link to an externally managed and hosted dataset.
+  * Source SQL: command line options that can be passed to gDal.
+  * Source CO: describes how the source dataset is stored.
+  * Cache the whole dataset: When enabled, operates against the local copy, a good choice for datasets that change infrequently.
+  * Enable the dataset: On by default.
+  * Source SRS: the EPSG code for the coordinate system in use.
+  * Click **Submit** to add the dataset.
+
+.. Note::
+   When the dataset is not enabled, the data is only visible in test tickets to validate the dataset. 
+
+.. figure:: /_static/A-Dataset3.png
+   :alt: Add Dataset
+   :class: bordered-figure
+   
+   *Add New Dataset*
+   
 
 Manage Datasets
 ^^^^^^^^^^^^^^^^^
@@ -238,226 +200,128 @@ Select the **map** action icon next to a dataset to create a test ticket. Use th
  * Select the Polygon tool icon and draw the ticket boundary
  * Click Submit
  
- .. figure:: /_static/DPAdmin10_TestTicket1.png
+ .. figure:: /_static/DA-TestTicketManual.png
    :alt: Dataset Validation
    :class: bordered-figure
    
    *Create Test Ticket*
 
-A Pending status message is displayed. It may take up to 5 minutes for the available feature data to populate. 
- 
-.. figure:: /_static/DPAdmin10_TestTicket2.png
-   :alt: Dataset Validation
-   :class: bordered-figure
-   
-   *Create a Test Ticket*
-
-* Once the ticket has been created, the status will update to successful
-* Click the Test Ticket link to view the feature data and confirm configuration
+* A Pending status message is displayed. It may take up to 5 minutes for the available feature data to populate. 
+* Once the ticket has been created, the status will update to successful.
+* Click the Test Ticket link to view the feature data and confirm configuration was successful.
 
 .. Note::
-   The test ticket is available in the system to any authorized user of the dataset. 
+   The test ticket is available in the system to any authorized dataset user. 
    The ticket exists for only 24 hours and will be automatically deleted.
 
 .. Warning::
     If you select a ticket boundary outside the service area, an error message will be displayed.
 
-.. figure:: /_static/DPAdmin10_TestTicket0.png
-   :alt: Test Ticket Warning
-   :class: bordered-figure
-   
-   *Create a Test Ticket*
-
 Service Area
 -------------
-Data providers can define their service area, which allows FuzionView to optimize service requests. 
+Data providers can define a service area, which allows FuzionView to optimize service requests. 
 
 Create Service Area
 ^^^^^^^^^^^^^^^^^^^^
 
 Navigate to Datasets, select the option to **Define a Service Area**.
 
-.. figure:: /_static/DPAdmin11_ServiceArea1.png
-   :alt: Dataset Management
+.. figure:: /_static/A-ServiceAreaManual.png
+   :alt: Define a Service Area
    :class: bordered-figure
    
-   *Dataset Management*
+   *Define a Service Area*
 
-Draw the Service Area
-^^^^^^^^^^^^^^^^^^^^^^
+* Use the **+** icon on the left to zoom into the correct location. Select the **Polygon** icon on the left and draw a simple shape around the desired area. Use the points in the middle of each line to adjust the shape until it defines your service area as closely as possible.
 
-Use the **+** icon on the left to zoom into the correct location. Select the **Polygon** icon on the left and draw a simple shape around the desired area. Use the points in the middle of each line to adjust the shape until it correctly defines your service area. 
-
-.. figure:: /_static/DPAdmin11_ServiceArea3.png
-   :alt: Service Area Management
-   :class: bordered-figure
-   
-   *Service Area Management*
-
-Submit Service Area
-^^^^^^^^^^^^^^^^^^^^
-
-When the service area is defined as accurately as possible, click the **Submit** button to save. A message will display indicating that the service area has been set.
-
-.. figure:: /_static/DPAdmin11_ServiceArea4.png
-   :alt: Submit Service Area
-   :class: bordered-figure
-   
-   *Submit Service Area*
+* Click the **Submit** button to save. A message will display indicating that the service area has been set.
 
 Delete Service Area
 ^^^^^^^^^^^^^^^^^^^^
 
 If the service area changes, simply delete the existing service area and create a new one. A confirmation will be displayed. Click **OK** to remove the service area.
 
-.. figure:: /_static/DPAdmin11_ServiceArea5.png
-   :alt: Delete Service Area
-   :class: bordered-figure
-   
-   *Delete Service Area*
-
 System Settings
 ----------------
 
 Select **System Settings** from the System Operator menu to manage:
 
+ * Feature Accuracy Classes
  * Feature Classes
  * Features Status
  * Ticket Types
 
-Use the **Eye** icon to view and edit and the **Plus** icon to create these key elements.
+Use the **Eye** icon to view and edit and the **+** icon to add a new object.
 
-.. figure:: /_static/SOAdmin4_SystemSettings1.png
+.. figure:: /_static/A-SystemSettings2.png
    :alt: System Settings
    :class: bordered-figure
    
    *System Settings*
 
+Feature Accuracy Classes
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Feature Accuracy Classes are used to indicate how the data was collected as an indication of how reliably accurate it may be. These are the default values you can use to map to any accuracy values you may have set for your data:
+ * sub_centimeter
+ * sub-decimeter
+ * sub_foot
+ * sub_meter
+ * greater_than_meter
+ * georeferenced_digitized
+ * hand_drawn
+
+Use the **Pencil** icon to edit or the **Trashcan** icon to delete a value.
+
+.. figure:: /_static/A-SS-AccuracyClass1.png
+   :alt: Feature Accuracy Classes
+   :class: bordered-figure
+   
+   *Feature Accuracy Classes*
+   
 Feature Classes
 ^^^^^^^^^^^^^^^^^
 
 Feature Classes are used to identify a feature category - known as a **LAYER** in Ticket Viewer. 
 When a ticket has features in that layer, it will be displayed on the map in a specific color to clearly identify it.
-Use the **Pencil** icon to edit and the **Trashcan** icon to delete.
 
-.. figure:: /_static/SOAdmin4_FeatureClasses1.png
+.. figure:: /_static/A-SS-FeatureClasses1.png
    :alt: Feature Classes identify the Layers in FuzionView
    :class: bordered-figure
    
    *Feature Classes*
 
-Add New Feature Class
-^^^^^^^^^^^^^^^^^^^^^^^
-
-Scroll to the bottom and select the **Plus** icon or **Add New Feature Class** to identify a new feature class. 
-   
-.. figure:: /_static/SOAdmin5_NewFeatureClass1.png
-   :alt: Add New Feature Classes
-   :class: bordered-figure
-   
-   *Add Feature Class Layers*
-
-Edit Feature Class
-^^^^^^^^^^^^^^^^^^^^
-
-Select the **Pencil** icon to edit an existing Feature Class.
-
-.. figure:: /_static/SOAdmin5_EditFeatureClass1.png
-   :alt: Add New Feature Classes
-   :class: bordered-figure
-   
-   *Add Feature Class Layers*
+ * Use the **Pencil** icon to edit and the **Trashcan** icon to delete class.
+ * Select the **Plus** icon or **Add New Feature Class** to create a class.
+ * Select the **Pencil** icon to edit an existing class.
 
 Feature Statuses
 ^^^^^^^^^^^^^^^^^^
 
 Status is used to indicate whether the feature is in use and in what state of development.
 
-.. figure:: /_static/SOAdmin5_FeatureStatuses1.png
+.. figure:: /_static/A-SS-FeatureStatus1.png
    :alt: New Feature Statuses
    :class: bordered-figure
    
    *Feature Statuses*
 
-Add Feature Status
-^^^^^^^^^^^^^^^^^^^^
-
-You must create a Feature Status before you configure it. Scroll to the bottom and select **Add New Feature Status** to identify a new usage status:
-
-.. figure:: /_static/SOAdmin6_NewFeatureStatus1.png
-   :alt: Add New Feature Status
-   :class: bordered-figure
-   
-   *Add Feature Status* - Placeholder
-
-Edit Feature Status
-^^^^^^^^^^^^^^^^^^^^
-
-Click the **Pencil** icon next to a status edit it
-
-.. figure:: /_static/SOAdmin6_EditFeatureStatus1.png
-   :alt: Edit Feature Status
-   :class: bordered-figure
-   
-   *Edit Feature Status*
+ * Scroll to the bottom and select **Add New Feature Status** to identify a new usage status.
+ * Click the **Pencil** icon next to a status edit it.
+ Click the **Trashcan** icon next to a status to remove it.
 
 Ticket Types
 ^^^^^^^^^^^^^
 
-The Ticket Type is used to visually indicate the urgency of a ticket, which is used in planning response time.
-The current options are Normal and Emergency. Emergency tickets display with the ticket number in red.
+The Ticket Type is used to visually indicate the urgency of a ticket, which is used in planning response time, such as Normal and Emergency. Emergency tickets display with the ticket number in red. The default values are from your state 811 system.
 
-.. figure:: /_static/SOAdmin8_TicketTypes1.png
+.. figure:: /_static/A-SS-TicketTypes1.png
    :alt: Ticket Types
    :class: bordered-figure
    
    *Ticket Types*
 
-Add a Ticket Type
-^^^^^^^^^^^^^^^^^^^
-
-Scroll to the bottom and select **New Ticket Type** to add a new level of urgency.
-
-.. figure:: /_static/SOAdmin8_NewTicketType1.png
-   :alt: New Ticket Type
-   :class: bordered-figure
-   
-   *New Ticket Type*
-
-Edit Ticket Type
-^^^^^^^^^^^^^^^^^
-
-Click the **Pencil** icon to edit an existing Ticket Type:
-
-.. figure:: /_static/SOAdmin8_EditTicketType1.png
-   :alt: Edit Ticket Type
-   :class: bordered-figure
-   
-   *Edit Ticket Type*
-
-Who Am I
----------
-
-.. figure:: /_static/A-WhoAmI.png
-   :alt: User identification information to use for troubleshooting.
-   :class: bordered-figure
-   
-   *Who Am I*
-
-Keep Out!
-----------
-
-A placeholder to test authorization and accessability - it has no functionality.
-
-Documentation
----------------
-
-Check out the `guides <https://uumpt.sharedgeo.net/docs/#>`_  for end users, data providers, system operators, and open source developers.
-
-.. figure:: /_static/A-Documentation.png
-   :alt: FuzionView Documentation
-   :class: bordered-figure
-   
-   *FuzionView Documentation*
+ * Select **New Ticket Type** to add a new type.
+ * Click the **Pencil** icon to edit an existing Ticket Type:
 
 Last Updated on |today|
