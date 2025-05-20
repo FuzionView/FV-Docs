@@ -8,6 +8,6 @@ FAQ for End Users
 | **A:** You can only open the map for your own tickets.
 
 
-For more info check out the TicketViewer `guide <ticketviewer.html>`_ 
+For more info check out the TicketViewer `guide <TicketViewer.html>`_ 
 
 Last Updated: |today|

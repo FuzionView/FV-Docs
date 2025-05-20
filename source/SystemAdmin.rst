@@ -1,15 +1,15 @@
 System Admin
 =============
 
-After logging in, select the System Admin option.
+After logging in, select the System Admin option from the menu:
 
 .. figure:: /_static/A-Login1.png
-   :alt: Admin Landing Page
+   :alt: System Menu
    :class: with-border
    
    *Admin Landing Page*
 
-Use the Admin Console to manage:
+Use the tools in System Admin to manage:
 
 + :ref:`Data Providers`
 + :ref:`Users`
