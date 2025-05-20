@@ -1,24 +1,13 @@
-Admin Console
-==============
+System Admin
+==================
 
-After logging in, the system menu is displayed. Select a link to learn more about each option:
-
-+ :ref:`GeoMoose`
-+ :ref:`Ticket List`
-+ :ref:`Admin Console`
-+ :ref:`Who Am I`
-+ :ref:`Keep Out!`
-+ :ref:`FuzionView Documentation`
-
+After logging in, select the System Admin option.
 
 .. figure:: /_static/A-Login1.png
    :alt: Admin Landing Page
    :class: with-border
    
    *Admin Landing Page*
-
-Admin Console
-==============
 
 Use the Admin Console to manage:
 + :ref:`Data Providers`
@@ -31,15 +20,6 @@ Use the Admin Console to manage:
    :class: bordered-figure
    
    *System Operator Menu*
-
-Admin Menu
------------
-
-.. figure:: /_static/A-Login2.png
-   :alt: Admin Menu
-   :class: with-border
-   
-   *Admin Menu*
 
 Data Providers
 ---------------

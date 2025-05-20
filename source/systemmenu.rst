@@ -5,16 +5,17 @@ After logging in, the system menu is displayed. Select a link to learn more abou
 
 + :ref:`GeoMoose`
 + :ref:`Ticket List`
-+ :ref:`Admin Console`
++ :ref:`System Admin`
 + :ref:`Who Am I`
 + :ref:`Keep Out!`
 + :ref:`FuzionView Documentation`
 
+
 .. figure:: /_static/A-Login1.png
-   :alt: Admin Landing Page
+   :alt: System Menu Page
    :class: with-border
    
-   *Admin Landing Page*
+   *System Menu*
 
 GeoMoose
 ---------
@@ -27,20 +28,32 @@ GeoMoose is a temporary solution from another SharedGeo product to provide an ad
    
    *GeoMoose Ticket Map Placeholder*
 
-Admin Console
+Ticket List
+------------
+
+Displays all your tickets in a list. Check out the documentation `here <https://uumpt.sharedgeo.net/docs/Dashboard.html>`_ .
+
+.. figure:: /_static/A-GeoMoose.png
+   :alt: The GeoMoose Landing Page
+   :class: with-border
+   
+   *GeoMoose Ticket Map Placeholder*
+   
+   System Admin
 ==============
 
-Use the tools on the Admin Console to manage:
-+ :ref:`Data Providers`
-+ :ref:`Users`
-+ :ref:`Datasets`
-+ :ref:`System Settings`
+Use the System Admin tools to manage:
+ * Data Providers
+ * Users
+ * Datasets
+ * System Settings
+Check out the documentation `here <https://uumpt.sharedgeo.net/docs/SystemAdmin.html>`_ . 
 
 .. figure:: /_static/A-Login2.png
-   :alt: System Operator Admin
+   :alt: System Admin
    :class: bordered-figure
    
-   *System Operator Menu*
+   *System Admin Menu*
 
 Who Am I
 ---------
@@ -54,10 +67,12 @@ Who Am I
 Keep Out!
 ----------
 
-A placeholder to test authorization and accessability.
+A placeholder to test authorization and accessability - it has no functionality.
 
 FuzionView Documentation
 -------------------------
+
+Documentation for end users, data providers, system operators, and open source developers can be found `here <https://uumpt.sharedgeo.net/docs/#>`_ .
 
 .. figure:: /_static/A-Documentation.png
    :alt: FuzionView Documentation
