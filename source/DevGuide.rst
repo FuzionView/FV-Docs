@@ -96,22 +96,13 @@ Docker
 
 Building/Running with Docker
 
-Build
-^^^^^^
-
 .. code-block::
 
    DOCKER_BUILDKIT=1 docker-compose build
 
-Start
-^^^^^^
-
 .. code-block::
 
    docker-compose up -d && docker-compose logs -f
-
-Stop
-^^^^^^
 
 .. code-block::
 
@@ -122,22 +113,13 @@ Podman
 
 Building/Running with Podman
 
-Build
-^^^^^^
-
 .. code-block::
 
    podman-compose build
 
-Start
-^^^^^^
-
 .. code-block::
 
    podman-compose up -d && podman-compose logs -f
-
-Stop
-^^^^^^
 
 .. code-block::
 

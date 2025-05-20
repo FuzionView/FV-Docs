@@ -3,10 +3,6 @@ Preparing for FuzionView
 
 Thank you for your interest in being a data provider for the FuzionView project. This document will provide guidance on initial steps you can take to get ready to share your data.
 
-
-Background
-------------
-
 Our project is dedicated to providing the most complete map view of underground utilities. Working with partners like you, we will continue to add facility operators to provide the most complete list of features possible for each 811 ticket. This phase of the project is focused on Minnesota and we have partnered with Gopher State One Call (GSOC) the nonprofit, state-wide utility notification center for excavators, engineers and locators in Minnesota.
 
 Onboarding process
