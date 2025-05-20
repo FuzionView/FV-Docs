@@ -40,10 +40,10 @@ Manage Data Providers
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 .. hint::
-   * Click the **Eye** action icon to view and manage the Datasets configured for a Data Provider
-   * Click the **Pencil** action icon to edit the name of a Data Provider
-   * Click the **Person** action icon to manage users with access to a Data Provider
-   * Click the **Trashcan** action icon to delete a Data Provider
+   * Click the **Eye** action icon to view and manage the data provider's datasets
+   * Click the **Pencil** action icon to edit the name
+   * Click the **Person** action icon to manage users with access
+   * Click the **Trashcan** action icon to delete a data provider
 
 Rename Data Provider
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -190,8 +190,8 @@ Select the icon next to a dataset to View, Edit, or Delete it.
 .. Warning::
    When a dataset is modified, the original data will remain in the system until related tickets expire.
 
-Validate Dataset
-^^^^^^^^^^^^^^^^^^
+Test Ticket
+^^^^^^^^^^^^
 Select the **map** action icon next to a dataset to create a test ticket. Use the test ticket to validate that your dataset connection is successful.
  * Select a Data Provider
  * Select a Dataset
@@ -221,10 +221,7 @@ Service Area
 -------------
 Data providers can define a service area, which allows FuzionView to optimize service requests. 
 
-Create Service Area
-^^^^^^^^^^^^^^^^^^^^
-
-Navigate to Datasets, select the option to **Define a Service Area**.
+Select the option to **Define a Service Area** to draw the service area.
 
 .. figure:: /_static/A-ServiceAreaManual.png
    :alt: Define a Service Area
@@ -232,7 +229,7 @@ Navigate to Datasets, select the option to **Define a Service Area**.
    
    *Define a Service Area*
 
-* Use the **+** icon on the left to zoom into the correct location. Select the **Polygon** icon on the left and draw a simple shape around the desired area. Use the points in the middle of each line to adjust the shape until it defines your service area as closely as possible.
+* Use the **+** icon to zoom into the correct location. Select the **Polygon** icon on the left and draw a simple shape around the desired area. Use the points in the middle of each line to adjust the shape until it defines your service area as closely as possible.
 
 * Click the **Submit** button to save. A message will display indicating that the service area has been set.
 
@@ -240,6 +237,22 @@ Delete Service Area
 ^^^^^^^^^^^^^^^^^^^^
 
 If the service area changes, simply delete the existing service area and create a new one. A confirmation will be displayed. Click **OK** to remove the service area.
+
+Service Authentication Configurations
+--------------------------------------
+
+Set up a service authentication configuration for datasets that require authentication. The authentication types are:
+ * HTTP Basic Authentication
+ * ESRI Portal Token
+ * OAuth 2.0 Client Credentials grant 
+
+
+.. figure:: /_static/A-AuthConf2.png
+   :alt: Authentication Configuration
+   :class: bordered-figure
+   
+   *Define an Authentication Configuration*
+
 
 System Settings
 ----------------
@@ -301,14 +314,14 @@ Feature Statuses
 Status is used to indicate whether the feature is in use and in what state of development.
 
 .. figure:: /_static/A-SS-FeatureStatus1.png
-   :alt: New Feature Statuses
+   :alt: New Feature Status
    :class: bordered-figure
    
-   *Feature Statuses*
+   *Feature Status*
 
- * Scroll to the bottom and select **Add New Feature Status** to identify a new usage status.
- * Click the **Pencil** icon next to a status edit it.
- * Click the **Trashcan** icon next to a status to remove it.
+| Scroll to the bottom and select **Add New Feature Status** to identify a new usage status.
+| Click the **Pencil** icon next to a status edit it.
+| Click the **Trashcan** icon next to a status to remove it.
 
 Ticket Types
 ^^^^^^^^^^^^^
@@ -321,7 +334,7 @@ The Ticket Type is used to visually indicate the urgency of a ticket, which is u
    
    *Ticket Types*
 
- * Select **New Ticket Type** to add a new type.
- * Click the **Pencil** icon to edit an existing Ticket Type:
+| Select **New Ticket Type** to add a new type.
+| Click the **Pencil** icon to edit an existing Ticket Type:
 
 Last Updated on |today|
