@@ -32,6 +32,7 @@ Please email info@sharedgeo.org with any feedback.
    
    PrepFV
    ConnectToFV
+   SystemAdmin
    
 .. toctree::
    :hidden:
