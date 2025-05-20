@@ -285,12 +285,12 @@ Feature Classes
 Feature Classes are used to identify a feature category - known as a **LAYER** in Ticket Viewer. 
 When a ticket has features in that layer, it will be displayed on the map in a specific color to clearly identify it.
 
+
 .. figure:: /_static/A-SS-FeatureClasses1.png
    :alt: Feature Classes
    :class: bordered-figure
-
+   
    *Feature Classes*
-
 
  * Use the **Pencil** icon to edit and the **Trashcan** icon to delete class.
  * Select the **Plus** icon or **Add New Feature Class** to create a class.
