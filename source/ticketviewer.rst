@@ -6,7 +6,7 @@ The FuzionView **Ticket Viewer** displays a map with the polygon for your ticket
 
 .. figure:: /_static/T-TicketViewer1.png
    :alt: The FuzionView Ticket Viewer
-   :class: bordered-figuree
+   :class: bordered-figure
    
    *FuzionView Ticket Viewer*
 
