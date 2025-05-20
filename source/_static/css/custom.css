@@ -2,4 +2,9 @@
 /* Add border to figures with the class "bordered-figure" */
 div.figure.bordered-figure {
     border-style: medium solid black;
+    border: solid;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+
 }
