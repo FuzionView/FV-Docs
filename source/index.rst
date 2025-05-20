@@ -35,7 +35,6 @@ Please email info@sharedgeo.org with any feedback.
    PrepFV
    SystemMenu
    SystemAdmin
-   Dashboard
    ConnectToFV
    Components
    TechSpecs
@@ -51,7 +50,6 @@ Please email info@sharedgeo.org with any feedback.
    ImplementationGuide
    SystemMenu
    SystemAdmin
-   Dashboard
    
 .. toctree::
    :hidden:
