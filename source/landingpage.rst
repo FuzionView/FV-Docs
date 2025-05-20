@@ -40,7 +40,7 @@ Displays all your tickets in a list. Select the **map** link to open a ticket in
    *Ticket List*
    
 Who Am I
----------
+----------
 
 .. figure:: /_static/A-WhoAmI.png
    :alt: User identification information to use for troubleshooting.
