@@ -286,11 +286,12 @@ Feature Classes are used to identify a feature category - known as a **LAYER** i
 When a ticket has features in that layer, it will be displayed on the map in a specific color to clearly identify it.
 
 .. figure:: /_static/A-SS-FeatureClasses1.png
-   :alt: Feature Classes identify the Layers in FuzionView
+   :alt: Feature Classes
    :class: bordered-figure
-   
+
    *Feature Classes*
 
+   
  * Use the **Pencil** icon to edit and the **Trashcan** icon to delete class.
  * Select the **Plus** icon or **Add New Feature Class** to create a class.
  * Select the **Pencil** icon to edit an existing class.
@@ -308,7 +309,7 @@ Status is used to indicate whether the feature is in use and in what state of de
 
  * Scroll to the bottom and select **Add New Feature Status** to identify a new usage status.
  * Click the **Pencil** icon next to a status edit it.
- Click the **Trashcan** icon next to a status to remove it.
+ * Click the **Trashcan** icon next to a status to remove it.
 
 Ticket Types
 ^^^^^^^^^^^^^
