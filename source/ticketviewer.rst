@@ -1,3 +1,29 @@
+Quick Start
+============
+
+When you submit an 811 ticket to request a locate, you receive an email once the request is completed. When you open your 811 ticket, click on the option to **Access FV ticket viewer**. 
+
+.. figure:: /_static/O-LinkWithFuzionView.png
+   :alt: Link from the GSOC/811 ticket to the FuzionView ticket viewer
+   :class: bordered-figure
+ 
+That's it!
+
+Ticket Viewer displays all the utilities available from participating utility owners:
+  * Communications, Cable, Conduit lines
+  * Electric
+  * Oil, Gas, Steam
+  * Potable Water
+  * Reclaimed Water
+  * Reference
+  * Sewers, Drains
+  * Survey
+
+.. caution::
+   The FuzionView ticket map is designed to **supplement** your 811 ticket. Not all utility information has been shared and some features in your ticket boundary may not be shown.
+
+Next: learn how to leverage the many powerful features in FuzionView `here <https://uumpt.sharedgeo.net/docs/ticketviewer.html>`_
+
 Ticket Viewer
 ==============
 
@@ -159,4 +185,16 @@ Double click to stop measuring. To clear a measurement, click the red X to close
    
    *Ticket Viewer Measurements*
 
-Last change: |today|
+FAQ for End Users
+==================
+
+| **Q:** How do I open my FuzionView ticket map?
+| **A:** You can only open the ticket map from a link in GSOC.  
+
+| **Q:** Can I see someone else's ticket map in FuzionView?
+| **A:** You can only open the map for your own tickets.
+
+
+For more info check out the TicketViewer `guide <TicketViewer.html>`_ 
+
+Last Updated: |today|

@@ -1,4 +1,4 @@
-System Menu
+System Admin
 ============
 
 After logging in, the system menu is displayed. Select a link to learn more about each option:
@@ -39,48 +39,6 @@ Displays all your tickets in a list. Select the **map** link to open a ticket in
    
    *Ticket List*
    
-System Admin
--------------
-
-Use the System Admin tools to manage:
- * Data Providers
- * Users
- * Datasets
- * System Settings
-
-Check out the documentation for `System Admin <https://uumpt.sharedgeo.net/docs/SystemAdmin.html>`_ 
-
-.. figure:: /_static/A-Login2.png
-   :alt: System Admin
-   :class: bordered-figure
-   
-   *System Admin Menu*
-
-Who Am I
----------
-
-.. figure:: /_static/A-WhoAmI.png
-   :alt: User identification information to use for troubleshooting.
-   :class: bordered-figure
-   
-   *Who Am I*
-
-Keep Out!
-----------
-
-A placeholder to test authorization and accessability - it has no functionality.
-
-Documentation
----------------
-
-Check out the `guides <https://uumpt.sharedgeo.net/docs/#>`_  for end users, data providers, system operators, and open source developers.
-
-.. figure:: /_static/A-Documentation.png
-   :alt: FuzionView Documentation
-   :class: bordered-figure
-   
-   *FuzionView Documentation*
-
 System Administration
 ======================
 
@@ -484,5 +442,30 @@ Click the **Pencil** icon to edit an existing Ticket Type:
    :class: bordered-figure
    
    *Edit Ticket Type*
+
+Who Am I
+---------
+
+.. figure:: /_static/A-WhoAmI.png
+   :alt: User identification information to use for troubleshooting.
+   :class: bordered-figure
+   
+   *Who Am I*
+
+Keep Out!
+----------
+
+A placeholder to test authorization and accessability - it has no functionality.
+
+Documentation
+---------------
+
+Check out the `guides <https://uumpt.sharedgeo.net/docs/#>`_  for end users, data providers, system operators, and open source developers.
+
+.. figure:: /_static/A-Documentation.png
+   :alt: FuzionView Documentation
+   :class: bordered-figure
+   
+   *FuzionView Documentation*
 
 Last Updated on |today|
