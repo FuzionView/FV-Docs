@@ -21,7 +21,7 @@ Admin features include:
 
 .. figure:: /_static/components.png
    :alt: FuzionView System  Components
-   :class: with-border
+  :class: bordered-figure
    
    *FuzionView System Overview*
 

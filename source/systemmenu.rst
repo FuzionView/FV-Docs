@@ -13,7 +13,7 @@ After logging in, the system menu is displayed. Select a link to learn more abou
 
 .. figure:: /_static/A-Login1.png
    :alt: System Menu Page
-   :class: with-border
+  :class: bordered-figure
    
    *System Menu*
 
@@ -24,7 +24,7 @@ GeoMoose is a temporary solution from another SharedGeo product to provide an ad
 
 .. figure:: /_static/A-GeoMoose.png
    :alt: The GeoMoose Landing Page
-   :class: with-border
+  :class: bordered-figure
    
    *GeoMoose Ticket Map Placeholder*
 
@@ -35,7 +35,7 @@ Displays all your tickets in a list. Check out the documentation `here <https://
 
 .. figure:: /_static/A-GeoMoose.png
    :alt: The GeoMoose Landing Page
-   :class: with-border
+  :class: bordered-figure
    
    *GeoMoose Ticket Map Placeholder*
    
