@@ -1,5 +1,5 @@
 System Admin
-==================
+=============
 
 After logging in, select the System Admin option.
 
@@ -10,6 +10,7 @@ After logging in, select the System Admin option.
    *Admin Landing Page*
 
 Use the Admin Console to manage:
+
 + :ref:`Data Providers`
 + :ref:`Users`
 + :ref:`Datasets`
@@ -400,31 +401,5 @@ Click the **Pencil** icon to edit an existing Ticket Type:
    :class: with-border
    
    *Edit Ticket Type*
-
-System Profile - NOT IMPLEMENTED
-----------------------------------
-
-GeoMoose
----------
-
-GeoMoose is a temporary solution to the ticket map for data providers. 
-
-.. figure:: /_static/A-GeoMoose.png
-   :alt: The GeoMoose Landing Page
-   :class: with-border
-   
-   *GeoMoose Ticket Map Placeholder*
-
-Ticket List
-------------
-
-Who Am I
----------
-
-Keep Out!
-----------
-
-FuzionView Documentation
--------------------------
 
 Last Updated on |today|
