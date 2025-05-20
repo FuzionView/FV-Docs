@@ -61,7 +61,7 @@ Who Am I
 
 .. figure:: /_static/A-WhoAmI.png
    :alt: User identification information to use for troubleshooting.
-    :class: bordered-figure
+   :class: bordered-figure
    
    *Who Am I*
 
