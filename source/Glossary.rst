@@ -33,7 +33,7 @@ Glossary
  
 .. figure:: /_static/APWA_Color_Code.png
    :alt: Standard APWA Colors
-  :class: bordered-figure
+   :class: bordered-figure
    
    *APWA Standard Colors*
 

@@ -13,7 +13,7 @@ After logging in, the system menu is displayed. Select a link to learn more abou
 
 .. figure:: /_static/A-Login1.png
    :alt: System Menu Page
-  :class: bordered-figure
+   :class: bordered-figure
    
    *System Menu*
 
@@ -24,7 +24,7 @@ GeoMoose is a temporary solution from another SharedGeo product to provide an ad
 
 .. figure:: /_static/A-GeoMoose.png
    :alt: The GeoMoose Landing Page
-  :class: bordered-figure
+   :class: bordered-figure
    
    *GeoMoose Ticket Map Placeholder*
 
@@ -35,7 +35,7 @@ Displays all your tickets in a list. Check out the documentation `here <https://
 
 .. figure:: /_static/A-GeoMoose.png
    :alt: The GeoMoose Landing Page
-  :class: bordered-figure
+   :class: bordered-figure
    
    *GeoMoose Ticket Map Placeholder*
    
@@ -51,7 +51,7 @@ Check out the documentation `here <https://uumpt.sharedgeo.net/docs/SystemAdmin.
 
 .. figure:: /_static/A-Login2.png
    :alt: System Admin
-   :class: bordered-figure
+    :class: bordered-figure
    
    *System Admin Menu*
 
@@ -60,7 +60,7 @@ Who Am I
 
 .. figure:: /_static/A-WhoAmI.png
    :alt: User identification information to use for troubleshooting.
-   :class: bordered-figure
+    :class: bordered-figure
    
    *Who Am I*
 
@@ -76,7 +76,7 @@ Documentation for end users, data providers, system operators, and open source d
 
 .. figure:: /_static/A-Documentation.png
    :alt: FuzionView Documentation
-   :class: bordered-figure
+    :class: bordered-figure
    
    *FuzionView Documentation*
 

@@ -5,7 +5,7 @@ After logging in, select the System Admin option from the menu:
 
 .. figure:: /_static/A-Login1.png
    :alt: System Menu
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Admin Landing Page*
 
@@ -18,7 +18,7 @@ Use the tools in System Admin to manage:
 
 .. figure:: /_static/A-Login2.png
    :alt: System Operator Admin
-   :class: bordered-figure
+    :class: bordered-figure
    
    *System Operator Menu*
 
@@ -29,7 +29,7 @@ The **Data Providers** page displays a list of all the facility operators and ot
 
 .. figure:: /_static/A-DataProviders1.png
    :alt: Data Providers
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Data Providers*
 
@@ -40,7 +40,7 @@ Add as many data providers to the system as needed by selecting **Add New Data P
 
 .. figure:: /_static/A-DataProviderNew1.png
    :alt: New Data Provider
-  :class: bordered-figure
+   :class: bordered-figure
    
    *New Data Provider*
 
@@ -60,7 +60,7 @@ Change the name of a data provider from the Data Providers list by clicking the 
 
 .. figure:: /_static/SOAdmin2_DataProviderName1.png
    :alt: Edit Data Provider Name
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Edit Data Provider Name*
 
@@ -74,7 +74,7 @@ To permanently remove a data provide, click the **Trashcan** action icon next to
 
 .. figure:: /_static/SOAdmin7_DeleteDataProvider1.png
    :alt: Delete Data Provider
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Delete Data Provider*
 
@@ -85,7 +85,7 @@ Once a Data Provider has been added, add a user to securely access and manage th
 
 .. figure:: /_static/A-Users0.png
    :alt: Add First User
-  :class: bordered-figure
+   :class: bordered-figure
    
    *User Management*
 
@@ -96,7 +96,7 @@ Select **New User** to add a user. Enter the email address of the new user and c
 
 .. figure:: /_static/DPAdmin2_Users2.png
    :alt: Create User
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Create User*
 
@@ -104,7 +104,7 @@ A confirmation message will display when the user has been created.
 
 .. figure:: /_static/DPAdmin2_Users4.png
    :alt: User Created
-  :class: bordered-figure
+   :class: bordered-figure
    
    *User Created*
 
@@ -115,7 +115,7 @@ To manage existing users, select the icon next to the user you want to Edit or D
 
 .. figure:: /_static/DPAdmin2_Users3.png
    :alt: Edit or delete existing user
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Edit or Delete User*
 
@@ -140,7 +140,7 @@ Click **Submit** to add the dataset.
 
 .. figure:: /_static/DPAdmin1_NewDataset1.png
    :alt: Add Dataset
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Add New Dataset*
 
@@ -159,7 +159,7 @@ Some datasets will require additional information to establish a connection. Cli
 
 .. figure:: /_static/DPAdmin1_NewDataset1.png
    :alt: Add Dataset
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Add New Dataset*
    
@@ -170,7 +170,7 @@ To view and manage the datasets associated with a Data Provider, click the **Eye
 
 .. figure:: /_static/DPAdmin1_NoDataset1.png
    :alt: No Datasets 
-  :class: bordered-figure
+   :class: bordered-figure
    
    *No Datasets have been added*
 
@@ -182,13 +182,13 @@ Select the icon next to a dataset to View, Edit, or Delete it.
 
 .. figure:: /_static/DPAdmin1_Datasets1.png
    :alt: Dataset Management
-  :class: bordered-figure
+   :class: bordered-figure
    
    *View, Edit, or Delete Dataset*
 
 .. figure:: /_static/DPAdmin6_Datasets2.png
    :alt: Dataset Management
-  :class: bordered-figure
+   :class: bordered-figure
    
    *View, Edit, or Delete Dataset*
 
@@ -207,7 +207,7 @@ Select the **map** action icon next to a dataset to create a test ticket. Use th
  
  .. figure:: /_static/DPAdmin10_TestTicket1.png
    :alt: Dataset Validation
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Create Test Ticket*
 
@@ -215,7 +215,7 @@ A Pending status message is displayed. It may take up to 5 minutes for the avail
  
 .. figure:: /_static/DPAdmin10_TestTicket2.png
    :alt: Dataset Validation
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Create a Test Ticket*
 
@@ -231,7 +231,7 @@ A Pending status message is displayed. It may take up to 5 minutes for the avail
 
 .. figure:: /_static/DPAdmin10_TestTicket0.png
    :alt: Test Ticket Warning
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Create a Test Ticket*
 
@@ -246,7 +246,7 @@ Navigate to Datasets, select the option to **Define a Service Area**.
 
 .. figure:: /_static/DPAdmin11_ServiceArea1.png
    :alt: Dataset Management
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Dataset Management*
 
@@ -257,7 +257,7 @@ Use the **+** icon on the left to zoom into the correct location. Select the **P
 
 .. figure:: /_static/DPAdmin11_ServiceArea3.png
    :alt: Service Area Management
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Service Area Management*
 
@@ -268,7 +268,7 @@ When the service area is defined as accurately as possible, click the **Submit**
 
 .. figure:: /_static/DPAdmin11_ServiceArea4.png
    :alt: Submit Service Area
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Submit Service Area*
 
@@ -279,7 +279,7 @@ If the service area changes, simply delete the existing service area and create 
 
 .. figure:: /_static/DPAdmin11_ServiceArea5.png
    :alt: Delete Service Area
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Delete Service Area*
 
@@ -296,7 +296,7 @@ Use the **Eye** icon to view and edit and the **Plus** icon to create these key 
 
 .. figure:: /_static/SOAdmin4_SystemSettings1.png
    :alt: System Settings
-  :class: bordered-figure
+   :class: bordered-figure
    
    *System Settings*
 
@@ -309,7 +309,7 @@ Use the **Pencil** icon to edit and the **Trashcan** icon to delete.
 
 .. figure:: /_static/SOAdmin4_FeatureClasses1.png
    :alt: Feature Classes identify the Layers in FuzionView
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Feature Classes*
 
@@ -320,7 +320,7 @@ Scroll to the bottom and select the **Plus** icon or **Add New Feature Class** t
    
 .. figure:: /_static/SOAdmin5_NewFeatureClass1.png
    :alt: Add New Feature Classes
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Add Feature Class Layers*
 
@@ -331,7 +331,7 @@ Select the **Pencil** icon to edit an existing Feature Class.
 
 .. figure:: /_static/SOAdmin5_EditFeatureClass1.png
    :alt: Add New Feature Classes
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Add Feature Class Layers*
 
@@ -342,7 +342,7 @@ Status is used to indicate whether the feature is in use and in what state of de
 
 .. figure:: /_static/SOAdmin5_FeatureStatuses1.png
    :alt: New Feature Statuses
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Feature Statuses*
 
@@ -353,7 +353,7 @@ You must create a Feature Status before you configure it. Scroll to the bottom a
 
 .. figure:: /_static/SOAdmin6_NewFeatureStatus1.png
    :alt: Add New Feature Status
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Add Feature Status* - Placeholder
 
@@ -364,7 +364,7 @@ Click the **Pencil** icon next to a status edit it
 
 .. figure:: /_static/SOAdmin6_EditFeatureStatus1.png
    :alt: Edit Feature Status
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Edit Feature Status*
 
@@ -376,7 +376,7 @@ The current options are Normal and Emergency. Emergency tickets display with the
 
 .. figure:: /_static/SOAdmin8_TicketTypes1.png
    :alt: Ticket Types
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Ticket Types*
 
@@ -387,7 +387,7 @@ Scroll to the bottom and select **New Ticket Type** to add a new level of urgenc
 
 .. figure:: /_static/SOAdmin8_NewTicketType1.png
    :alt: New Ticket Type
-  :class: bordered-figure
+   :class: bordered-figure
    
    *New Ticket Type*
 
@@ -398,7 +398,7 @@ Click the **Pencil** icon to edit an existing Ticket Type:
 
 .. figure:: /_static/SOAdmin8_EditTicketType1.png
    :alt: Edit Ticket Type
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Edit Ticket Type*
 

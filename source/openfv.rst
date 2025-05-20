@@ -5,7 +5,7 @@ When you submit an 811 ticket to request a locate, you receive an email once the
 
 .. figure:: /_static/O-LinkWithFuzionView.png
    :alt: Link from the GSOC/811 ticket to the FuzionView ticket viewer
-  :class: bordered-figure
+   :class: bordered-figure
  
 That's it!
 

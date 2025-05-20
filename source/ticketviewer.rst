@@ -6,7 +6,7 @@ The FuzionView **Ticket Viewer** displays a map with the polygon for your ticket
 
 .. figure:: /_static/T-TicketViewer1.png
    :alt: The FuzionView Ticket Viewer
-  :class: bordered-figure
+   :class: bordered-figuree
    
    *FuzionView Ticket Viewer*
 
@@ -36,7 +36,7 @@ Click on a **dot or line** to display the available feature information.
 
 .. figure:: /_static/T-Identify1.png
    :alt: Information about the selected object
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Identifying Features*
 
@@ -54,7 +54,7 @@ Click the **( i )** icon at the top right to see additional ticket information.
 
 .. figure:: /_static/T-TicketInfo1.png
    :alt: Ticket Information
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Ticket Information*
 
@@ -72,7 +72,7 @@ From ticket Information, you can select from several **Download Options**:
 
 .. figure:: /_static/T-Downloads1.png
    :alt: Download Options
-  :class: bordered-figure
+   :class: bordered-figure
    
    *FuzionView Download Options*
 
@@ -82,7 +82,7 @@ Go back to the original GSOC ticket by clicking **View Ticket**. For help using 
 
 .. figure:: /_static/T-GSOC1.png
    :alt: Gopher State One Call
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Gopher State One Call (GSOC)*
 
@@ -98,7 +98,7 @@ Select the **Layers** icon under the information icon to manage the features dis
 
 .. figure:: /_static/T-Layers1.png
    :alt: Ticket Layers
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Display Layers Option*
 
@@ -115,7 +115,7 @@ The default option is **OpenStreetMap**.
 
 .. figure:: /_static/T-Basemaps1.png
    :alt: Map Options
-  :class: bordered-figure
+   :class: bordered-figure
 
    *OpenStreetMap*
 
@@ -123,7 +123,7 @@ Select **Aerial** to see a satellite image instead.
 
 .. figure:: /_static/T-Basemaps2.png
    :alt: Map Options
-  :class: bordered-figure
+   :class: bordered-figure
 
    *OpenStreetMap*
 
@@ -138,7 +138,7 @@ Use the tools on the bottom left to:
 
 .. figure:: /_static/T-NavigationIcons-manual.png
    :alt: Ticket Viewer Map Tools
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Ticket Viewer Navigation Options*
 
@@ -155,7 +155,7 @@ Double click to stop measuring. To clear a measurement, click the red X to close
 
 .. figure:: /_static/T-Measurement1-manual.png
    :alt: Distance and Area measurements
-  :class: bordered-figure
+   :class: bordered-figure
    
    *Ticket Viewer Measurements*
 
