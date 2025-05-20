@@ -31,28 +31,28 @@ Please email info@sharedgeo.org with any feedback.
    :caption: Data Providers
    
    PrepFV
-   SystemAdmin
    ConnectToFV
-   Components
-   TechSpecs
-   SecuritySpecs
-   Glossary
-   FAQ
    
 .. toctree::
    :hidden:
    :maxdepth: 99
    :caption: System Operators
 
-   ImplementationGuide
-   SystemAdmin
-   LandingPage
    
+   LandingPage
+   SystemAdmin
+   FAQ
+
 .. toctree::
    :hidden:
    :maxdepth: 99
-   :caption: Developers
+   :caption: Open Source Developers
 
+   ImplementationGuide
+   Components
+   TechSpecs
+   SecuritySpecs
+   Glossary
    OpenSourceDoc
    DevGuide
    AdminSystemDoc
