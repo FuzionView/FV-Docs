@@ -186,7 +186,7 @@ Double click to stop measuring. To clear a measurement, click the red X to close
    *Ticket Viewer Measurements*
 
 FAQ for End Users
-==================
+------------------
 
 | **Q:** How do I open my FuzionView ticket map?
 | **A:** You can only open the ticket map from a link in GSOC.  
