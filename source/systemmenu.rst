@@ -70,8 +70,8 @@ Keep Out!
 
 A placeholder to test authorization and accessability - it has no functionality.
 
-FuzionView Documentation
--------------------------
+Documentation
+---------------
 
 End user, data provider, system operator, and open source developer `documentation is here <https://uumpt.sharedgeo.net/docs/#>`_ .
 
