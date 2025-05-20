@@ -1,5 +1,5 @@
-System Admin
-============
+System Administration
+======================
 
 After logging in, the system menu is displayed. Select a link to learn more about each option:
 
@@ -39,16 +39,8 @@ Displays all your tickets in a list. Select the **map** link to open a ticket in
    
    *Ticket List*
    
-System Administration
-======================
-
-After logging in, select the System Admin option from the menu:
-
-.. figure:: /_static/A-Login1.png
-   :alt: System Menu
-   :class: bordered-figure
-   
-   *Admin Landing Page*
+System Admin
+=============
 
 Use the tools in System Admin to manage:
 

@@ -194,7 +194,4 @@ FAQ for End Users
 | **Q:** Can I see someone else's ticket map in FuzionView?
 | **A:** You can only open the map for your own tickets.
 
-
-For more info check out the TicketViewer `guide <TicketViewer.html>`_ 
-
 Last Updated: |today|
