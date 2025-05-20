@@ -22,7 +22,8 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 html_theme_options = {
-    `collapse_navigation`: True,
+    `collapse_navigation`: True;
+    `display_version` : True;
 }
 
 html_favicon = "_static/fuzionviewicon.ico"
