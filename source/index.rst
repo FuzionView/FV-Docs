@@ -24,7 +24,7 @@ Please email info@sharedgeo.org with any feedback.
    :caption: End Users
 
    TicketViewer
-   
+
 .. toctree::
    :hidden:
    :maxdepth: 99
@@ -39,7 +39,6 @@ Please email info@sharedgeo.org with any feedback.
    :maxdepth: 99
    :caption: System Operators
 
-   
    LandingPage
    SystemAdmin
    FAQ

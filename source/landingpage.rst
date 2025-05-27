@@ -1,5 +1,5 @@
 System Menu
-======================
+============
 
 After logging in, the system menu is displayed. Select a link to learn more about each option:
 
