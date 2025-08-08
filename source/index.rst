@@ -39,7 +39,7 @@ Please email info@sharedgeo.org with any feedback.
    :maxdepth: 99
    :caption: System Operators
 
-   LandingPage
+   landingpage
    SystemAdmin
    FAQ
 
