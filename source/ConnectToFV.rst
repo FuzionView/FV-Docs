@@ -25,6 +25,7 @@ WFS is the preferred connection type, because the data will always be current. I
 .. figure:: /_static/ConnectWSF.png
    :alt: Example ESRI connection configuration
    :class: bordered-figure
+   :target: /_static/ConnectWSF.png
    
    *WSF Dataset Connection*
 
@@ -33,6 +34,7 @@ ESRI Feature Services are also supported:
 .. figure:: /_static/ConnectESRIJSON.png
    :alt: Example ESRI connection configuration
    :class: bordered-figure
+   :target: /_static/ConnectFile.png
    
    *ESRI Json Dataset Connection*
 
@@ -42,6 +44,7 @@ File upload options such as a shape file or GeoPackage are not recommended, as t
 .. figure:: /_static/ConnectFile.png
    :alt: Example file upload connection configuration
    :class: bordered-figure
+   :target: /_static/ConnectFile.png
    
    *File Upload Dataset Connection*
 
