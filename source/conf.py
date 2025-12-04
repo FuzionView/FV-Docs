@@ -14,7 +14,10 @@ release = 'Beta'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.autosectionlabel']
+extensions = [
+	'sphinx.ext.autosectionlabel',
+	'sphinxcontrib.video',
+]
 
 html_show_sourcelink = False
 
