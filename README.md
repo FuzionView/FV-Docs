@@ -16,3 +16,5 @@ Find the HTML version of the documentation here: https://fuzionview.github.io/FV
 
 Use these guides to explore the available functionality and learn more about FuzionView.
 If you have feedback, please email info@sharedgeo.org
+
+The files in this project fall under the [CC-BY-SA-4.0](LICENSE.txt)
