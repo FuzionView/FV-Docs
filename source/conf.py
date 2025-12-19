@@ -1,7 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 
 project = 'FuzionView'
-copyright = '2025 SharedGeo CC-BY-SA-4.0 test'
+copyright = '2025 SharedGeo CC-BY-SA-4.0'
 author = 'SharedGeo'
 release = '1.0'
 
