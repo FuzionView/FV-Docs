@@ -1,0 +1,185 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FuzionView Components &mdash; FuzionView 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=b24309c8" />
+
+  
+    <link rel="shortcut icon" href="_static/fuzionviewicon.ico"/>
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=f2a433a1"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/js/custom.js?v=c9fad968"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Technical Specifications" href="TechSpecs.html" />
+    <link rel="prev" title="System Settings" href="SystemSettings.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FuzionView
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">End Users</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TicketViewer.html">Ticket Viewer</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Data Providers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="PrepFV.html">Preparing for FuzionView</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ConnectToFV.html">Connect to FuzionView</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ManageDatasets.html">Datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ManageUsers.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">FAQ for Data Providers</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">System Operators</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="LandingPage.html">System Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SystemAdmin.html">Data Providers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SystemSettings.html">System Settings</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Open Source Developers</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">FuzionView Components</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TechSpecs.html">Technical Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SecuritySpecs.html">Security Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OpenSourceDoc.html">Developer Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OpenSourceDoc.html#fuzionview-engine">FuzionView Engine</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DevGuide.html">Guide to FV-Demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DevGuide.html#accessing-the-fv-demo">Accessing the FV-Demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="AdminSystemDoc.html">Admin System Documentation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learn More</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="About.html">About FuzionView</a></li>
+<li class="toctree-l1"><a class="reference internal" href="About.html#background">Background</a></li>
+<li class="toctree-l1"><a class="reference internal" href="About.html#contact-us">Contact Us</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FuzionView</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">FuzionView Components</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="fuzionview-components">
+<h1>FuzionView Components<a class="headerlink" href="#fuzionview-components" title="Link to this heading"></a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This is a placeholder until the content can be reviewed and finalized.</p>
+</div>
+<p>FuzionView is an open source application that leverages the power of APIs to collect data quickly and securely to create a more complete picture of a dig area, driving increased awareness of underground utilities, faster locations, and safer excavations.</p>
+<dl class="simple">
+<dt>Primary features of FuzionView include:</dt><dd><ul class="simple">
+<li><p>Visual identification of underground utilities and other features within the boundary of an 811 ticket</p></li>
+<li><p>Ability to turn different features on or off to create a custom view of the ticket area</p></li>
+<li><p>Option to select between aerial satellite imagery or the streets and structures of an OpenStreetMap</p></li>
+<li><p>A suite of tools that allow you to manage your view of the ticket area, see detailed ticket information, and measure distance and area by drawing lines and polygons.</p></li>
+</ul>
+</dd>
+<dt>Admin features include:</dt><dd><ul class="simple">
+<li><p>Ability to add and manage data providers such as facility operators</p></li>
+<li><p>Tools to help you add and validate datasets for each data provider</p></li>
+<li><p>Authorization tools to control access to each datasets</p></li>
+<li><p>System configuration options to customize feature classes, status options, and ticket types.</p></li>
+</ul>
+</dd>
+</dl>
+<figure class="align-default" id="id1">
+<img alt="FuzionView System  Components" class="bordered-figure" src="_images/components.png" />
+<figcaption>
+<p><span class="caption-text"><em>FuzionView System Overview</em></span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>About this graphic:
+The 811 ticket originates from the Minnesota Gopher State One Call service, managed by OCC. XML data is pushed to FuzionView core engine which initiates a request for data from established data connections. This information is collected and compiled into a features map that can be viewed and manipulated in the FuzionView Ticket Viewer. System Operators can add new data providers, data providers can add new datasets and authorize access to their data.</p>
+<p>The FuzionView engine has the following components:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>fv-db-maint: Database maintenance. Purges out of date tickets and fetches features into the feature cache.</p></li>
+<li><p>fv-ticket-loader: Creates new tickets randomly within the FV-Demo sample data area.</p></li>
+<li><p>fv-api-server: API server for <a class="reference external" href="https://localhost:4443/api/">https://localhost:4443/api/</a>….</p></li>
+<li><p>fv-apache-server: Hosts the static web content, the Rails admin tool (<a class="reference external" href="https://localhost:4443/admin/">https://localhost:4443/admin/</a>…), and MapServer. Also responsible for SSL and most authorization.</p></li>
+<li><p>postgres: The PostgreSQL/PostGIS database that ties everything together.</p></li>
+</ul>
+</div></blockquote>
+<p>FuzionView is tested to work with Docker and Podman, and on x86-64 and aarch64 (arm64).</p>
+<p>Last Updated: Jan 05, 2026</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="SystemSettings.html" class="btn btn-neutral float-left" title="System Settings" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="TechSpecs.html" class="btn btn-neutral float-right" title="Technical Specifications" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025 SharedGeo CC-BY-SA-4.0.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
