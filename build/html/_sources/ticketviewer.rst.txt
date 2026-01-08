@@ -173,4 +173,4 @@ FAQ for End Users
 | **Q:** Can I see someone else's ticket map in FuzionView?
 | **A:** You can only open the map for your own tickets.
 
-Last Updated: |today|
+Version |version| Last Updated: |today|
