@@ -151,4 +151,4 @@ Shell access to the various containers is available via the standard Docker/Podm
    docker-compose exec fv-apache-server bash
    podman-compose exec fv-apache-server bash
 
-Last Updated: |today|
+Version 1.0 Last Updated: |today|
