@@ -54,4 +54,4 @@ Available Support:
 
   Bundle up html, javascript and typescript and hands it off to jim's engine
 
-Last Updated: |today|
+Version 1.0 Last Updated: |today|

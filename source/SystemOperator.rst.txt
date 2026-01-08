@@ -27,4 +27,4 @@ Displays a map of all tickets managed by the System Operator. Use the map to zoo
 
 Get more information about TicketViewer 'here <https://uumpt.sharedgeo.net/docs/ticketviewer.html>`_ . 
 
-Last change: |today|
+Version 1.0 Last Updated: |today|

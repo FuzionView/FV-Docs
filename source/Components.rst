@@ -40,4 +40,4 @@ The FuzionView engine has the following components:
 FuzionView is tested to work with Docker and Podman, and on x86-64 and aarch64 (arm64).
 
 
-Last Updated: |today|
+Version 1.0 Last Updated: |today|
