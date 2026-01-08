@@ -113,4 +113,4 @@ Migration
    bin/rails db:migrate
 
 
-Version |version| Last Updated: |today|
+Version 1.0 Last Updated: |today|

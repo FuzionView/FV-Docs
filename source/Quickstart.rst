@@ -23,4 +23,4 @@ Ticket Viewer displays all the utilities available from participating utility ow
    The FuzionView ticket map is designed to **supplement** your 811 ticket. Not all utility information has been shared and some features in your ticket boundary may not be shown.
 
 
-Version |version| Last Updated: |today|
+Version 1.0 Last Updated: |today|

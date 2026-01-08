@@ -39,4 +39,4 @@ To manage existing users, select the pencil or trashcan action icon next to the 
    
    *Edit or Delete User*
 
-Last Updated on |today|
+Version 1.0 Last Updated: |today|
