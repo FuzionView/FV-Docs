@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'FuzionView'
+project = 'FuzionView 1.0'
 copyright = '2025 SharedGeo CC-BY-SA-4.0'
 author = 'SharedGeo'
 release = '1.0'
