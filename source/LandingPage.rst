@@ -64,4 +64,4 @@ Check out the `guides <https://uumpt.sharedgeo.net/docs/#>`_  for end users, dat
    
    *FuzionView Documentation*
 
-Last Updated on |today|
+Version |version| Last Updated: |today|

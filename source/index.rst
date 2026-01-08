@@ -73,4 +73,4 @@ Please email info@sharedgeo.org with any feedback.
 .. * :ref:`modindex`
 .. * :ref:`search`
 
-Last Updated: |today|
+Version |version| Last Updated: |today|

@@ -30,4 +30,4 @@ info@sharedgeo.org
 | 651-285-5015
 | Toll Free 1-888-877-SGEO (7436)
 
-Last Updated: |today|
+Version |version| Last Updated: |today|
