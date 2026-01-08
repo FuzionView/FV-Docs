@@ -1,0 +1,226 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Developer Documentation &mdash; FuzionView 1.0 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=b24309c8" />
+
+  
+    <link rel="shortcut icon" href="_static/fuzionviewicon.ico"/>
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=f2a433a1"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/js/custom.js?v=c9fad968"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Guide to FV-Demo" href="DevGuide.html" />
+    <link rel="prev" title="Glossary" href="Glossary.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FuzionView 1.0
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">End Users</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TicketViewer.html">Ticket Viewer</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Data Providers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="PrepFV.html">Preparing for FuzionView</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ConnectToFV.html">Connect to FuzionView</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ManageDatasets.html">Datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ManageUsers.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">FAQ for Data Providers</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">System Operators</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="LandingPage.html">System Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SystemAdmin.html">Data Providers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SystemSettings.html">System Settings</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Open Source Developers</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Components.html">FuzionView Components</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TechSpecs.html">Technical Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SecuritySpecs.html">Security Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Glossary.html">Glossary</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Developer Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#fuzionview-engine">FuzionView Engine</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#loading">Loading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#maintenance">Maintenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ticket-loader">Ticket Loader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#database">Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fv-demo">FV-Demo</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="DevGuide.html">Guide to FV-Demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DevGuide.html#accessing-the-fv-demo">Accessing the FV-Demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="AdminSystemDoc.html">Admin System Documentation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learn More</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="About.html">About FuzionView</a></li>
+<li class="toctree-l1"><a class="reference internal" href="About.html#background">Background</a></li>
+<li class="toctree-l1"><a class="reference internal" href="About.html#contact-us">Contact Us</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FuzionView 1.0</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Developer Documentation</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="developer-documentation">
+<h1>Developer Documentation<a class="headerlink" href="#developer-documentation" title="Link to this heading"></a></h1>
+<p>FuzionView documentation is geared towards four audiences:</p>
+<ul class="simple">
+<li><p><strong>End User Documentation</strong> for homeowners, locators, excavators, and design Engineers who are ticket owners using the FuzionView Ticket Viewer to enhance the information in an 811 dig ticket.</p></li>
+<li><p><strong>Data Provider Documentation</strong> for facility owners and other data providers who need to configure datasets and users to manage their data.</p></li>
+<li><p><strong>System Operator Documentation</strong> for GIS or IT staff at an 811 system provider who need to install, configure, and manage their FuzionView system.</p></li>
+<li><dl class="simple">
+<dt><strong>Developer Documentation</strong> for anyone who wants to use the FuzionView Core Engine to build a product or extension.</dt><dd><ul>
+<li><p><strong>Guide for Developers</strong>: Tips for getting started with the FuzionView Core Engine open source project.</p></li>
+<li><p><strong>Components</strong>: A high level, visual explanation of a FuzionView system.</p></li>
+<li><p><strong>Technical Specifications</strong>: More detailed information about the FuzionView data schema, APIs, and functionality.</p></li>
+<li><p><strong>Security Specifications</strong>: Provides an understanding of FuzionView’s three pronged approach to data security.</p></li>
+<li><p><strong>Frequently Asked Questions</strong>: A collection of common questions from developers.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="fuzionview-engine">
+<h1>FuzionView Engine<a class="headerlink" href="#fuzionview-engine" title="Link to this heading"></a></h1>
+<p>FuzionView is built around a PostgreSQL database using the following tools:</p>
+<ul class="simple">
+<li><p>PostgreSQL has been selected for the database for its open-source nature, reliability and scaleability.</p></li>
+<li><p>The FuzionView Engine is written in C++, which provides exceptional performance and efficiency.</p></li>
+<li><p>The Boost C++ library has been included to enhance C++ code readability, improve productivity, and increase reliability.</p></li>
+<li><p>FuzionView leverages Apache, the open-source web server software, that can be scaled for high traffic volume.</p></li>
+<li><p>SharedGeo licenses MapServer for interactive map visualizations, because it is highly customizable and supports a variety of data formats.</p></li>
+<li><p>GDAL/OGR (Geospatial Data Abstraction Library) supports multiple coordinate systems and supports GIS visualization of data from multiple sources.</p></li>
+<li><p>PostGIS enables the PostgreSQL database to support geospatial data withing the SQL language.</p></li>
+<li><p>SharedGeo uses the Crow C++ framework as a webserver because of its speed, small footprint, and minimal dependencies.</p></li>
+</ul>
+<p>The tools in the FV-Engine repository manipulate and work with the dbase, focusing on two main categories of activities:</p>
+<ul class="simple">
+<li><p>Loading</p></li>
+<li><p>Maintenance</p></li>
+</ul>
+<section id="loading">
+<h2>Loading<a class="headerlink" href="#loading" title="Link to this heading"></a></h2>
+<div class="line-block">
+<div class="line">The <strong>fv-api-server</strong> exposes a REST API used to add new 811 tickets, query existing tickets, mapviews, and features in the FuzionView database. FuzionView queries all datasets for an area of interest (base on GIS location) and aggregates the feature data from various data providers into one features table with a uniform structure.</div>
+<div class="line"><strong>Mapserver</strong> is responsible for providing WMS and WFS views of features to FV-Client and the FuzionView Ticket Viewer. While conceptually <strong>mapserver</strong> lives behind the <strong>fv-api-server</strong>, in implementation it lives behind Apache, which is hidden from the user.</div>
+</div>
+</section>
+<section id="maintenance">
+<h2>Maintenance<a class="headerlink" href="#maintenance" title="Link to this heading"></a></h2>
+<p>The <strong>db-maint</strong> folder contains two utilities. <strong>archive_stale_tickets</strong> that archives inactve tickets and <strong>update_feature_cache</strong> that looks for tickets that should have datasets. If they do not, this utility runs the query and adds the missing map features to the database. Both utilities run in the background and are not exposed as a webpage. Designed to be able to run on more than one server at a time, so that as the number of datasets grows, and the time to query becomes a limiting factor, multiple servers can be configured to handle the load.</p>
+</section>
+<section id="ticket-loader">
+<h2>Ticket Loader<a class="headerlink" href="#ticket-loader" title="Link to this heading"></a></h2>
+<p>The FuzionView <strong>ticket_loader</strong> loads new 811 tickets into the system by calling the API to add a ticket. In future, the System Operator would have this capability in their system. FuzionView uses it to load test tickets for FV-Demo.</p>
+<p>The intention is that most of the configuration for FuzionView is in the PostgreSQL database and the other components would pull what they need from there. This may not be complete before the open source release.</p>
+</section>
+<section id="database">
+<h2>Database<a class="headerlink" href="#database" title="Link to this heading"></a></h2>
+<p>Everything in PostgreSQL lives in the <strong>schema</strong> repository. To create the PostgreSQL database, run</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">create_users_and_database_example</span><span class="o">.</span><span class="n">sql</span>
+</pre></div>
+</div>
+<p>When complete, use psql to run the necessary schema migrations. Check the readme file to find the latest version. The dates and times in the file name also indicates the migration path from previous version to current version. Example: migrate_20241206111420_20250112022845.sql
+If you are mutliple versions back, you will need to run all the migrations in order. Running them out of order will have unpredictable outcomes.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Do not add to or change the FuzionView schema as it will make future version upgrades impossible.</p>
+</div>
+</section>
+<section id="fv-demo">
+<h2>FV-Demo<a class="headerlink" href="#fv-demo" title="Link to this heading"></a></h2>
+<p>FV-Engine is used for the more public components of FuzionView. FV-Admin is kept in a separate respository so that access can be more restricted. Check out the System Operator documentation for more information.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>FV-Demo uses a self-signed certificate for demonstration and testing purposes.</p>
+</div>
+<p><strong>FV-Demo</strong> has been created to pull all the modules together and allow you to run FuzionView for development or demonstration with a very minimal configuration. Check out the FV-Demo documentation for more details.</p>
+<p>Last Updated: Jan 08, 2026</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Glossary.html" class="btn btn-neutral float-left" title="Glossary" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="DevGuide.html" class="btn btn-neutral float-right" title="Guide to FV-Demo" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025 SharedGeo CC-BY-SA-4.0.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

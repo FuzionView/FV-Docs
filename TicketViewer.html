@@ -1,0 +1,328 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ticket Viewer &mdash; FuzionView 1.0 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=b24309c8" />
+
+  
+    <link rel="shortcut icon" href="_static/fuzionviewicon.ico"/>
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=f2a433a1"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/js/custom.js?v=c9fad968"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Preparing for FuzionView" href="PrepFV.html" />
+    <link rel="prev" title="Quick Start" href="Quickstart.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FuzionView 1.0
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">End Users</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Quickstart.html">Quick Start</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Ticket Viewer</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#identify-utility-infrastructure">Identify Utility Infrastructure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#stacked-features">Stacked Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ticket-information">Ticket Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#feature-layers">Feature Layers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#basemaps">Basemaps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#navigation">Navigation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#measure-tool">Measure Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#faq-for-end-users">FAQ for End Users</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Data Providers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="PrepFV.html">Preparing for FuzionView</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ConnectToFV.html">Connect to FuzionView</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ManageDatasets.html">Datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ManageUsers.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">FAQ for Data Providers</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">System Operators</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="LandingPage.html">System Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SystemAdmin.html">Data Providers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SystemSettings.html">System Settings</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Open Source Developers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Components.html">FuzionView Components</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TechSpecs.html">Technical Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SecuritySpecs.html">Security Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OpenSourceDoc.html">Developer Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OpenSourceDoc.html#fuzionview-engine">FuzionView Engine</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DevGuide.html">Guide to FV-Demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DevGuide.html#accessing-the-fv-demo">Accessing the FV-Demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="AdminSystemDoc.html">Admin System Documentation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learn More</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="About.html">About FuzionView</a></li>
+<li class="toctree-l1"><a class="reference internal" href="About.html#background">Background</a></li>
+<li class="toctree-l1"><a class="reference internal" href="About.html#contact-us">Contact Us</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FuzionView 1.0</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Ticket Viewer</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="ticket-viewer">
+<h1>Ticket Viewer<a class="headerlink" href="#ticket-viewer" title="Link to this heading"></a></h1>
+<p>The FuzionView <strong>Ticket Viewer</strong> displays a map with the polygon for your ticket area as a solid line. The ticket boundary is surrounded by a 100 foot buffer, shown as a dotted line. When feature information is contributed from a Facility Operator, that data is displayed inside the ticket and buffer area as lines and dots.</p>
+<figure class="align-default" id="id2">
+<img alt="The FuzionView Ticket Viewer" class="bordered-figure" src="_images/T-TicketViewer1.png" />
+<figcaption>
+<p><span class="caption-text"><em>FuzionView Ticket Viewer</em></span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Zoom in (+) to see features at a greater scale. Zoom out (-) to see buildings and infrastructure that surround the ticket area.</p>
+</div>
+<section id="identify-utility-infrastructure">
+<h2>Identify Utility Infrastructure<a class="headerlink" href="#identify-utility-infrastructure" title="Link to this heading"></a></h2>
+<p>Click on a <strong>dot or line</strong> to display the available feature information.</p>
+<blockquote>
+<div><ul>
+<li><p>The name of the Data Provider that manages the data</p></li>
+<li><p>Your ticket number</p></li>
+<li><p>Information on the source of the data:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Feature Class - the type of utility</p></li>
+<li><p>Dataset - the name of the shared data source</p></li>
+<li><p>Data Owner - who owns and manages the data</p></li>
+<li><p>Status from the 811 system - such as active, under construction, or abandoned</p></li>
+<li><p>Ticket Number - ticket identifier from GSOC</p></li>
+<li><p>Updated At - date and time the feature was last updated</p></li>
+<li><p>Description (if provided)</p></li>
+<li><p>Size (if provided)</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p><em>FuzionView displays the most up to date details available.</em></p>
+<figure class="align-default" id="id3">
+<img alt="Information about the selected object" class="bordered-figure" src="_images/T-Identify1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Identifying Features</em></span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>The <a class="reference external" href="glossary.html">Glossary</a> has more information about the FuzionView schema.</p>
+</section>
+<section id="stacked-features">
+<h2>Stacked Features<a class="headerlink" href="#stacked-features" title="Link to this heading"></a></h2>
+<p>Underground utilities are often found above or below other utilities. When you select a feature, other utilities may be hidden by the selected feature. All known utilities at or near the selected point or line are listed at the bottom. Simply click through the <strong>Nearby Features</strong> links to see a complete picture of all the known features within the buffer area.</p>
+</section>
+<section id="ticket-information">
+<h2>Ticket Information<a class="headerlink" href="#ticket-information" title="Link to this heading"></a></h2>
+<p>Click the <strong>( i )</strong> icon at the top right to see additional ticket information.</p>
+<figure class="align-default" id="id4">
+<img alt="Ticket Information" class="bordered-figure" src="_images/T-TicketInfo1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Ticket Information</em></span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<dl class="simple">
+<dt>The ticket <strong>information</strong> view displays:</dt><dd><ul class="simple">
+<li><p>Ticket Information - Ticket Number and Type, such as normal, emergency, and more.</p></li>
+<li><p>Dataset Providers - Source of the information and the number of features they provided for this ticket.</p></li>
+<li><p>Download - options data to a file.</p></li>
+<li><p>Links to your GSOC Ticket and FuzionView documentation.</p></li>
+</ul>
+</dd>
+</dl>
+<p><strong>Downloads</strong></p>
+<dl class="simple">
+<dt>From ticket Information, you can select from several <strong>Download Options</strong>:</dt><dd><ul class="simple">
+<li><p>The default <strong>File Type</strong> is GeoJSON. Click the arrow to select a Shapefile or GeoPackage instead.</p></li>
+<li><p>Select Points, Polygons, or Lines to open the data in a new tab. Notice the option at the top left to change the format of the data to <strong>Pretty-print</strong>. You can save this file as a .json file.</p></li>
+</ul>
+</dd>
+</dl>
+<figure class="align-default" id="id5">
+<img alt="Download Options" class="bordered-figure" src="_images/T-Downloads1.png" />
+<figcaption>
+<p><span class="caption-text"><em>FuzionView Download Options</em></span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p><strong>The GSOC 811 Ticket</strong></p>
+<p>Go back to the original GSOC ticket by clicking <strong>View Ticket</strong>. For help using GSOC, check out their <a class="reference external" href="https://gopherstateonecall.org/ticketing/#find-a-ticket">documentation</a> .</p>
+<figure class="align-default" id="id6">
+<img alt="Gopher State One Call" class="bordered-figure" src="_images/T-GSOC1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Gopher State One Call (GSOC)</em></span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="id1">
+<h2>Documentation<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>The <strong>Help</strong> link from the information pane opens the FuzionView documentation.</p>
+<figure class="align-default" id="id7">
+<img alt="FuzionView Documentation" class="bordered-figure" src="_images/T-Documentation.png" />
+<figcaption>
+<p><span class="caption-text"><em>User Guide</em></span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="feature-layers">
+<h2>Feature Layers<a class="headerlink" href="#feature-layers" title="Link to this heading"></a></h2>
+<p>Select the <strong>Layers</strong> icon under the information icon to manage the features displayed in your map.</p>
+<figure class="align-default" id="id8">
+<img alt="Ticket Layers" class="bordered-figure" src="_images/T-Layers1.png" />
+<figcaption>
+<p><span class="caption-text"><em>Display Layers Option</em></span><a class="headerlink" href="#id8" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Available layers are shown by default with a count for each type. You can remove features by clicking on the layer. Click again to toggle it back on.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Layers with no features will display grayed out with the note <strong>no data</strong>.</p>
+</div>
+</section>
+<section id="basemaps">
+<h2>Basemaps<a class="headerlink" href="#basemaps" title="Link to this heading"></a></h2>
+<p>From the Ticket Viewer, select the <strong>map</strong> icon below the layers icon to change your map.
+The default option is <strong>OpenStreetMap</strong>.</p>
+<figure class="align-default" id="id9">
+<img alt="Map Options" class="bordered-figure" src="_images/T-Basemaps1.png" />
+<figcaption>
+<p><span class="caption-text"><em>OpenStreetMap</em></span><a class="headerlink" href="#id9" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Select <strong>Aerial</strong> to see a satellite image instead.</p>
+<figure class="align-default" id="id10">
+<img alt="Map Options" class="bordered-figure" src="_images/T-Basemaps2.png" />
+<figcaption>
+<p><span class="caption-text"><em>OpenStreetMap</em></span><a class="headerlink" href="#id10" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="navigation">
+<h2>Navigation<a class="headerlink" href="#navigation" title="Link to this heading"></a></h2>
+<dl class="simple">
+<dt>Use the tools on the bottom left to:</dt><dd><ul class="simple">
+<li><p><strong>Measure</strong> distance or area</p></li>
+<li><p><strong>Fit</strong> adjusts the zoom so the ticket boundaries fit in the current window</p></li>
+<li><p><strong>Zoom</strong> to your current location when you have GPS enabled</p></li>
+<li><p><strong>Zoom</strong> in (+) and out (-) on the map</p></li>
+</ul>
+</dd>
+</dl>
+<figure class="align-default" id="id11">
+<img alt="Ticket Viewer Map Tools" class="bordered-figure" src="_images/T-NavigationIcons-manual.png" />
+<figcaption>
+<p><span class="caption-text"><em>Ticket Viewer Navigation Options</em></span><a class="headerlink" href="#id11" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="measure-tool">
+<h2>Measure Tool<a class="headerlink" href="#measure-tool" title="Link to this heading"></a></h2>
+<p>To measure the distance between two or more points, click the Measurement icon and select the <strong>Distance</strong> option. Your cursor becomes a cross. Click anywhere on the map to create the starting point for your measurement. Click again at the end of the line you want to measure. You can continue to create distance segments by clicking in a new location.</p>
+<p>To measure within a selected polygon area, click the Measurement icon and select the <strong>Area option</strong>. Your cursor will once again be changed to a cross. Click at the starting point for your polygon, then click again at one point of the area to be measured. Click again to create a three sided area. Click again to create a four sided area, and so on. You can use multiple, small sides to create more circular areas.</p>
+<p>Double click to stop measuring. To clear a measurement, click the red X to close the popup.</p>
+<figure class="align-default" id="id12">
+<img alt="Distance and Area measurements" class="bordered-figure" src="_images/T-Measurement1-manual.png" />
+<figcaption>
+<p><span class="caption-text"><em>Ticket Viewer Measurements</em></span><a class="headerlink" href="#id12" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="faq-for-end-users">
+<h2>FAQ for End Users<a class="headerlink" href="#faq-for-end-users" title="Link to this heading"></a></h2>
+<div class="line-block">
+<div class="line"><strong>Q:</strong> How do I open my FuzionView ticket map?</div>
+<div class="line"><strong>A:</strong> You can only open the ticket map from a link in GSOC.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Q:</strong> Can I see someone else’s ticket map in FuzionView?</div>
+<div class="line"><strong>A:</strong> You can only open the map for your own tickets.</div>
+</div>
+<p>Last Updated: Jan 08, 2026</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Quickstart.html" class="btn btn-neutral float-left" title="Quick Start" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="PrepFV.html" class="btn btn-neutral float-right" title="Preparing for FuzionView" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025 SharedGeo CC-BY-SA-4.0.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
