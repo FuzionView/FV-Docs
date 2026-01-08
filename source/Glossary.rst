@@ -62,4 +62,4 @@ Glossary
 * "under_construction"
 * "removed"
 
-Version 1.0 Last Updated: |today|
+Last Updated: |today|

@@ -43,4 +43,4 @@ Another potential option is to turn on WFS on your server.  Needs research
 
 
 
-Version 1.0 Last Updated: |today|
+Last Updated: |today|

@@ -138,4 +138,4 @@ Set up a service authentication configuration for datasets that require authenti
    
    *Define an Authentication Configuration*
 
-Version 1.0 Last Updated: |today|
+Last Updated: |today|

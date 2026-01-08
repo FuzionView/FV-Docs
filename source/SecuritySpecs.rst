@@ -13,4 +13,4 @@ FuzionView Security Overview
   * In addition, only registered users, authorized by an agreement with the data provider or facility operator, will have access to that limited data.
   * This combined approach will effectively make FuzionView data access more controlled than the current federal government’s “Gold Standard” geospatial data program - HIFLD Gold.  More exactly, such an approach will be better than For Official Use Only (FOUO).
 
-Version 1.0 Last Updated: |today|
+Last Updated: |today|

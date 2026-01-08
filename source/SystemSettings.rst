@@ -82,4 +82,4 @@ The Ticket Type is used to visually indicate the urgency of a ticket, which is u
 | Click the **Pencil** icon to edit an existing Ticket Type:
 
 
-Version 1.0 Last Updated: |today|
+Last Updated: |today|
