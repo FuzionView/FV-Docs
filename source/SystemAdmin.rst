@@ -62,4 +62,4 @@ To permanently remove a data provider, click the **Trashcan** action icon next t
    
    *Delete Data Provider*
 
-Version 1,0 Last Updated: |today|
+Version 1.0 Last Updated: |today|
