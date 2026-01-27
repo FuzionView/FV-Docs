@@ -150,7 +150,7 @@ footer .rst-footer-buttons ~ p em {  /* Alternative/more specific selector if ne
     display: none !important;
 }
 
-/* Or hide the entire footer credits section: */
+/* Or hide the entire footer credits section: just making a change so I can update my token*/
 footer .rst-footer-buttons + hr + p {
     display: none;
 }
